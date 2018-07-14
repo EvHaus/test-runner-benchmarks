@@ -1,0 +1,47 @@
+/* stylelint-disable selector-max-combinators, selector-max-specificity */
+
+.main {
+	.button {
+		border-radius: 0;
+		border-right-width: 0;
+		margin: 0;
+	}
+
+	.buttonBorders:hover {
+		border-right-width: 1px;
+	}
+
+	// Support for wrapped buttons
+	& > :first-child .buttonFullBorders,
+	// Support for direct buttons
+	& > .buttonFullBorders:first-child {
+		border-radius: 2px 0 0 2px;
+	}
+
+	// Support for wrapped buttons
+	& > :last-child .buttonBorders,
+	// Support for direct buttons
+	& > .buttonBorders:last-child {
+		border-right-width: 1px;
+	}
+
+	// Support for wrapped buttons
+	& > :last-child .buttonFullBorders,
+	// Support for direct buttons
+	& > .buttonFullBorders:last-child {
+		border-radius: 0 2px 2px 0;
+	}
+
+	// The next section remove removes double borders when hovering.
+	// The code is ugly, but it's the least ugly solution that Ev can
+	// think of at this time. It allows Buttons inside ButtonGroups to
+	// be nested/wrapped while still preserving the right styling.
+
+	// Support for wrapped buttons
+	// stylelint-disable-next-line selector-max-universal, selector-max-compound-selectors
+	& > :hover + * .buttonBorders,
+	// Support for direct buttons
+	.buttonBorders:hover + .buttonBorders {
+		border-left-width: 0;
+	}
+}

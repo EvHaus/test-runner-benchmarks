@@ -1,0 +1,44 @@
+{
+	"name": "jest-vs-jasmine-jest",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"postinstall": "cp -r ../tests tests",
+		"test": "jest"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@babel/core": "7.0.0-beta.53",
+		"@babel/plugin-proposal-class-properties": "7.0.0-beta.53",
+		"@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.53",
+		"@babel/preset-env": "7.0.0-beta.53",
+		"@babel/preset-flow": "7.0.0-beta.53",
+		"@babel/preset-react": "7.0.0-beta.53",
+		"babel-core": "7.0.0-bridge.0",
+		"babel-jest": "23.4.0",
+		"classnames": "2.2.6",
+		"enzyme": "3.3.0",
+		"enzyme-adapter-react-16": "1.1.1",
+		"identity-obj-proxy": "3.0.0",
+		"immutable": "3.8.2",
+		"jest": "23.4.1",
+		"keycode": "2.2.0",
+		"react": "16.4.1",
+		"react-addons-css-transition-group": "15.6.2",
+		"react-dom": "16.4.1",
+		"react-motion": "0.5.2"
+	},
+	"jest": {
+		"moduleNameMapper": {
+			"\\.(less)$": "identity-obj-proxy"
+		},
+		"roots": [
+			"<rootDir>/tests"
+		],
+		"setupTestFrameworkScriptFile": "<rootDir>/setupTestFrameworkScriptFile.js",
+		"transform": {
+			"^.+\\.js$": "<rootDir>/babel-jest"
+		}
+	}
+}

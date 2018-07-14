@@ -1,0 +1,25 @@
+.main {
+	background-clip: padding-box;
+	border: 0;
+	font-size: 14px;
+	left: 0;
+	min-width: 100%;
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	z-index: 1000;
+}
+
+.drawer {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.link {
+	border-style: solid;
+	border-width: 0 0 1px;
+	height: 32px;
+}
+
+// stylelint-disable-next-line selector-max-combinators
+.item:last-of-type .link { border: 0 }

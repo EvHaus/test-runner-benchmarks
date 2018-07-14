@@ -1,0 +1,62 @@
+// This is used in:
+// - DropdownButton (dropdown menu)
+// - Menu (vertical menus)
+// - NavBar (horizontal menu)
+// - Select (dropdown menu)
+// - TabbedArea (tabs)
+// So make sure whatever styling you put in here properly takes into account
+// all those possible component uses. Hint: It needs to be very generic
+
+.main {
+	position: relative;
+	user-select: none;
+}
+
+.closeIcon {
+	background: none;
+	border: none;
+	box-shadow: none;
+	margin: auto 8px auto 0;
+	width: 24px;
+
+	&:focus:not(.active):not(.disabled),
+	&:hover:not(.active):not(.disabled) {
+		background: none;
+	}
+}
+
+.link {
+	cursor: pointer;
+	display: flex;
+	outline: none;
+}
+
+.icon {
+	flex: 0 0 auto;
+	// height: 24px; // [TODO] Needed for IE, but breaks layouts everywhere else
+	margin: auto 8px auto 0;
+	text-align: center;
+	width: 56px;
+}
+
+.label {
+	//height: 16px; // [TODO] Needed for IE, but breaks layouts everywhere else
+	margin: auto 0;
+	padding: 0 16px;
+}
+
+.labelDisabled {
+	cursor: default;
+}
+
+// If nav item has an icon, remove its spacing
+// stylelint-disable-next-line selector-max-combinators
+.icon + .label {
+	padding-left: 0;
+}
+
+// If nav item has a closeIcon, remove extra spacing
+// stylelint-disable-next-line selector-max-combinators
+.label + .closeIcon {
+	padding-right: 0;
+}

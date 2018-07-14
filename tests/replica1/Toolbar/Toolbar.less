@@ -1,0 +1,39 @@
+.main {
+	align-items: center;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.title {
+	font-size: 20px;
+	-webkit-font-smoothing: antialiased;  /* See discussion on C8-4761 */
+	letter-spacing: 0.5px;
+	overflow: hidden;
+	padding: 0 16px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.center { margin: auto }
+
+.menu {
+	align-items: center;
+	display: flex;
+	margin: auto 0 auto auto;
+	white-space: nowrap;
+
+	&Item {
+		margin-right: -1px;
+		position: relative;
+
+		&:last-child { margin-right: 0 }
+	}
+}
+
+.subheader {
+	align-items: center;
+	display: flex;
+	font-size: 12px;
+	height: 32px;
+	padding: 0 0 0 16px;
+}

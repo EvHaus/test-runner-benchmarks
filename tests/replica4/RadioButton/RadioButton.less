@@ -1,0 +1,25 @@
+.main {
+	display: inline-flex;
+	height: 32px;
+	outline: none;
+	user-select: none;
+}
+
+.label {
+	align-items: center;
+	cursor: pointer;
+	display: flex;
+	margin: 0 24px 0 -5px;
+
+	&Text {
+		font-size: 14px;
+		height: 16px; // Needed for IE
+		padding-left: 8px;
+	}
+}
+
+// Disabled
+.disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}

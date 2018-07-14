@@ -1,0 +1,29 @@
+.heading {
+	border-radius: 6px 6px 0 0;
+	height: 40px;
+	line-height: 38px;
+	outline: none;
+	padding: 0 20px;
+	position: relative;
+
+	&Collapsible {
+		cursor: pointer;
+		// Prevent text from being selected when the header is clicked to toggle.
+		user-select: none;
+	}
+
+	&Icon {
+		position: absolute;
+		right: 8px;
+		top: 7px;
+	}
+}
+
+.body {
+	border-top-width: 0;
+	display: block;
+	overflow: auto;
+	position: relative;
+
+	&Collapsed { display: none }
+}
