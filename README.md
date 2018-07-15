@@ -44,6 +44,22 @@ npm: 6.1.0 - /usr/local/bin/npm
 - `jest`: 45.13s, 27.39s, 21.77s, 25.35s, 33.89s (**avg. 30.71s**)
 - `jasmine`: 19.94s, 11.84s, 8.92s, 9.31s, 9.48s (**avg. 11.90s**)
 
+#### Windows PC (via Bash on Windows)
+
+```
+System:
+OS: Linux 4.4 Ubuntu 16.04.4 LTS (Xenial Xerus)
+CPU: x64 Intel(R) Core(TM) i7 CPU         930  @ 2.80GHz
+
+Binaries:
+Node: 10.4.1 - /usr/bin/node
+Yarn: 1.7.0 - /usr/bin/yarn
+npm: 6.1.0 - /usr/bin/npm
+```
+
+- `jest`: 31.19s, 24.00s, 22.56s, 22.98s, 23.22s (**avg. 24.79s**)
+- `jasmine`: 22.81s, 11.37s, 11.28s, 11.67s, 11.27s (**avg. 13.68s**)
+
 #### Conclusion
 
 As you can see Jest is significantly slower running the exact same tests. In this case, with 750 or so specs, it's about 3 times slower. When this is extrapolated to the size of a large project (such as the one I'm working on at my company) -- Jest ends up consuming 5 to 7 times more time and resources for our 7000+ spec test suite. So the problem gets worse with more specs, not better.
