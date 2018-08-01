@@ -1,4 +1,5 @@
 jasmine/tests
 jest/tests
+jest-dot/tests
 node_modules
 yarn-error.log
