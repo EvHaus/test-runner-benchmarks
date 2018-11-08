@@ -6,8 +6,8 @@ import React from 'react';
 describe('<Nav />', () => {
 
 	const DEFAULT_PROPS = {onSelect: () => {}};
-	const shallowRender = (props) => shallow(<Nav {...DEFAULT_PROPS} {...props} ref='nav' />);
-	const fullRender = (props) => mount(<Nav {...DEFAULT_PROPS} {...props} ref='nav' />);
+	const shallowRender = (props) => shallow(<Nav {...DEFAULT_PROPS} {...props} />);
+	const fullRender = (props) => mount(<Nav {...DEFAULT_PROPS} {...props} />);
 
 	describe('basic tests', () => {
 		let component;

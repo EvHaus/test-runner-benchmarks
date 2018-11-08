@@ -41,18 +41,18 @@ time yarn test
 
 ```
 System:
-  OS: macOS 10.14
+  OS: macOS 10.14.2
   CPU: x64 Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
 
 Binaries:
-  Node: 10.7.0 - /usr/local/bin/node
-  Yarn: 1.9.2 - /usr/local/bin/yarn
-  npm: 6.1.0 - /usr/local/bin/npm
+  Node: 11.1.0 - /usr/local/bin/node
+  Yarn: 1.12.3 - /usr/local/bin/yarn
+  npm: 6.4.1 - /usr/local/bin/npm
 ```
 
-- `jasmine`: 31.08s, 15.23s, 13.09s, 13.06s, 16.06s (**avg. 17.70s**)
-- `jest`: 57.36s, 32.38s, 25.76s, 22.46s, 28.89s (**avg. 33.37s**)
-- `jest-dot`: 73.48s, 26.94s, 26.28s, 25.66s, 29.31s (**avg. 36.33s**)
+- `jasmine`: 10.39s, 10.32s, 9.08s, 9.21s, 9.89s (**avg. 9.38s**)
+- `jest`: 21.60s, 21.46s, 18.80s, 19.01s, 19.14s (**avg. 20.00s**)
+- `jest-dot`: 22.71s, 23.82s, 24.73s, 26.38s, 25.91s (**avg. 35.21s**)
 
 #### Windows PC (via Bash on Windows)
 

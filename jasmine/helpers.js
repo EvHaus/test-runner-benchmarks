@@ -1,5 +1,6 @@
 import {JSDOM, VirtualConsole} from 'jsdom';
 import hook from 'css-modules-require-hook';
+import localStorage from 'localStorage';
 import {parse} from 'postcss-less';
 
 const flattenLessRules = function (node, parentNode) {
@@ -41,11 +42,13 @@ const dom = new JSDOM('<!DOCTYPE html>', {
 
 // Register additional JSDOM polyfills
 Object.defineProperty(dom.window, 'cancelAnimationFrame', {value: () => {}});
+Object.defineProperty(dom.window, 'localStorage', {value: localStorage});
 Object.defineProperty(dom.window, 'requestAnimationFrame', {
 	value: (callback) => {
 		setTimeout(callback, 0);
 	},
 });
+Object.defineProperty(dom.window, 'sessionStorage', {value: localStorage});
 
 // Register window
 global.window = dom.window;
@@ -58,8 +61,10 @@ global.window = dom.window;
 	'HTMLCanvasElement',
 	'HTMLElement',
 	'HTMLInputElement',
+	'localStorage',
 	'navigator',
 	'requestAnimationFrame',
+	'sessionStorage'
 ].forEach((key) => {
 	global[key] = global.window[key];
 });
