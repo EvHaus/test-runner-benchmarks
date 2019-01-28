@@ -29,7 +29,7 @@ time yarn test
 And Jest (with dot reporter) tests via:
 
 ```sh
-cd jest
+cd jest-dot
 time yarn test
 ```
 
@@ -41,18 +41,17 @@ time yarn test
 
 ```
 System:
-  OS: macOS 10.14.2
+  OS: macOS 10.14.3
   CPU: x64 Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
 
 Binaries:
-  Node: 11.1.0 - /usr/local/bin/node
-  Yarn: 1.12.3 - /usr/local/bin/yarn
-  npm: 6.4.1 - /usr/local/bin/npm
+  Node: 11.8.0 - /usr/local/bin/node
+  Yarn: 1.13.0 - /usr/local/bin/yarn
+  npm: 6.5.0 - /usr/local/bin/npm
 ```
 
-- `jasmine`: 10.39s, 10.32s, 9.08s, 9.21s, 9.89s (**avg. 9.38s**)
-- `jest`: 21.60s, 21.46s, 18.80s, 19.01s, 19.14s (**avg. 20.00s**)
-- `jest-dot`: 22.71s, 23.82s, 24.73s, 26.38s, 25.91s (**avg. 35.21s**)
+- `jasmine`: 16.81s, 16.44s, 19.87s, 13.41s, 15.01s (**avg. 16.33s**)
+- `jest`: 69.08s, 72.62s, 91.08s, 72.48, 59.67  (**avg. 73.39s**)
 
 #### Windows PC (via Bash on Windows)
 
@@ -90,4 +89,4 @@ How this repo is setup:
 - 5x runs are performed and every time is recorded (since Jest caches things, the first and subsequent runs will have different speeds, we want to capture them all for comparison)
 - Use minimal configurations (ie. stock configurations for both Jest & Jasmine)
 - Tests should represent real-world scenarios (in this case, they are copies of real files used in real projects)
-- Use a mixture of fast, simple test and slow complex enzyme mounted full render tests to simulate real world scenarios
+- Use a mixture of fast, simple tests and slow complex enzyme mounted full render tests to simulate real world scenarios
