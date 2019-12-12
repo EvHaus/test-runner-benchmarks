@@ -1,6 +1,6 @@
 # jest-vs-jasmine
 
-This repo is setup to test the performance of running tests via the Jest runner vs running the same tests via Jasmine + JSDom.
+This repo is setup to test the performance of running tests via the Jest runner vs running the same tests via Jasmine + JSDom. This repo is used to help the Jest team reproduce and test https://github.com/facebook/jest/issues/6694.
 
 # Setup
 
