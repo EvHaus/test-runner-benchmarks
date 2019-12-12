@@ -65,6 +65,7 @@ How this repo is setup:
 
 - _jasmine_: A project that has only the configuration needed to run the tests via Jasmine + JSDom
 - _jest_: A project that has only the configuration needed to run the tests via Jest.
+- _jest-dot_: [It was suggested](https://github.com/facebook/jest/issues/6694#issuecomment-409574937) that using Jest's dot reporter might result in faster performance. This project is identical to `jest` but uses the dot reporter to test that hypothesis.
 - _tests_: Has 150 test suites we want to run. These will be identical files that will be processed by both Jest and Jasmine. These tests are intentionally duplicated through several replicas to increase the total number of specs to create a more consistent average run time and simulate a larger project.
 
 # Philosophy
