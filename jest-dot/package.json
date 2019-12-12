@@ -1,47 +1,51 @@
 {
-	"name": "jest-vs-jasmine-jest",
-	"version": "3.0.0",
-	"description": "",
-	"scripts": {
-		"postinstall": "cp -r ../tests tests",
-		"test": "jest"
-	},
-	"author": "",
-	"license": "MIT",
-	"dependencies": {
-		"@babel/core": "7.2.2",
-		"@babel/plugin-proposal-class-properties": "7.3.0",
-		"@babel/plugin-proposal-object-rest-spread": "7.3.1",
-		"@babel/preset-env": "7.3.1",
-		"@babel/preset-flow": "7.0.0",
-		"@babel/preset-react": "7.0.0",
-		"babel-core": "7.0.0-bridge.0",
-		"babel-jest": "24.0.0",
-		"classnames": "2.2.6",
-		"enzyme": "3.8.0",
-		"enzyme-adapter-react-16": "1.8.0",
-		"identity-obj-proxy": "3.0.0",
-		"immutable": "4.0.0-rc.12",
-		"jest": "24.0.0",
-		"jest-dot-reporter": "1.0.7",
-		"keycode": "2.2.0",
-		"react": "16.7.0",
-		"react-addons-css-transition-group": "15.6.2",
-		"react-dom": "16.7.0",
-		"react-motion": "0.5.2"
-	},
-	"jest": {
-		"moduleNameMapper": {
-			"\\.(less)$": "identity-obj-proxy"
-		},
-		"reporters": ["jest-dot-reporter"],
-		"roots": [
-			"<rootDir>/tests"
-		],
-		"setupFilesAfterEnv": ["<rootDir>/setupTestFrameworkScriptFile.js"],
-		"transform": {
-			"^.+\\.js$": "<rootDir>/babel-jest"
-		},
-		"verbose": false
-	}
+  "name": "jest-vs-jasmine-jest",
+  "version": "3.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "cp -r ../tests tests",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.7.5",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.7.4",
+    "@babel/preset-env": "7.7.6",
+    "@babel/preset-flow": "7.7.4",
+    "@babel/preset-react": "7.7.4",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.9.0",
+    "classnames": "2.2.6",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.15.1",
+    "identity-obj-proxy": "3.0.0",
+    "immutable": "4.0.0-rc.12",
+    "jest": "24.9.0",
+    "jest-dot-reporter": "1.0.12",
+    "keycode": "2.2.0",
+    "react": "16.12.0",
+    "react-addons-css-transition-group": "15.6.2",
+    "react-dom": "16.12.0",
+    "react-motion": "0.5.2"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(less)$": "identity-obj-proxy"
+    },
+    "reporters": [
+      "jest-dot-reporter"
+    ],
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTestFrameworkScriptFile.js"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/babel-jest"
+    },
+    "verbose": false
+  }
 }
