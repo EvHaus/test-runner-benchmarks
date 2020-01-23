@@ -46,44 +46,14 @@ System:
 Binaries:
   Node: 10.17.0 - ~/.nvm/versions/node/v10.17.0/bin/node
   Yarn: 1.21.1 - /usr/local/bin/yarn
-  npm: 6.13.3 - ~/.nvm/versions/node/v10.17.0/bin/npm
+  npm: 6.13.4 - ~/.nvm/versions/node/v10.17.0/bin/npm
+npmPackages:
+  jest: 25.1.0 => 25.1.0
 ```
 
-- `jasmine`: 19.525s, 9.700s, 9.766s, 9.770s, 9.754s (**avg after first run: 9.75s**)
-- `jest`: 27.532s, 18.820s, 18.893s, 18.776s, 17.879s (**avg after first run: 18.59s**)
-- `jest-dot`: 26.020s, 19.123s, 18.783s, 17.616s, 17.925s (**avg after first run: 18.36s**)
-
-#### 2015 MacBook Pro
-
-```
-System:
- OS: macOS 10.14.3
- CPU: x64 Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
-
-Binaries:
- Node: 11.8.0 - /usr/local/bin/node
- Yarn: 1.13.0 - /usr/local/bin/yarn
- npm: 6.5.0 - /usr/local/bin/npm
-```
-
-- `jasmine`: 16.81s, 16.44s, 19.87s, 13.41s, 15.01s (**avg after first run: 16.18s**)
-- `jest`: 69.08s, 72.62s, 91.08s, 72.48s, 59.67s (**avg after first run: 73.96s**)
-
-#### Windows PC (via Bash on Windows)
-
-```
-System:
-  OS: Linux 4.4 Ubuntu 16.04.4 LTS (Xenial Xerus)
-  CPU: x64 Intel(R) Core(TM) i7 CPU         930  @ 2.80GHz
-
- Binaries:
-  Node: 10.4.1 - /usr/bin/node
-  Yarn: 1.7.0 - /usr/bin/yarn
-  npm: 6.1.0 - /usr/bin/npm
-```
-
-- `jasmine`: 22.81s, 11.37s, 11.28s, 11.67s, 11.27s (**avg after first run: 11.34s**)
-- `jest`: 31.19s, 24.00s, 22.56s, 22.98s, 23.22s (**avg after first run: 23.19s**)
+- `jasmine`: 11.19s, 10.37s, 10.39s, 10.41s, 10.30s (**avg after first run: 10.53s**)
+- `jest`: 17.95s, 17.50s, 17.48s, 17.66s, 17.76s (**avg after first run: 17.67s**)
+- `jest-dot`: 19.94s, 18.52s, 19.96s, 23.69s, 17.93s (**avg after first run: 20.00s**)
 
 #### Conclusion
 
