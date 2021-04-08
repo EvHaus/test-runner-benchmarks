@@ -4,34 +4,22 @@ This repo is setup to test the performance of running tests via the Jest runner 
 
 # Setup
 
-Install deps:
-
+1. Install `hyperfine` via [these instructions](https://github.com/sharkdp/hyperfine#installation):
+2. Install dependencies:
 ```sh
 cd jasmine && yarn && cd ..
 cd jest && yarn && cd ..
 cd jest-dot && yarn
 ```
 
-Then you can run Jasmine tests via:
+Then you can run benchmarks via:
 
 ```sh
-cd jasmine
-time yarn test
+cd <suite>
+hyperfine --warmup 1 'yarn test'
 ```
 
-And Jest tests via:
-
-```sh
-cd jest
-time yarn test
-```
-
-And Jest (with dot reporter) tests via:
-
-```sh
-cd jest-dot
-time yarn test
-```
+> Where `<suite>` is one of: `jasmine`, `jest` or `jest-dot`.
 
 # Results
 
@@ -41,19 +29,31 @@ time yarn test
 
 ```
 System:
-  OS: macOS 10.15.2
+  OS: macOS 11.2.3
   CPU: (8) x64 Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
 Binaries:
-  Node: 10.17.0 - ~/.nvm/versions/node/v10.17.0/bin/node
-  Yarn: 1.21.1 - /usr/local/bin/yarn
-  npm: 6.13.4 - ~/.nvm/versions/node/v10.17.0/bin/npm
+  Node: 14.16.0 - ~/.nvm/versions/node/v14.16.0/bin/node
+  Yarn: 1.22.10 - /usr/local/bin/yarn
+  npm: 6.14.11 - ~/.nvm/versions/node/v14.16.0/bin/npm
 npmPackages:
-  jest: 25.1.0 => 25.1.0
+  jest: 26.6.3 => 26.6.3
 ```
 
-- `jasmine`: 11.19s, 10.37s, 10.39s, 10.41s, 10.30s (**avg after first run: 10.53s**)
-- `jest`: 17.95s, 17.50s, 17.48s, 17.66s, 17.76s (**avg after first run: 17.67s**)
-- `jest-dot`: 19.94s, 18.52s, 19.96s, 23.69s, 17.93s (**avg after first run: 20.00s**)
+- `jasmine` (10.031s mean)
+```
+Time (mean ± σ):     10.031 s ±  0.202 s    [User: 10.206 s, System: 0.814 s]
+Range (min … max):    9.794 s … 10.361 s    10 runs
+```
+- `jest` (30.367s mean)
+```
+Time (mean ± σ):     30.367 s ±  5.164 s    [User: 67.613 s, System: 15.923 s]
+Range (min … max):   25.591 s … 39.151 s    10 runs
+```
+- `jest-dot` (25.630s mean)
+```
+Time (mean ± σ):     25.630 s ±  0.730 s    [User: 65.405 s, System: 14.852 s]
+Range (min … max):   24.949 s … 27.117 s    10 runs
+```
 
 #### Conclusion
 
