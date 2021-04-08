@@ -86,6 +86,7 @@ The repository has 150 test suites in `/tests`. These will be identical files th
 ## Philosophy
 
 - Use `hyperfine` for consistent and reproducible benchmark collection
+- Discard the first run (via `--warmup 1`) to let various caches build up
 - Use minimal configurations (ie. stock configurations for both Jest & Jasmine)
 - Tests should represent real-world scenarios (in this case, they are copies of real files used in real projects)
 - Use a mixture of fast, simple tests and slow complex enzyme mounted full render tests to simulate real world scenarios
