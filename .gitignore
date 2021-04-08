@@ -1,5 +1,6 @@
 jasmine/tests
 jest/tests
 jest-dot/tests
+jest-goloveychuk/tests
 node_modules
 yarn-error.log
