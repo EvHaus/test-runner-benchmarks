@@ -20,8 +20,6 @@ cd <suite>
 hyperfine --warmup 1 'yarn test'
 ```
 
-> Where `<suite>` is one of: `jasmine`, `jest` or `jest-dot`.
-
 ## Suites
 
 - `jasmine`: A suite that has only the configuration needed to run the tests via Jasmine + JSDom
