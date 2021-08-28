@@ -139,7 +139,7 @@ describe('<Button />', () => {
 		expect(spy).not.toHaveBeenCalled();
 	});
 
-	it('should appropiately add the correct class from the theme if `background` is set to `true`', () => {
+	it('check true equals true', () => {
 		expect(true).toEqual(true);
 	});
 
