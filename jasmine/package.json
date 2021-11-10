@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "postinstall": "cp -r ../tests tests",
-    "test": "babel-node --config-file=./.babelrc --plugins=@babel/plugin-transform-modules-commonjs --max_old_space_size=4096 node_modules/.bin/jasmine --config=jasmine.json"
+    "test": "babel-node --config-file=./.babelrc --plugins=@babel/plugin-transform-modules-commonjs --max_old_space_size=4096 ../node_modules/.bin/jasmine --config=jasmine.json"
   },
   "author": "",
   "license": "MIT",

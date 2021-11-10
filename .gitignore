@@ -2,5 +2,13 @@ jasmine/tests
 jest/tests
 jest-dot/tests
 jest-goloveychuk/tests
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
 node_modules
-yarn-error.log

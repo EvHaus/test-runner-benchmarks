@@ -7,10 +7,7 @@ This repo is setup to test the performance of running tests via the Jest runner 
 1. Install `hyperfine` via [these instructions](https://github.com/sharkdp/hyperfine#installation):
 2. Install dependencies:
 ```sh
-cd jasmine && yarn && cd ..
-cd jest && yarn && cd ..
-cd jest-dot && yarn && cd ..
-cd jest-goloveychuk && yarn && cd ..
+yarn
 ```
 
 Then you can run benchmarks via:
@@ -35,40 +32,33 @@ hyperfine --warmup 1 'yarn test'
 
 ```
 System:
-  OS: macOS 11.2.3
+  OS: macOS 11.6.1
   CPU: (8) x64 Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
 Binaries:
-  Node: 14.16.0 - ~/.nvm/versions/node/v14.16.0/bin/node
-  Yarn: 1.22.10 - /usr/local/bin/yarn
-  npm: 6.14.11 - ~/.nvm/versions/node/v14.16.0/bin/npm
-npmPackages:
-  jest: 26.6.3 => 26.6.3
+  Node: 14.17.5 - ~/.nvm/versions/node/v14.17.5/bin/node
+  Yarn: 3.1.0 - ~/.nvm/versions/node/v14.17.5/bin/yarn
+  npm: 6.14.14 - ~/.nvm/versions/node/v14.17.5/bin/npm
 ```
 
-- `jasmine` (10.031s mean)
+- `jasmine` (11.399s mean)
 ```
-Time (mean ± σ):     10.031 s ±  0.202 s    [User: 10.206 s, System: 0.814 s]
-Range (min … max):    9.794 s … 10.361 s    10 runs
+Time (mean ± σ):     11.399 s ±  1.589 s    [User: 10.923 s, System: 1.083 s]
+Range (min … max):   10.093 s … 15.451 s    10 runs
 ```
-- `jest` (30.367s mean)
+- `jest` (23.014s mean)
 ```
-Time (mean ± σ):     30.367 s ±  5.164 s    [User: 67.613 s, System: 15.923 s]
-Range (min … max):   25.591 s … 39.151 s    10 runs
+Time (mean ± σ):     23.014 s ±  0.651 s    [User: 55.360 s, System: 13.151 s]
+Range (min … max):   21.642 s … 24.036 s    10 runs
 ```
-- `jest-dot` (25.630s mean)
+- `jest-dot` (20.152s mean)
 ```
-Time (mean ± σ):     25.630 s ±  0.730 s    [User: 65.405 s, System: 14.852 s]
-Range (min … max):   24.949 s … 27.117 s    10 runs
+Time (mean ± σ):     20.152 s ±  1.317 s    [User: 53.228 s, System: 12.591 s]
+Range (min … max):   18.871 s … 23.659 s    10 runs
 ```
-- `jest-dot` (25.630s mean)
+- `jest-goloveychuk` (17.987s mean)
 ```
-Time (mean ± σ):     25.630 s ±  0.730 s    [User: 65.405 s, System: 14.852 s]
-Range (min … max):   24.949 s … 27.117 s    10 runs
-```
-- `jest-goloveychuk` (27.443s mean)
-```
-Time (mean ± σ):     27.443 s ±  1.125 s    [User: 83.915 s, System: 6.839 s]
-Range (min … max):   25.910 s … 29.682 s    10 runs
+Time (mean ± σ):     17.987 s ±  0.437 s    [User: 60.725 s, System: 5.391 s]
+Range (min … max):   17.285 s … 18.834 s    10 runs
 ```
 
 #### Conclusion

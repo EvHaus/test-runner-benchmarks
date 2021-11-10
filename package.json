@@ -1,0 +1,13 @@
+{
+    "name": "jest-vs-jasmine",
+    "license": "MIT",
+    "workspaces": {
+        "packages": [
+            "jasmine",
+            "jest",
+            "jest-dot",
+            "jest-goloveychuk"
+        ]
+    },
+    "packageManager": "yarn@3.1.0"
+}
