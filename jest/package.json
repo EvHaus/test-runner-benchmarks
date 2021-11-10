@@ -38,8 +38,10 @@
     "setupFilesAfterEnv": [
       "<rootDir>/setupTestFrameworkScriptFile.js"
     ],
+    "testEnvironment": "jsdom",
+    "testRunner": "jest-jasmine2",
     "transform": {
-      "^.+\\.js$": "<rootDir>/babel-jest"
+      "^.+\\.js$": "babel-jest"
     }
   }
 }

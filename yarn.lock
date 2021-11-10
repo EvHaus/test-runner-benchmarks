@@ -3488,22 +3488,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-symbol-from-current-process-h@npm:^1.0.1":
-  version: 1.0.2
-  resolution: "get-symbol-from-current-process-h@npm:1.0.2"
-  checksum: d47cc1b9e0be27469e2af0555b21aaa5ebd114e8aa25bb0e2616c8abaebb7933e7b5bedcc31c6cad06e4df232e0fe280118001fec78da488f5f630b65cc1cae5
-  languageName: node
-  linkType: hard
-
-"get-uv-event-loop-napi-h@npm:^1.0.5":
-  version: 1.0.6
-  resolution: "get-uv-event-loop-napi-h@npm:1.0.6"
-  dependencies:
-    get-symbol-from-current-process-h: ^1.0.1
-  checksum: 3a2a9f9fc18196113d94496c79d5208c7e750cee6f65625fa34df195cab6bf9f122981c923e10cadd81d7f8da1ff92fe4020a7414d3ec16c820dee18e45bb29c
-  languageName: node
-  linkType: hard
-
 "getpass@npm:^0.1.1":
   version: 0.1.7
   resolution: "getpass@npm:0.1.7"
@@ -4665,32 +4649,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"jest-vs-jasmine-jest-goloveychuk@workspace:jest-goloveychuk":
-  version: 0.0.0-use.local
-  resolution: "jest-vs-jasmine-jest-goloveychuk@workspace:jest-goloveychuk"
-  dependencies:
-    "@babel/core": 7.13.14
-    "@babel/plugin-proposal-class-properties": 7.13.0
-    "@babel/plugin-proposal-object-rest-spread": 7.13.8
-    "@babel/preset-env": 7.13.12
-    "@babel/preset-flow": 7.13.13
-    "@babel/preset-react": 7.13.13
-    babel-jest: 27.3.1
-    classnames: 2.3.1
-    enzyme: 3.11.0
-    enzyme-adapter-react-16: 1.15.6
-    identity-obj-proxy: 3.0.0
-    immutable: 4.0.0-rc.12
-    jest: 27.3.1
-    keycode: 2.2.0
-    react: <17
-    react-addons-css-transition-group: 15.6.2
-    react-dom: <17
-    react-motion: 0.5.2
-    weak-napi: 2.0.2
-  languageName: unknown
-  linkType: soft
-
 "jest-vs-jasmine-jest@workspace:jest":
   version: 0.0.0-use.local
   resolution: "jest-vs-jasmine-jest@workspace:jest"
@@ -5333,15 +5291,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-addon-api@npm:^3.0.0":
-  version: 3.2.1
-  resolution: "node-addon-api@npm:3.2.1"
-  dependencies:
-    node-gyp: latest
-  checksum: 2369986bb0881ccd9ef6bacdf39550e07e089a9c8ede1cbc5fc7712d8e2faa4d50da0e487e333d4125f8c7a616c730131d1091676c9d499af1d74560756b4a18
-  languageName: node
-  linkType: hard
-
 "node-environment-flags@npm:^1.0.5":
   version: 1.0.6
   resolution: "node-environment-flags@npm:1.0.6"
@@ -5349,17 +5298,6 @@ __metadata:
     object.getownpropertydescriptors: ^2.0.3
     semver: ^5.7.0
   checksum: 268139ed0f7fabdca346dcb26931300ec7a1dc54a58085a849e5c78a82b94967f55df40177a69d4e819da278d98686d5c4fd49ab0d7bcff16fda25b6fffc4ca3
-  languageName: node
-  linkType: hard
-
-"node-gyp-build@npm:^4.2.1":
-  version: 4.3.0
-  resolution: "node-gyp-build@npm:4.3.0"
-  bin:
-    node-gyp-build: bin.js
-    node-gyp-build-optional: optional.js
-    node-gyp-build-test: build-test.js
-  checksum: 1ecab16d9f275174d516e223f60f65ebe07540347d5c04a6a7d6921060b7f2e3af4f19463d9d1dcedc452e275c2ae71354a99405e55ebd5b655bb2f38025c728
   languageName: node
   linkType: hard
 
@@ -6404,16 +6342,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"setimmediate-napi@npm:^1.0.3":
-  version: 1.0.6
-  resolution: "setimmediate-napi@npm:1.0.6"
-  dependencies:
-    get-symbol-from-current-process-h: ^1.0.1
-    get-uv-event-loop-napi-h: ^1.0.5
-  checksum: c2bd48c6f7131e1aa9d7e076d6778a56047ec509b5edfedcc4c98c917d912abed9a60c70f4cf6a841393abe2352ef9cff44e3fe9a1000010180f3ad9522d625a
-  languageName: node
-  linkType: hard
-
 "shallow-clone@npm:^3.0.0":
   version: 3.0.1
   resolution: "shallow-clone@npm:3.0.1"
@@ -7069,18 +6997,6 @@ __metadata:
   dependencies:
     loose-envify: ^1.0.0
   checksum: c9f99a12803aab81b29858e7dc3415bf98b41baee3a4c3acdeb680d98c47b6e17490f1087dccc54432deed5711a5ce0ebcda2b27e9b5eb054c32ae50acb4419c
-  languageName: node
-  linkType: hard
-
-"weak-napi@npm:2.0.2":
-  version: 2.0.2
-  resolution: "weak-napi@npm:2.0.2"
-  dependencies:
-    node-addon-api: ^3.0.0
-    node-gyp: latest
-    node-gyp-build: ^4.2.1
-    setimmediate-napi: ^1.0.3
-  checksum: 4c3ebac3250c179c789bbef0514a53d35143da41706c716d4b8d2d8921aa8acb3eb4a1c1ccc7d5dc4dead6eae8602c69bae36250e15d967fda39c363dadf02af
   languageName: node
   linkType: hard
 

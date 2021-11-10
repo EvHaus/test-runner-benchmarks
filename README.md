@@ -22,7 +22,6 @@ hyperfine --warmup 1 'yarn test'
 - `jasmine`: A suite that has only the configuration needed to run the tests via Jasmine + JSDom
 - `jest`: A suite that has only the configuration needed to run the tests via Jest.
 - `jest-dot`: [It was suggested](https://github.com/facebook/jest/issues/6694#issuecomment-409574937) that using Jest's dot reporter might result in faster performance. This suite is identical to `jest` but uses the dot reporter to test that hypothesis.
-- `jest-goloveychuk`: [GitHub user @goloveychuk suggested a solution](https://github.com/facebook/jest/issues/6694#issuecomment-814234244) which reduces Jest's memory usage. This suite is identical to `jest` but uses the configuration provided in that comment.
 
 ## Results
 
@@ -45,20 +44,15 @@ Binaries:
 Time (mean ± σ):     11.399 s ±  1.589 s    [User: 10.923 s, System: 1.083 s]
 Range (min … max):   10.093 s … 15.451 s    10 runs
 ```
-- `jest` (23.014s mean)
+- `jest` (21.255s mean)
 ```
-Time (mean ± σ):     23.014 s ±  0.651 s    [User: 55.360 s, System: 13.151 s]
-Range (min … max):   21.642 s … 24.036 s    10 runs
+Time (mean ± σ):     21.255 s ±  1.939 s    [User: 50.745 s, System: 11.775 s]
+Range (min … max):   20.096 s … 26.600 s    10 runs
 ```
-- `jest-dot` (20.152s mean)
+- `jest-dot` (19.872s mean)
 ```
-Time (mean ± σ):     20.152 s ±  1.317 s    [User: 53.228 s, System: 12.591 s]
-Range (min … max):   18.871 s … 23.659 s    10 runs
-```
-- `jest-goloveychuk` (17.987s mean)
-```
-Time (mean ± σ):     17.987 s ±  0.437 s    [User: 60.725 s, System: 5.391 s]
-Range (min … max):   17.285 s … 18.834 s    10 runs
+Time (mean ± σ):     19.872 s ±  0.706 s    [User: 49.538 s, System: 11.544 s]
+Range (min … max):   19.031 s … 21.437 s    10 runs
 ```
 
 #### Conclusion

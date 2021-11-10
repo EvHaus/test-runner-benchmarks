@@ -33,18 +33,19 @@
     "moduleNameMapper": {
       "\\.(less)$": "identity-obj-proxy"
     },
-    "reporters": [
-      "jest-dot-reporter"
-    ],
     "roots": [
       "<rootDir>/tests"
     ],
     "setupFilesAfterEnv": [
       "<rootDir>/setupTestFrameworkScriptFile.js"
     ],
+    "testEnvironment": "jsdom",
+    "testRunner": "jest-jasmine2",
     "transform": {
-      "^.+\\.js$": "<rootDir>/babel-jest"
+      "^.+\\.js$": "babel-jest"
     },
-    "verbose": false
+    "reporters": [
+      "jest-dot-reporter"
+    ]
   }
 }

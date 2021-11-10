@@ -5,8 +5,7 @@
         "packages": [
             "jasmine",
             "jest",
-            "jest-dot",
-            "jest-goloveychuk"
+            "jest-dot"
         ]
     },
     "packageManager": "yarn@3.1.0"
