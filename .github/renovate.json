@@ -22,5 +22,6 @@
     "react-addons-css-transition-group",
     "react-dom",
     "react-motion"
-  ]
+  ],
+  "updateInternalDeps": true
 }
