@@ -39,10 +39,10 @@ Binaries:
   npm: 6.14.14 - ~/.nvm/versions/node/v14.17.5/bin/npm
 ```
 
-- `jasmine` (11.399s mean)
+- `jasmine` (10.320s mean)
 ```
-Time (mean ± σ):     11.399 s ±  1.589 s    [User: 10.923 s, System: 1.083 s]
-Range (min … max):   10.093 s … 15.451 s    10 runs
+Time (mean ± σ):     10.320 s ±  0.434 s    [User: 10.403 s, System: 0.955 s]
+Range (min … max):    9.960 s … 11.388 s    10 runs
 ```
 - `jest` (21.255s mean)
 ```
