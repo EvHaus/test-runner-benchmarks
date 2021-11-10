@@ -5116,7 +5116,7 @@ __metadata:
     enzyme-adapter-react-16: 1.15.6
     immutable: 4.0.0-rc.12
     jasmine: 3.7.0
-    jsdom: <16.0.0
+    jsdom: 15.2.1
     keycode: 2.2.0
     localstorage: 1.0.1
     postcss-less: 3.1.4
@@ -5275,7 +5275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdom@npm:<16.0.0":
+"jsdom@npm:15.2.1":
   version: 15.2.1
   resolution: "jsdom@npm:15.2.1"
   dependencies:
