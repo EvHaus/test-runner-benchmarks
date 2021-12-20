@@ -31,28 +31,28 @@ hyperfine --warmup 1 'yarn test'
 
 ```
 System:
-  OS: macOS 11.6.1
+  OS: macOS 12.1
   CPU: (8) x64 Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
 Binaries:
-  Node: 14.17.5 - ~/.nvm/versions/node/v14.17.5/bin/node
-  Yarn: 3.1.0 - ~/.nvm/versions/node/v14.17.5/bin/yarn
-  npm: 6.14.14 - ~/.nvm/versions/node/v14.17.5/bin/npm
+  Node: 16.13.1 - ~/.nvm/versions/node/v16.13.1/bin/node
+  Yarn: 3.1.1 - /usr/local/bin/yarn
+  npm: 8.1.2 - ~/.nvm/versions/node/v16.13.1/bin/npm
 ```
 
-- `jasmine` (10.320s mean)
+- `jasmine` (13.594s mean)
 ```
-Time (mean ± σ):     10.320 s ±  0.434 s    [User: 10.403 s, System: 0.955 s]
-Range (min … max):    9.960 s … 11.388 s    10 runs
+Time (mean ± σ):     13.594 s ±  2.886 s    [User: 12.821 s, System: 1.390 s]
+Range (min … max):   11.453 s … 21.055 s    10 runs
 ```
-- `jest` (21.255s mean)
+- `jest` (33.858s mean)
 ```
-Time (mean ± σ):     21.255 s ±  1.939 s    [User: 50.745 s, System: 11.775 s]
-Range (min … max):   20.096 s … 26.600 s    10 runs
+Time (mean ± σ):     33.858 s ±  1.424 s    [User: 87.981 s, System: 16.480 s]
+Range (min … max):   32.604 s … 36.950 s    10 runs
 ```
-- `jest-dot` (19.872s mean)
+- `jest-dot` (33.444s mean)
 ```
-Time (mean ± σ):     19.872 s ±  0.706 s    [User: 49.538 s, System: 11.544 s]
-Range (min … max):   19.031 s … 21.437 s    10 runs
+Time (mean ± σ):     33.444 s ±  0.780 s    [User: 87.702 s, System: 16.301 s]
+Range (min … max):   32.562 s … 35.039 s    10 runs
 ```
 
 #### Conclusion
