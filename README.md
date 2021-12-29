@@ -19,9 +19,10 @@ hyperfine --warmup 1 'yarn test'
 
 ## Suites
 
-- `jasmine`: A suite that has only the configuration needed to run the tests via Jasmine + JSDom
-- `jest`: A suite that has only the configuration needed to run the tests via Jest.
+- `jasmine`: This is our baseline, using Jasmine and JSDom
+- `jest`: Exact same test suite, but running using Jest
 - `jest-dot`: [It was suggested](https://github.com/facebook/jest/issues/6694#issuecomment-409574937) that using Jest's dot reporter might result in faster performance. This suite is identical to `jest` but uses the dot reporter to test that hypothesis.
+- `vitest`: Exact same test suite, but running using Vitest and JSDom
 
 ## Results
 
@@ -39,20 +40,24 @@ Binaries:
   npm: 8.1.2 - ~/.nvm/versions/node/v16.13.1/bin/npm
 ```
 
-- `jasmine` (13.594s mean)
+- `jasmine` (7.336s mean)
 ```
-Time (mean ± σ):     13.594 s ±  2.886 s    [User: 12.821 s, System: 1.390 s]
-Range (min … max):   11.453 s … 21.055 s    10 runs
+Time (mean ± σ):      7.336 s ±  0.303 s    [User: 7.196 s, System: 0.912 s]
+Range (min … max):    7.044 s …  7.860 s    10 runs
 ```
-- `jest` (33.858s mean)
+- `jest` (19.907s mean)
 ```
-Time (mean ± σ):     33.858 s ±  1.424 s    [User: 87.981 s, System: 16.480 s]
-Range (min … max):   32.604 s … 36.950 s    10 runs
+Time (mean ± σ):     19.907 s ±  2.515 s    [User: 50.052 s, System: 9.691 s]
+Range (min … max):   18.115 s … 26.298 s    10 runs
 ```
-- `jest-dot` (33.444s mean)
+- `jest-dot` (19.112s mean)
 ```
-Time (mean ± σ):     33.444 s ±  0.780 s    [User: 87.702 s, System: 16.301 s]
-Range (min … max):   32.562 s … 35.039 s    10 runs
+Time (mean ± σ):     19.112 s ±  0.520 s    [User: 49.242 s, System: 9.439 s]
+Range (min … max):   18.385 s … 20.156 s    10 runs
+```
+- `vitest` (27.91s mean)
+```
+hyperfine fails to run vitest due to various internal errors
 ```
 
 #### Conclusion

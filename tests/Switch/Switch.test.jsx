@@ -52,12 +52,12 @@ describe('<Switch />', () => {
 
 		it('should render one span when `disabled` prop is set to true', () => {
 			const component = shallowRender({active: null, disabled: true});
-			expect(component.find('.buttonContainer').find('span').length).toEqual(1);
+			expect(component.find(`.${styles.buttonContainer}`).find('span').length).toEqual(1);
 		});
 
 		it('should render two spans in a Fragment when `disabled` prop is set to false', () => {
 			const component = shallowRender({active: null, disabled: false});
-			expect(component.find('.buttonContainer').find('span').length).toEqual(2);
+			expect(component.find(`.${styles.buttonContainer}`).find('span').length).toEqual(2);
 		});
 	});
 
@@ -74,13 +74,13 @@ describe('<Switch />', () => {
 		it('should add a label on the right side of the switch by default', () => {
 			const component = shallowRender({label: 'label'});
 			const labelClass = component.children().last().props().className;
-			expect(labelClass).toContain('outerLabelRight');
+			expect(labelClass).toContain(styles.outerLabelRight);
 		});
 
 		it('should add a label on the left side of the switch when defined', () => {
 			const component = shallowRender({label: 'label', labelPosition: 'left'});
 			const labelClass = component.children().first().props().className;
-			expect(labelClass).toContain('outerLabelLeft');
+			expect(labelClass).toContain(styles.outerLabelLeft);
 		});
 	});
 });

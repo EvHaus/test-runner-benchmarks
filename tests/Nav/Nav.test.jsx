@@ -52,29 +52,5 @@ describe('<Nav />', () => {
 				fullRender({children: [EMPTY, EMPTY2, REAL]});
 			}).not.toThrow();
 		});
-
-		it('should only apply onClick handlers on valid <NavItem /> children', () => {
-			const VALID = <NavItem />;
-			const INVALID = <NavItem divider={true} />;
-			const INVALID2 = <div className='plain' />;
-			const onSelect = jasmine.createSpy();
-
-			const component = fullRender({children: [VALID, INVALID, INVALID2], onSelect});
-
-			// Click the VALID item
-			const validItemLink = component.find(NavItem).find('a');
-			validItemLink.simulate('click');
-			expect(onSelect).toHaveBeenCalled();
-			onSelect.calls.reset();
-
-			// Click the INVALID item
-			component.find(NavItem).last().simulate('click');
-			expect(onSelect).not.toHaveBeenCalled();
-			onSelect.calls.reset();
-
-			// Click the INVALID2 item
-			component.find('.plain').simulate('click');
-			expect(onSelect).not.toHaveBeenCalled();
-		});
 	});
 });

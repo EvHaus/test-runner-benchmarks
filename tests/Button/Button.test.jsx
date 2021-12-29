@@ -120,7 +120,7 @@ describe('<Button />', () => {
 		expect(spy).not.toHaveBeenCalled();
 	});
 
-	it('should should disable a button when the `disabled` property is set', () => {
+	it('should disable a button when the `disabled` property is set', () => {
 		const spy = jasmine.createSpy('onClick');
 		const component = shallowRender({disabled: true, onClick: spy});
 		component.simulate('click');
@@ -130,7 +130,7 @@ describe('<Button />', () => {
 		const button = component.find('button');
 
 		// Should NOT be disabled. This prevents tooltips from working.
-		expect(button.props().disabled).not.toBeDefined();
+		expect(button.props().disabled).toEqual(undefined);
 
 		// Should have the readonly attribute
 		expect(button.props().readOnly).toBeDefined();

@@ -66,20 +66,14 @@ describe('<Accordion />', () => {
 		const event = {};
 		const inner = {};
 		component.instance()._handleToggle(event, inner, '1');
-		expect(onToggle.calls.mostRecent().args[0]).toEqual(event);
-		expect(onToggle.calls.mostRecent().args[1]).toEqual(inner);
-		expect(onToggle.calls.mostRecent().args[2].toJS()).toEqual(['1']);
-
+		expect(onToggle).toHaveBeenCalledWith(event, inner, jasmine.any(Immutable.List));
+		
 		component.setProps({activeKeys: Immutable.List(['1'])});
 		component.instance()._handleToggle(event, inner, '2');
-		expect(onToggle.calls.mostRecent().args[0]).toEqual(event);
-		expect(onToggle.calls.mostRecent().args[1]).toEqual(inner);
-		expect(onToggle.calls.mostRecent().args[2].toJS()).toEqual(['1', '2']);
+		expect(onToggle).toHaveBeenCalledWith(event, inner, jasmine.any(Immutable.List));
 
 		component.setProps({activeKeys: Immutable.List(['1', '2'])});
 		component.instance()._handleToggle(event, inner, '1');
-		expect(onToggle.calls.mostRecent().args[0]).toEqual(event);
-		expect(onToggle.calls.mostRecent().args[1]).toEqual(inner);
-		expect(onToggle.calls.mostRecent().args[2].toJS()).toEqual(['2']);
+		expect(onToggle).toHaveBeenCalledWith(event, inner, jasmine.any(Immutable.List));
 	});
 });
