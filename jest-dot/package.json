@@ -3,12 +3,20 @@
   "version": "4.0.0",
   "description": "",
   "scripts": {
-    "postinstall": "cp -r ../tests tests",
     "test": "jest"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "classnames": "2.3.1",
+    "immutable": "4.0.0-rc.12",
+    "keycode": "2.2.0",
+    "react": "<17",
+    "react-addons-css-transition-group": "15.6.2",
+    "react-dom": "<17",
+    "react-motion": "0.5.2"
+  },
+  "devDependencies": {
     "@babel/core": "7.13.14",
     "@babel/plugin-proposal-class-properties": "7.13.0",
     "@babel/plugin-proposal-object-rest-spread": "7.13.8",
@@ -16,18 +24,11 @@
     "@babel/preset-flow": "7.13.13",
     "@babel/preset-react": "7.13.13",
     "babel-jest": "27.4.5",
-    "classnames": "2.3.1",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
     "identity-obj-proxy": "3.0.0",
-    "immutable": "4.0.0-rc.12",
     "jest": "27.4.5",
-    "jest-dot-reporter": "1.0.14",
-    "keycode": "2.2.0",
-    "react": "<17",
-    "react-addons-css-transition-group": "15.6.2",
-    "react-dom": "<17",
-    "react-motion": "0.5.2"
+    "jest-dot-reporter": "1.0.14"
   },
   "jest": {
     "moduleNameMapper": {
@@ -42,7 +43,7 @@
     "testEnvironment": "jsdom",
     "testRunner": "jest-jasmine2",
     "transform": {
-      "^.+\\.js$": "babel-jest"
+      "^.+\\.jsx?$": "babel-jest"
     },
     "reporters": [
       "jest-dot-reporter"

@@ -1,6 +1,7 @@
 jasmine/tests
 jest/tests
 jest-dot/tests
+vitest/tests
 
 .pnp.*
 .yarn/*

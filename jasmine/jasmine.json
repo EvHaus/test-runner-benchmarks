@@ -1,5 +1,5 @@
 {
 	"helpers": ["helpers.js"],
 	"spec_dir": ".",
-	"spec_files": ["tests/**/*.test.js"]
+	"spec_files": ["tests/**/*.test.js", "tests/**/*.test.jsx"]
 }

@@ -1,11 +1,15 @@
 {
     "name": "jest-vs-jasmine",
     "license": "MIT",
+    "scripts": {
+        "postinstall": "node ./setup.js"
+    },
     "workspaces": {
         "packages": [
             "jasmine",
             "jest",
-            "jest-dot"
+            "jest-dot",
+            "vitest"
         ]
     },
     "packageManager": "yarn@3.1.1"
