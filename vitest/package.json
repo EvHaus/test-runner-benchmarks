@@ -24,6 +24,6 @@
     "identity-obj-proxy": "3.0.0",
     "less": "4.1.2",
     "vite": "2.7.9",
-    "vitest": "0.0.118"
+    "vitest": "0.0.119"
   }
 }
