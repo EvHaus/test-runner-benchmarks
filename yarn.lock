@@ -5230,7 +5230,7 @@ __metadata:
     react-dom: <17
     react-motion: 0.5.2
     vite: 2.7.9
-    vitest: 0.0.121
+    vitest: 0.0.122
   languageName: unknown
   linkType: soft
 
@@ -7725,9 +7725,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.0.121":
-  version: 0.0.121
-  resolution: "vitest@npm:0.0.121"
+"vitest@npm:0.0.122":
+  version: 0.0.122
+  resolution: "vitest@npm:0.0.122"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -7749,7 +7749,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 2da31712f9b423e4423b69e4e63b947ecea012c5f9e1589671621a83f2eb22279fbba8287d1b8c028cde4e67a190071c70f3df09990bd403e032e405dc142410
+  checksum: 7454073e643288b2669e8b19bac7a8e217399a80fbc6272a58c9f7719ebca91444b959ddfbe512df21a367f79947c762249029320c5870e549f6b4792d76c71d
   languageName: node
   linkType: hard
 
