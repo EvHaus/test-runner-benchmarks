@@ -1,7 +1,7 @@
 import Checkbox from './Checkbox';
 import React from 'react';
 import {shallow} from 'enzyme';
-import styles from './Checkbox.less';
+import styles from './Checkbox.module.less';
 
 describe('<Checkbox />', () => {
 	const shallowRender = (props) => (

@@ -5,7 +5,7 @@ import classnames from 'classnames';
 import Clickable from './../Clickable';
 import Drawer from './../Drawer';
 import Layout from './../Layout/Layout';
-import styles from './AccordionSection.less';
+import styles from './AccordionSection.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

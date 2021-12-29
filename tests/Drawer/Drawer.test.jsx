@@ -2,7 +2,7 @@ import {mount, shallow} from 'enzyme';
 import Drawer from './Drawer';
 import React from 'react';
 import {spring} from 'react-motion';
-import styles from './Drawer.less';
+import styles from './Drawer.module.less';
 
 describe('<Drawer />', () => {
 

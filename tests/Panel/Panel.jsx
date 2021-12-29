@@ -2,7 +2,7 @@
 
 import React, {type Element, PureComponent} from 'react';
 import classnames from 'classnames';
-import styles from './Panel.less';
+import styles from './Panel.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

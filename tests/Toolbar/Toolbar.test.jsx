@@ -1,7 +1,7 @@
 import Button from './../Button/Button';
 import React from 'react';
 import {shallow} from 'enzyme';
-import styles from './Toolbar.less';
+import styles from './Toolbar.module.less';
 import Switch from './../Switch/Switch';
 import Toolbar from './Toolbar';
 

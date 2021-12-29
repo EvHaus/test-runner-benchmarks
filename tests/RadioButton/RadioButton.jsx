@@ -3,7 +3,7 @@
 import React, {type Element, type ElementRef, type Node, PureComponent} from 'react';
 import classnames from 'classnames';
 import keycode from 'keycode';
-import styles from './RadioButton.less';
+import styles from './RadioButton.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

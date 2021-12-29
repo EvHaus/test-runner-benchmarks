@@ -4,7 +4,7 @@ import React, {type Element, type ElementRef, type Node, PureComponent} from 're
 import classnames from 'classnames';
 import Clickable from './../Clickable';
 import keycode from 'keycode';
-import styles from './NavItem.less';
+import styles from './NavItem.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 export type EventKeyType = ?string | number;

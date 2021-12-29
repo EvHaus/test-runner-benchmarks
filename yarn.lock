@@ -5222,7 +5222,6 @@ __metadata:
     classnames: 2.3.1
     enzyme: 3.11.0
     enzyme-adapter-react-16: 1.15.6
-    identity-obj-proxy: 3.0.0
     immutable: 4.0.0-rc.12
     keycode: 2.2.0
     less: 4.1.2

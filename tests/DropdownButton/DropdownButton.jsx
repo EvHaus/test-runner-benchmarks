@@ -5,7 +5,7 @@ import Button from './../Button';
 import classnames from 'classnames';
 import DropdownMenu from './../DropdownMenu';
 import NavItem from './../NavItem';
-import styles from './DropdownButton.less';
+import styles from './DropdownButton.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 import WithBodyClick from './../WithBodyClick';
 

@@ -3,7 +3,7 @@ import ButtonGroup from './ButtonGroup';
 import classnames from 'classnames';
 import React from 'react';
 import {shallow} from 'enzyme';
-import styles from './ButtonGroup.less';
+import styles from './ButtonGroup.module.less';
 
 describe('<ButtonGroup />', () => {
 

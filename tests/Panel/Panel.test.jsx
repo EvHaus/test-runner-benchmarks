@@ -1,7 +1,7 @@
 import Panel from './Panel';
 import React from 'react';
 import {shallow} from 'enzyme';
-import styles from './Panel.less';
+import styles from './Panel.module.less';
 
 describe('<Panel />', () => {
 	const shallowRender = (props) => shallow(<Panel {...props} />);

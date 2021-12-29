@@ -3,7 +3,7 @@
 import React, {type Element, type Node, PureComponent} from 'react';
 import classnames from 'classnames';
 import Pane from './../Pane/Pane';
-import styles from './Toolbar.less';
+import styles from './Toolbar.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

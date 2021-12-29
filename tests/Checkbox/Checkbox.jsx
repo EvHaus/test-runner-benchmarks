@@ -4,7 +4,7 @@ import React, {type Element, PureComponent} from 'react';
 import classnames from 'classnames';
 import createChangeObject from './../utils/createChangeObject';
 import keycode from 'keycode';
-import styles from './Checkbox.less';
+import styles from './Checkbox.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

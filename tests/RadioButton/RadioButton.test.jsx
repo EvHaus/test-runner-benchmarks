@@ -1,7 +1,7 @@
 import {mount, shallow} from 'enzyme';
 import RadioButton from './RadioButton';
 import React from 'react';
-import styles from './RadioButton.less';
+import styles from './RadioButton.module.less';
 
 describe('<RadioButton />', () => {
 

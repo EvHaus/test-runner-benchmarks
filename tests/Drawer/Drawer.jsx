@@ -4,7 +4,7 @@ import {Motion, spring} from 'react-motion';
 import {type PlainStyle, type Style} from 'react-motion/lib/Types';
 import React, {type Element, type Node, PureComponent} from 'react';
 import classnames from 'classnames';
-import styles from './Drawer.less';
+import styles from './Drawer.module.less';
 
 type PropsType = {
 	children: Node,

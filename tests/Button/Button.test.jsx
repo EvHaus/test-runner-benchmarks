@@ -1,7 +1,7 @@
 import Button from './Button';
 import React from 'react';
 import {shallow} from 'enzyme';
-import styles from './Button.less';
+import styles from './Button.module.less';
 
 describe('<Button />', () => {
 	const shallowRender = (props, opts) => shallow(<Button {...props} />, opts);

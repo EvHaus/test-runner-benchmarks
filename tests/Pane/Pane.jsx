@@ -3,7 +3,7 @@
 import {type ColorsType, type PatternsType} from './../utils/SharedTypes';
 import React, {type Element, type Node, PureComponent, type Ref} from 'react';
 import classnames from 'classnames';
-import styles from './Pane.less';
+import styles from './Pane.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

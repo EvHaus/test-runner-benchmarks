@@ -4,9 +4,9 @@ import React, {type ChildrenArray, type Element, type ElementRef, PureComponent}
 import classnames from 'classnames';
 import Drawer from './../Drawer';
 import Menu from './../Menu';
-import menuStyles from './../Menu/Menu.less';
+import menuStyles from './../Menu/Menu.module.less';
 import NavItem from './../NavItem';
-import styles from './DropdownMenu.less';
+import styles from './DropdownMenu.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

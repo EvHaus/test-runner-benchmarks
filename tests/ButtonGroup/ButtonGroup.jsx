@@ -4,7 +4,7 @@ import Button, {type SizeType as ButtonSizeType} from './../Button/Button';
 import React, {type ChildrenArray, type Element, PureComponent} from 'react';
 import {type BordersType as ButtonBordersType} from './../utils/SharedTypes';
 import classnames from 'classnames';
-import styles from './ButtonGroup.less';
+import styles from './ButtonGroup.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 export type OutputButtonPropsType = {

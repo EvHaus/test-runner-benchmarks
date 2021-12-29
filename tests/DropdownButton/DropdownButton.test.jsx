@@ -5,7 +5,7 @@ import DropdownMenu from './../DropdownMenu';
 import {mount} from 'enzyme';
 import NavItem from './../NavItem';
 import React from 'react';
-import styles from './DropdownButton.less';
+import styles from './DropdownButton.module.less';
 
 describe('<DropdownButton />', () => {
 	const fullRender = (props, children) => {

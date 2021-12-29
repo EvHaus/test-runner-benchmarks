@@ -2,7 +2,7 @@
 
 import React, {type Element, type Node, PureComponent} from 'react';
 import classNames from 'classnames';
-import styles from './Clickable.less';
+import styles from './Clickable.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

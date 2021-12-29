@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import styles from './Switch.less';
+import styles from './Switch.module.less';
 import Switch from './Switch';
 
 describe('<Switch />', () => {

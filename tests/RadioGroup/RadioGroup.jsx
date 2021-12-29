@@ -3,7 +3,7 @@
 import React, {type ChildrenArray, type Element, type ElementRef, PureComponent} from 'react';
 import classnames from 'classnames';
 import RadioButton from './../RadioButton';
-import styles from './RadioGroup.less';
+import styles from './RadioGroup.module.less';
 
 type PropsType = {
 	children: ChildrenArray<Element<typeof RadioButton>>,

@@ -8,7 +8,7 @@ import classnames from 'classnames';
 import {type EventKeyType} from './../NavItem/NavItem';
 import Nav from './../Nav';
 import NavItem from './../NavItem';
-import styles from './Menu.less';
+import styles from './Menu.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 type PropsType = {

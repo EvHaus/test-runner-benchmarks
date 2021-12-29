@@ -1,7 +1,7 @@
 import NavItem from './NavItem';
 import React from 'react';
 import {shallow} from 'enzyme';
-import styles from './NavItem.less';
+import styles from './NavItem.module.less';
 
 describe('<NavItem />', () => {
 	const shallowRender = (props) => shallow(<NavItem {...props} />);

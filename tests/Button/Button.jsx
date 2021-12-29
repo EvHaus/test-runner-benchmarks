@@ -3,7 +3,7 @@
 import React, {type Element, type ElementRef, PureComponent} from 'react';
 import {type BordersType} from './../utils/SharedTypes';
 import classnames from 'classnames';
-import styles from './Button.less';
+import styles from './Button.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 export type SizeType = "large" | "small";

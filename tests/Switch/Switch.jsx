@@ -2,7 +2,7 @@
 
 import React, {type Element, Fragment, PureComponent} from 'react';
 import classnames from 'classnames';
-import styles from './Switch.less';
+import styles from './Switch.module.less';
 import UXPropTypes from './../utils/UXPropTypes';
 
 export type PropsType = {
