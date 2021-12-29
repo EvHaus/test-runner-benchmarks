@@ -7,7 +7,8 @@ Enzyme.configure({adapter: new Adapter()});
 
 global.jasmine = {
     any: expect.any,
-    createSpy: () => vi.fn()
+    createSpy: () => vi.fn(),
+    objectContaining: expect.any
 };
 
 global.spyOn = vi.spyOn
