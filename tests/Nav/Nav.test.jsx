@@ -46,7 +46,7 @@ describe('<Nav />', () => {
 		it('should handle null and undefined children gracefully', () => {
 			const EMPTY = null;
 			const EMPTY2 = undefined;
-			const REAL = <NavItem label='Real Item' />;
+			const REAL = <NavItem label='Real Item' key="realitem" />;
 
 			expect(() => {
 				fullRender({children: [EMPTY, EMPTY2, REAL]});
