@@ -42,7 +42,6 @@ Binaries:
   npm: 8.1.2 - ~/.nvm/versions/node/v16.13.1/bin/npm
 ```
 
-- `jasmine` (11.421s mean)
 ```
 Benchmark 1: yarn workspace jasmine test
   Time (mean ± σ):     17.135 s ±  0.494 s    [User: 18.965 s, System: 1.298 s]
