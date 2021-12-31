@@ -4482,6 +4482,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jasmine@workspace:jasmine":
+  version: 0.0.0-use.local
+  resolution: "jasmine@workspace:jasmine"
+  dependencies:
+    "@babel/core": 7.13.14
+    "@babel/node": 7.13.13
+    "@babel/plugin-proposal-class-properties": 7.13.0
+    "@babel/plugin-proposal-object-rest-spread": 7.13.8
+    "@babel/preset-env": 7.13.12
+    "@babel/preset-flow": 7.13.13
+    "@babel/preset-react": 7.13.13
+    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
+    classnames: 2.3.1
+    css-modules-require-hook: 4.2.3
+    enzyme: 3.11.0
+    immutable: 4.0.0-rc.12
+    jasmine: 3.10.0
+    jsdom: <16.0.0
+    keycode: 2.2.0
+    localstorage: 1.0.1
+    postcss-less: 3.1.4
+    react: 17.0.2
+    react-addons-css-transition-group: 15.6.2
+    react-dom: 17.0.2
+  languageName: unknown
+  linkType: soft
+
 "jest-changed-files@npm:^27.4.2":
   version: 27.4.2
   resolution: "jest-changed-files@npm:27.4.2"
@@ -4602,6 +4629,31 @@ __metadata:
   checksum: 4b7639ceb7808280562166c87c49746d9e9cc13f8315ea05a0a400d2f7b11f4491b4ad50935e5976db6509f26004fa2b187dc19eea5e09c445eed2648eb1e927
   languageName: node
   linkType: hard
+
+"jest-dot@workspace:jest-dot":
+  version: 0.0.0-use.local
+  resolution: "jest-dot@workspace:jest-dot"
+  dependencies:
+    "@babel/core": 7.13.14
+    "@babel/plugin-proposal-class-properties": 7.13.0
+    "@babel/plugin-proposal-object-rest-spread": 7.13.8
+    "@babel/preset-env": 7.13.12
+    "@babel/preset-flow": 7.13.13
+    "@babel/preset-react": 7.13.13
+    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
+    babel-jest: 27.4.5
+    classnames: 2.3.1
+    enzyme: 3.11.0
+    identity-obj-proxy: 3.0.0
+    immutable: 4.0.0-rc.12
+    jest: 27.4.5
+    jest-progress-bar-reporter: 1.0.21
+    keycode: 2.2.0
+    react: 17.0.2
+    react-addons-css-transition-group: 15.6.2
+    react-dom: 17.0.2
+  languageName: unknown
+  linkType: soft
 
 "jest-each@npm:^27.4.2":
   version: 27.4.2
@@ -4944,102 +4996,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-vs-jasmine-jasmine@workspace:jasmine":
-  version: 0.0.0-use.local
-  resolution: "jest-vs-jasmine-jasmine@workspace:jasmine"
-  dependencies:
-    "@babel/core": 7.13.14
-    "@babel/node": 7.13.13
-    "@babel/plugin-proposal-class-properties": 7.13.0
-    "@babel/plugin-proposal-object-rest-spread": 7.13.8
-    "@babel/preset-env": 7.13.12
-    "@babel/preset-flow": 7.13.13
-    "@babel/preset-react": 7.13.13
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
-    classnames: 2.3.1
-    css-modules-require-hook: 4.2.3
-    enzyme: 3.11.0
-    immutable: 4.0.0-rc.12
-    jasmine: 3.10.0
-    jsdom: <16.0.0
-    keycode: 2.2.0
-    localstorage: 1.0.1
-    postcss-less: 3.1.4
-    react: 17.0.2
-    react-addons-css-transition-group: 15.6.2
-    react-dom: 17.0.2
-  languageName: unknown
-  linkType: soft
-
-"jest-vs-jasmine-jest-dot@workspace:jest-dot":
-  version: 0.0.0-use.local
-  resolution: "jest-vs-jasmine-jest-dot@workspace:jest-dot"
-  dependencies:
-    "@babel/core": 7.13.14
-    "@babel/plugin-proposal-class-properties": 7.13.0
-    "@babel/plugin-proposal-object-rest-spread": 7.13.8
-    "@babel/preset-env": 7.13.12
-    "@babel/preset-flow": 7.13.13
-    "@babel/preset-react": 7.13.13
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
-    babel-jest: 27.4.5
-    classnames: 2.3.1
-    enzyme: 3.11.0
-    identity-obj-proxy: 3.0.0
-    immutable: 4.0.0-rc.12
-    jest: 27.4.5
-    jest-progress-bar-reporter: 1.0.21
-    keycode: 2.2.0
-    react: 17.0.2
-    react-addons-css-transition-group: 15.6.2
-    react-dom: 17.0.2
-  languageName: unknown
-  linkType: soft
-
-"jest-vs-jasmine-jest@workspace:jest":
-  version: 0.0.0-use.local
-  resolution: "jest-vs-jasmine-jest@workspace:jest"
-  dependencies:
-    "@babel/core": 7.13.14
-    "@babel/plugin-proposal-class-properties": 7.13.0
-    "@babel/plugin-proposal-object-rest-spread": 7.13.8
-    "@babel/preset-env": 7.13.12
-    "@babel/preset-flow": 7.13.13
-    "@babel/preset-react": 7.13.13
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
-    babel-jest: 27.4.5
-    classnames: 2.3.1
-    enzyme: 3.11.0
-    identity-obj-proxy: 3.0.0
-    immutable: 4.0.0-rc.12
-    jest: 27.4.5
-    keycode: 2.2.0
-    react: 17.0.2
-    react-addons-css-transition-group: 15.6.2
-    react-dom: 17.0.2
-  languageName: unknown
-  linkType: soft
-
-"jest-vs-jasmine-vitest@workspace:vitest":
-  version: 0.0.0-use.local
-  resolution: "jest-vs-jasmine-vitest@workspace:vitest"
-  dependencies:
-    "@bunchtogether/vite-plugin-flow": 1.0.1
-    "@vitejs/plugin-react": 1.1.3
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
-    classnames: 2.3.1
-    enzyme: 3.11.0
-    immutable: 4.0.0-rc.12
-    keycode: 2.2.0
-    less: 4.1.2
-    react: 17.0.2
-    react-addons-css-transition-group: 15.6.2
-    react-dom: 17.0.2
-    vite: 2.7.10
-    vitest: 0.0.124
-  languageName: unknown
-  linkType: soft
-
 "jest-vs-jasmine@workspace:.":
   version: 0.0.0-use.local
   resolution: "jest-vs-jasmine@workspace:."
@@ -5089,6 +5045,30 @@ __metadata:
   checksum: 57ee4be68650dd1f89e077cca48813d824779a07626e84178c672727ace1ef3cd489f124a27dc02b88601774413330e6d35080b11919efa6460ee61d378c6610
   languageName: node
   linkType: hard
+
+"jest@workspace:jest":
+  version: 0.0.0-use.local
+  resolution: "jest@workspace:jest"
+  dependencies:
+    "@babel/core": 7.13.14
+    "@babel/plugin-proposal-class-properties": 7.13.0
+    "@babel/plugin-proposal-object-rest-spread": 7.13.8
+    "@babel/preset-env": 7.13.12
+    "@babel/preset-flow": 7.13.13
+    "@babel/preset-react": 7.13.13
+    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
+    babel-jest: 27.4.5
+    classnames: 2.3.1
+    enzyme: 3.11.0
+    identity-obj-proxy: 3.0.0
+    immutable: 4.0.0-rc.12
+    jest: 27.4.5
+    keycode: 2.2.0
+    react: 17.0.2
+    react-addons-css-transition-group: 15.6.2
+    react-dom: 17.0.2
+  languageName: unknown
+  linkType: soft
 
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
@@ -7493,6 +7473,26 @@ __metadata:
   checksum: 5b984ef3d24d56d8bfb99f3101e2d18ba1c975aeb38dccb55fd9f51ca282fd1b9bcdc898c901ceef9d868e7416f815a2d1eeea9ed1532c86469b66a25f0f73e3
   languageName: node
   linkType: hard
+
+"vitest@workspace:vitest":
+  version: 0.0.0-use.local
+  resolution: "vitest@workspace:vitest"
+  dependencies:
+    "@bunchtogether/vite-plugin-flow": 1.0.1
+    "@vitejs/plugin-react": 1.1.3
+    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
+    classnames: 2.3.1
+    enzyme: 3.11.0
+    immutable: 4.0.0-rc.12
+    keycode: 2.2.0
+    less: 4.1.2
+    react: 17.0.2
+    react-addons-css-transition-group: 15.6.2
+    react-dom: 17.0.2
+    vite: 2.7.10
+    vitest: 0.0.124
+  languageName: unknown
+  linkType: soft
 
 "vlq@npm:^0.2.1":
   version: 0.2.3
