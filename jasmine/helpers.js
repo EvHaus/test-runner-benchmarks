@@ -70,7 +70,7 @@ global.window = dom.window;
 });
 
 // Enzyme needs to be loaded after globals and JSDOM are set
-const Adapter = require('enzyme-adapter-react-16');
+const Adapter = require('@wojtekmaj/enzyme-adapter-react-17');
 const Enzyme = require('enzyme');
 
 Enzyme.configure({adapter: new Adapter()});
