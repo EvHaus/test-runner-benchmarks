@@ -13,7 +13,7 @@ export default defineConfig({
         environment: 'jsdom',
         global: true,
         setupFiles: ['setupTestFrameworkScriptFile.js'],
-        // threads: false,
+        threads: false,
         watch: false
     },
 })

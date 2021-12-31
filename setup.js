@@ -10,7 +10,7 @@ types.forEach((type) => {
 
     execSync(`rm -rf ${TYPE_DIR}`)
     
-    Array.from(new Array(5)).forEach((_, i) => {
+    Array.from(new Array(10)).forEach((_, i) => {
         const targetDir = path.join(TYPE_DIR, `replica${i + 1}`);
         execSync(`mkdir -p ${targetDir}`)
         execSync(`cp -r tests/* ${targetDir}`)
