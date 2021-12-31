@@ -27,7 +27,7 @@
     "enzyme": "3.11.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.4.5",
-    "jest-dot-reporter": "1.0.14"
+    "jest-progress-bar-reporter": "1.0.21"
   },
   "jest": {
     "moduleNameMapper": {
@@ -45,7 +45,7 @@
       "^.+\\.jsx?$": "babel-jest"
     },
     "reporters": [
-      "jest-dot-reporter"
+      "jest-progress-bar-reporter"
     ]
   }
 }
