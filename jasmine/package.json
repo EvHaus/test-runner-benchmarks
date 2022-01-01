@@ -1,9 +1,9 @@
 {
   "name": "jasmine",
-  "version": "4.0.0",
+  "version": "0.0.555",
   "description": "",
   "scripts": {
-    "test": "babel-node --config-file=./.babelrc --plugins=@babel/plugin-transform-modules-commonjs --max_old_space_size=4096 ../node_modules/.bin/jasmine --config=jasmine.json"
+    "test": "babel-node --config-file=./.babelrc --plugins=@babel/plugin-transform-modules-commonjs ../node_modules/.bin/jasmine --config=jasmine.json"
   },
   "author": "",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.6",
     "css-modules-require-hook": "4.2.3",
     "enzyme": "3.11.0",
-    "jasmine": "3.99.0",
+    "jasmine": "4.0.0",
     "jsdom": "<16.0.0",
     "postcss-less": "3.1.4"
   }

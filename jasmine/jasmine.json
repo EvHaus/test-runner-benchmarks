@@ -1,5 +1,6 @@
 {
 	"helpers": ["helpers.js"],
+	"jsLoader": "require",
 	"spec_dir": ".",
-	"spec_files": ["tests/**/*.test.js", "tests/**/*.test.jsx"]
+	"spec_files": ["tests/**/*.test.*"]
 }

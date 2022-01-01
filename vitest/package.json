@@ -1,6 +1,6 @@
 {
   "name": "vitest",
-  "version": "4.0.0",
+  "version": "0.0.555",
   "description": "",
   "scripts": {
     "test": "vitest"
