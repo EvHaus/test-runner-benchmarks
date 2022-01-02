@@ -16,14 +16,13 @@ yarn
 Then you can run benchmarks via:
 
 ```sh
-hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace jest-dot test' 'yarn workspace vitest test'
+hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test'
 ```
 
 ## Suites
 
 - `jasmine`: This is our baseline, using Jasmine and JSDom.
 - `jest`: Exact same test suite, but running using Jest.
-- `jest-dot`: [It was suggested](https://github.com/facebook/jest/issues/6694#issuecomment-409574937) that using Jest's dot reporter might result in faster performance. This suite is identical to `jest` but uses the dot reporter to test that hypothesis.
 - `vitest`: Exact same test suite, but running using Vitest and JSDom. (Note that Vitest is running with `threads` setting set to `false`).
 
 ## Results
@@ -51,10 +50,6 @@ Benchmark 2: yarn workspace jest test
   Time (mean ± σ):     30.310 s ±  0.511 s    [User: 82.259 s, System: 14.939 s]
   Range (min … max):   29.550 s … 31.298 s    10 runs
  
-Benchmark 3: yarn workspace jest-dot test
-  Time (mean ± σ):     30.304 s ±  0.465 s    [User: 82.305 s, System: 14.907 s]
-  Range (min … max):   29.806 s … 31.260 s    10 runs
- 
 Benchmark 4: yarn workspace vitest test
   Time (mean ± σ):     14.845 s ±  0.154 s    [User: 16.649 s, System: 1.796 s]
   Range (min … max):   14.706 s … 15.112 s    10 runs
@@ -62,7 +57,6 @@ Benchmark 4: yarn workspace vitest test
 Summary
   'yarn workspace vitest test' ran
     1.15 ± 0.05 times faster than 'yarn workspace jasmine test'
-    2.04 ± 0.04 times faster than 'yarn workspace jest-dot test'
     2.04 ± 0.04 times faster than 'yarn workspace jest test'
 ```
 
@@ -83,3 +77,9 @@ The repository has 105 test suites in `/tests`. These will be identical files th
 - Use minimal configurations (ie. stock configurations)
 - Tests should represent real-world scenarios (in this case, they are copies of real files used in real projects)
 - Use a mixture of fast, simple tests and slow complex enzyme mounted full render tests to simulate real world scenarios
+
+## Other Suites
+
+- `jest-dot`: [It was suggested](https://github.com/facebook/jest/issues/6694#issuecomment-409574937) that using Jest's dot reporter might result in faster performance. In the past this benchmark repo had a `jest-dot` suite to validate this but after many runs, it had nearly no impact on performance. The suite has since been removed.
+- `jest-goloveychuk`: [GitHub user @goloveychuk suggested a solution](https://github.com/facebook/jest/issues/6694#issuecomment-814234244) which reduces Jest's memory usage. This solution was added and tested, but the performance impact was not any different.
+

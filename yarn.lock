@@ -2471,16 +2471,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:4.1.1":
-  version: 4.1.1
-  resolution: "chalk@npm:4.1.1"
-  dependencies:
-    ansi-styles: ^4.1.0
-    supports-color: ^7.1.0
-  checksum: 036e973e665ba1a32c975e291d5f3d549bceeb7b1b983320d4598fb75d70fe20c5db5d62971ec0fe76cdbce83985a00ee42372416abfc3a5584465005a7855ed
-  languageName: node
-  linkType: hard
-
 "chalk@npm:^2.0.0, chalk@npm:^2.4.1":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
@@ -4630,31 +4620,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-dot@workspace:jest-dot":
-  version: 0.0.0-use.local
-  resolution: "jest-dot@workspace:jest-dot"
-  dependencies:
-    "@babel/core": 7.13.14
-    "@babel/plugin-proposal-class-properties": 7.13.0
-    "@babel/plugin-proposal-object-rest-spread": 7.13.8
-    "@babel/preset-env": 7.13.12
-    "@babel/preset-flow": 7.13.13
-    "@babel/preset-react": 7.13.13
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
-    babel-jest: 27.4.5
-    classnames: 2.3.1
-    enzyme: 3.11.0
-    identity-obj-proxy: 3.0.0
-    immutable: 4.0.0-rc.12
-    jest: 27.4.5
-    jest-progress-bar-reporter: 1.0.21
-    keycode: 2.2.0
-    react: 17.0.2
-    react-addons-css-transition-group: 15.6.2
-    react-dom: 17.0.2
-  languageName: unknown
-  linkType: soft
-
 "jest-each@npm:^27.4.2":
   version: 27.4.2
   resolution: "jest-each@npm:27.4.2"
@@ -4812,17 +4777,6 @@ __metadata:
     jest-resolve:
       optional: true
   checksum: bd85dcc0e76e0eb0c3d56382ec140f08d25ff4068cda9d0e360bb78fb176cb726d0beab82dc0e8694cafd09f55fee7622b8bcb240afa5fad301f4ed3eebb4f47
-  languageName: node
-  linkType: hard
-
-"jest-progress-bar-reporter@npm:1.0.21":
-  version: 1.0.21
-  resolution: "jest-progress-bar-reporter@npm:1.0.21"
-  dependencies:
-    chalk: 4.1.1
-    moment: 2.29.1
-    progress: 2.0.3
-  checksum: e6c3680d2ec7f3f4cf0be7b3393ae741ab62af4e13c91ab9ee0e749b8488319b3d5ddf38b3bbd980cc5712eaa3a8d548b4033def0bc996904030891f7e363fb4
   languageName: node
   linkType: hard
 
@@ -5633,13 +5587,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moment@npm:2.29.1":
-  version: 2.29.1
-  resolution: "moment@npm:2.29.1"
-  checksum: 1e14d5f422a2687996be11dd2d50c8de3bd577c4a4ca79ba5d02c397242a933e5b941655de6c8cb90ac18f01cc4127e55b4a12ae3c527a6c0a274e455979345e
-  languageName: node
-  linkType: hard
-
 "moo@npm:^0.5.0":
   version: 0.5.1
   resolution: "moo@npm:0.5.1"
@@ -6260,13 +6207,6 @@ __metadata:
     ansi-styles: ^5.0.0
     react-is: ^17.0.1
   checksum: 0daaf00c4dcb35493e57d30147e8045d0c45cb47fc4c94e3ab1892401abe939627c39975c77cc81eb2581aaa5b12bf23ef669fa550bec68b396fb79dd8c10afa
-  languageName: node
-  linkType: hard
-
-"progress@npm:2.0.3":
-  version: 2.0.3
-  resolution: "progress@npm:2.0.3"
-  checksum: f67403fe7b34912148d9252cb7481266a354bd99ce82c835f79070643bb3c6583d10dbcfda4d41e04bbc1d8437e9af0fb1e1f2135727878f5308682a579429b7
   languageName: node
   linkType: hard
 

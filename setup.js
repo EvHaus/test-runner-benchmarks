@@ -3,7 +3,7 @@ const path = require('path');
 
 const ROOT_DIR = process.cwd();
 
-const types = ['jasmine', 'jest', 'jest-dot', 'vitest'];
+const types = ['jasmine', 'jest', 'vitest'];
 
 types.forEach((type) => {
     const TYPE_DIR = path.resolve(ROOT_DIR, type, 'tests');

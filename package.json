@@ -8,7 +8,6 @@
         "packages": [
             "jasmine",
             "jest",
-            "jest-dot",
             "vitest"
         ]
     },
