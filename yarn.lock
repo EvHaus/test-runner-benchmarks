@@ -44,7 +44,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
+"@babel/core@npm:^7.1.0, @babel/core@npm:^7.12.3, @babel/core@npm:^7.16.5, @babel/core@npm:^7.7.2, @babel/core@npm:^7.7.5":
   version: 7.16.7
   resolution: "@babel/core@npm:7.16.7"
   dependencies:
@@ -1069,7 +1069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-development@npm:^7.12.17, @babel/plugin-transform-react-jsx-development@npm:^7.16.0":
+"@babel/plugin-transform-react-jsx-development@npm:^7.12.17, @babel/plugin-transform-react-jsx-development@npm:^7.16.5":
   version: 7.16.7
   resolution: "@babel/plugin-transform-react-jsx-development@npm:7.16.7"
   dependencies:
@@ -1080,7 +1080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-self@npm:^7.16.0":
+"@babel/plugin-transform-react-jsx-self@npm:^7.16.5":
   version: 7.16.7
   resolution: "@babel/plugin-transform-react-jsx-self@npm:7.16.7"
   dependencies:
@@ -1091,7 +1091,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx-source@npm:^7.16.0":
+"@babel/plugin-transform-react-jsx-source@npm:^7.16.5":
   version: 7.16.7
   resolution: "@babel/plugin-transform-react-jsx-source@npm:7.16.7"
   dependencies:
@@ -1102,7 +1102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:^7.13.12, @babel/plugin-transform-react-jsx@npm:^7.16.0, @babel/plugin-transform-react-jsx@npm:^7.16.7":
+"@babel/plugin-transform-react-jsx@npm:^7.13.12, @babel/plugin-transform-react-jsx@npm:^7.16.5, @babel/plugin-transform-react-jsx@npm:^7.16.7":
   version: 7.16.7
   resolution: "@babel/plugin-transform-react-jsx@npm:7.16.7"
   dependencies:
@@ -1681,7 +1681,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/pluginutils@npm:^4.1.1":
+"@rollup/pluginutils@npm:^4.1.2":
   version: 4.1.2
   resolution: "@rollup/pluginutils@npm:4.1.2"
   dependencies:
@@ -1844,19 +1844,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:1.1.3":
-  version: 1.1.3
-  resolution: "@vitejs/plugin-react@npm:1.1.3"
+"@vitejs/plugin-react@npm:1.1.4":
+  version: 1.1.4
+  resolution: "@vitejs/plugin-react@npm:1.1.4"
   dependencies:
-    "@babel/core": ^7.16.0
-    "@babel/plugin-transform-react-jsx": ^7.16.0
-    "@babel/plugin-transform-react-jsx-development": ^7.16.0
-    "@babel/plugin-transform-react-jsx-self": ^7.16.0
-    "@babel/plugin-transform-react-jsx-source": ^7.16.0
-    "@rollup/pluginutils": ^4.1.1
+    "@babel/core": ^7.16.5
+    "@babel/plugin-transform-react-jsx": ^7.16.5
+    "@babel/plugin-transform-react-jsx-development": ^7.16.5
+    "@babel/plugin-transform-react-jsx-self": ^7.16.5
+    "@babel/plugin-transform-react-jsx-source": ^7.16.5
+    "@rollup/pluginutils": ^4.1.2
     react-refresh: ^0.11.0
     resolve: ^1.20.0
-  checksum: e6efbd8a5c0df0e0f33db6faebed207fafad8666de5345c9923f46e7383fb481c8dea9d506181e6075c44edb3921948ca3d55fec5048dc56f5852a0c317863d2
+  checksum: a0362c3cd6e393ba224436a6d1597dab2b49d32eb608eb562d4672c3899d24cf1b0dde94676da1055a63838c676365c3c1110955b8c8d10a2b98e9543d6ba582
   languageName: node
   linkType: hard
 
@@ -7419,7 +7419,7 @@ __metadata:
   resolution: "vitest@workspace:vitest"
   dependencies:
     "@bunchtogether/vite-plugin-flow": 1.0.1
-    "@vitejs/plugin-react": 1.1.3
+    "@vitejs/plugin-react": 1.1.4
     "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
     classnames: 2.3.1
     enzyme: 3.11.0
