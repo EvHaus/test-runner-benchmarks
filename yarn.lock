@@ -7331,9 +7331,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.0.132":
-  version: 0.0.132
-  resolution: "vitest@npm:0.0.132"
+"vitest@npm:0.0.133":
+  version: 0.0.133
+  resolution: "vitest@npm:0.0.133"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -7358,7 +7358,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: b1a9cec1c591df608e2debf775d00f75dd024794c76931b01477b8695533598aa9eaac8a1ec5839d6401021f26350d0c6b1516e20a909bab09009703cda7d97f
+  checksum: bd9b1d86227564ca1347d4edfa4034f704939ab9412c4ed16195b9a826435c20df63154d50b94d6f770098e5ebc76118860a7085a9e31f117d6ad2cfa411b108
   languageName: node
   linkType: hard
 
@@ -7378,7 +7378,7 @@ __metadata:
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
     vite: 2.7.10
-    vitest: 0.0.132
+    vitest: 0.0.133
   languageName: unknown
   linkType: soft
 
