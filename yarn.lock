@@ -2370,15 +2370,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"builtins@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "builtins@npm:4.0.0"
-  dependencies:
-    semver: ^7.0.0
-  checksum: 3c8b3b96ed88dd8e21286a3590292862ad62a59085bbcd77a4470848fed0f59fcd67f366afdf9ca8d7e77abce7ccf336bf662c12ead949294aa03bc563a57a1c
-  languageName: node
-  linkType: hard
-
 "cacache@npm:^15.2.0":
   version: 15.3.0
   resolution: "cacache@npm:15.3.0"
@@ -4120,15 +4111,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-meta-resolve@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "import-meta-resolve@npm:1.1.1"
-  dependencies:
-    builtins: ^4.0.0
-  checksum: 2024161e169c45ed25a9f51d984a432a9cc342c35737f9410266bab237ca2f756c1f80c15e2297df83c92f585743d5105291f2ad24094a513f804c6023ea1472
-  languageName: node
-  linkType: hard
-
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
   resolution: "imurmurhash@npm:0.1.4"
@@ -5285,12 +5267,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"local-pkg@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "local-pkg@npm:0.4.0"
-  dependencies:
-    mlly: ^0.2.2
-  checksum: 46964cea4b5a2c83d4206cd2e8ea72a4caed444ac1ef51a27c6b545457cb734005768534032a67bca4249f50ee2d557dba2aa027eb594c409d1169f984dc89f8
+"local-pkg@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "local-pkg@npm:0.4.1"
+  checksum: 4ab3b4853ffbc3b292a3ae2e22618dbc348418a2ebf60ada55fdcc5a8583f9167c89fc7977194ffa39d0a4c5078f9c421d246afdd252fea7a840f7a8f3b5f96b
   languageName: node
   linkType: hard
 
@@ -5575,15 +5555,6 @@ __metadata:
   bin:
     mkdirp: bin/cmd.js
   checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
-  languageName: node
-  linkType: hard
-
-"mlly@npm:^0.2.2":
-  version: 0.2.10
-  resolution: "mlly@npm:0.2.10"
-  dependencies:
-    import-meta-resolve: ^1.1.1
-  checksum: a7b9f9e046389eb8263ae57bf6738084dd40319ce1608b31dd66a72baf15e35bfb9d8a7dcde33f4c6f3b5da4788b8e94c65e9fa519c508ab5b339f4e6de255bc
   languageName: node
   linkType: hard
 
@@ -6724,7 +6695,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.0.0, semver@npm:^7.3.2, semver@npm:^7.3.5":
+"semver@npm:^7.3.2, semver@npm:^7.3.5":
   version: 7.3.5
   resolution: "semver@npm:7.3.5"
   dependencies:
@@ -7088,17 +7059,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinypool@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "tinypool@npm:0.1.0"
-  checksum: 79b7136d905ad41f88a2d00c2d6b225dae14ce29ac7f41ee673baf9da6da2855c000a49797b4cce56b3554bc77464069a2557d2f4fc0a2d7e6a3edccf695b1c9
+"tinypool@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "tinypool@npm:0.1.1"
+  checksum: 92653fb8f97f6b919d548269bcb0ac70cb3a52bdf2da7b39c3d97432c161ab6418295f9c755acc603b20cf9de4b7f37fad9ee436afc6d0927a4ef336f9ca3c3a
   languageName: node
   linkType: hard
 
-"tinyspy@npm:^0.2.6":
-  version: 0.2.6
-  resolution: "tinyspy@npm:0.2.6"
-  checksum: e0662fdd260aa1213679fd859c4a36a0b1de408c73fa6aea5cb898d1fddb9a98e1fb535c69fb76f3c7052c7af840de031aed035ba4266b3214d5d6602a89fd39
+"tinyspy@npm:^0.2.7":
+  version: 0.2.7
+  resolution: "tinyspy@npm:0.2.7"
+  checksum: a495ffec748a9c1d1ffd83c58d5269efb15f177298d6f79ecb373af14b8693443bb5ac8a015b15ac98d1931d0de54cc30167f74191db3e87be6d5dabf5234cbc
   languageName: node
   linkType: hard
 
@@ -7383,16 +7354,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.0.131":
-  version: 0.0.131
-  resolution: "vitest@npm:0.0.131"
+"vitest@npm:0.0.132":
+  version: 0.0.132
+  resolution: "vitest@npm:0.0.132"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
     chai: ^4.3.4
-    local-pkg: ^0.4.0
-    tinypool: ^0.1.0
-    tinyspy: ^0.2.6
+    local-pkg: ^0.4.1
+    tinypool: ^0.1.1
+    tinyspy: ^0.2.7
     vite: ">=2.7.10"
   peerDependencies:
     "@vitest/ui": "*"
@@ -7410,7 +7381,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: b794ca5dce7d95be451702126df878573bb29cbe873b60de907f45d2a9987c39138e2e0392303a8447217ee4e62699befda2703c7c13f24d08f19d5fbcf25b87
+  checksum: b1a9cec1c591df608e2debf775d00f75dd024794c76931b01477b8695533598aa9eaac8a1ec5839d6401021f26350d0c6b1516e20a909bab09009703cda7d97f
   languageName: node
   linkType: hard
 
@@ -7430,7 +7401,7 @@ __metadata:
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
     vite: 2.7.10
-    vitest: 0.0.131
+    vitest: 0.0.132
   languageName: unknown
   linkType: soft
 
