@@ -43,21 +43,21 @@ Binaries:
 
 ```
 Benchmark 1: yarn workspace jasmine test
-  Time (mean ± σ):     17.244 s ±  0.646 s    [User: 19.398 s, System: 1.315 s]
-  Range (min … max):   16.544 s … 18.278 s    10 runs
+  Time (mean ± σ):     24.132 s ±  1.069 s    [User: 25.075 s, System: 1.925 s]
+  Range (min … max):   22.868 s … 25.986 s    10 runs
  
 Benchmark 2: yarn workspace jest test
-  Time (mean ± σ):     32.502 s ±  0.456 s    [User: 84.249 s, System: 15.365 s]
-  Range (min … max):   31.800 s … 33.353 s    10 runs
+  Time (mean ± σ):     66.209 s ±  9.795 s    [User: 109.879 s, System: 21.030 s]
+  Range (min … max):   53.438 s … 80.975 s    10 runs
  
 Benchmark 3: yarn workspace vitest test
-  Time (mean ± σ):     15.300 s ±  0.212 s    [User: 17.253 s, System: 1.848 s]
-  Range (min … max):   14.940 s … 15.558 s    10 runs
+  Time (mean ± σ):     20.035 s ±  1.150 s    [User: 21.318 s, System: 2.596 s]
+  Range (min … max):   19.211 s … 23.097 s    10 runs
  
 Summary
   'yarn workspace vitest test' ran
-    1.13 ± 0.04 times faster than 'yarn workspace jasmine test'
-    2.12 ± 0.04 times faster than 'yarn workspace jest test'
+    1.20 ± 0.09 times faster than 'yarn workspace jasmine test'
+    3.30 ± 0.52 times faster than 'yarn workspace jest test'
 ```
 
 #### Conclusion
