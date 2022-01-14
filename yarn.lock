@@ -7303,7 +7303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.7.12":
+"vite@npm:2.7.12, vite@npm:>=2.7.12":
   version: 2.7.12
   resolution: "vite@npm:2.7.12"
   dependencies:
@@ -7332,38 +7332,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:>=2.7.10":
-  version: 2.7.10
-  resolution: "vite@npm:2.7.10"
-  dependencies:
-    esbuild: ^0.13.12
-    fsevents: ~2.3.2
-    postcss: ^8.4.5
-    resolve: ^1.20.0
-    rollup: ^2.59.0
-  peerDependencies:
-    less: "*"
-    sass: "*"
-    stylus: "*"
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 1757108547ca34bd01a8ee3973cb04b484492c9e5690fc75f54bbcbde5965ab6e0a5b8355c336adf0a9117aa0fdae3053af3aafa9e5eb783282fffa948cfbe11
-  languageName: node
-  linkType: hard
-
-"vitest@npm:0.1.12":
-  version: 0.1.12
-  resolution: "vitest@npm:0.1.12"
+"vitest@npm:0.1.13":
+  version: 0.1.13
+  resolution: "vitest@npm:0.1.13"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -7371,7 +7342,7 @@ __metadata:
     local-pkg: ^0.4.1
     tinypool: ^0.1.1
     tinyspy: ^0.2.8
-    vite: ">=2.7.10"
+    vite: ">=2.7.12"
   peerDependencies:
     "@vitest/ui": "*"
     c8: "*"
@@ -7388,7 +7359,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 49ede6ed05d793a66063dbce8c148a26871ed6bb6d691e8188d3eb456228415c616e8e96068c48e30d6403e5fd4d6dfea1da50b4d6ec7ac53b1aa595f96e83be
+  checksum: a6242fbdbd3ccacd663c141b08496289d45576421300bf2dbd8a9620b071b08a320da64bcf9f440f289d2fc1e7520a2ae68b5c18344d4ccfa51bb22114bd288a
   languageName: node
   linkType: hard
 
@@ -7408,7 +7379,7 @@ __metadata:
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
     vite: 2.7.12
-    vitest: 0.1.12
+    vitest: 0.1.13
   languageName: unknown
   linkType: soft
 
