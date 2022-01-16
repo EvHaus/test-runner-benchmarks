@@ -16,14 +16,14 @@ yarn
 Then you can run benchmarks via:
 
 ```sh
-hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test'
+hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --threads=true' 'yarn workspace vitest test --threads=false'
 ```
 
 ## Suites
 
 - `jasmine`: This is our baseline, using Jasmine and JSDom.
 - `jest`: Exact same test suite, but running using Jest.
-- `vitest`: Exact same test suite, but running using Vitest and JSDom. (Note that Vitest is running with `threads` setting set to `false`).
+- `vitest`: Exact same test suite, but running using Vitest and JSDom. NOTE: That benchmarks include vitest with the `threads` setting enabled and disabled due to [issue](https://github.com/vitest-dev/vitest/issues/229#issuecomment-1003235680)
 
 ## Results
 
@@ -43,21 +43,26 @@ Binaries:
 
 ```
 Benchmark 1: yarn workspace jasmine test
-  Time (mean ± σ):     24.132 s ±  1.069 s    [User: 25.075 s, System: 1.925 s]
-  Range (min … max):   22.868 s … 25.986 s    10 runs
+  Time (mean ± σ):     17.477 s ±  0.445 s    [User: 19.051 s, System: 1.321 s]
+  Range (min … max):   16.604 s … 18.197 s    10 runs
  
 Benchmark 2: yarn workspace jest test
-  Time (mean ± σ):     66.209 s ±  9.795 s    [User: 109.879 s, System: 21.030 s]
-  Range (min … max):   53.438 s … 80.975 s    10 runs
+  Time (mean ± σ):     34.704 s ±  2.548 s    [User: 91.246 s, System: 16.712 s]
+  Range (min … max):   32.017 s … 41.447 s    10 runs
  
-Benchmark 3: yarn workspace vitest test
-  Time (mean ± σ):     20.035 s ±  1.150 s    [User: 21.318 s, System: 2.596 s]
-  Range (min … max):   19.211 s … 23.097 s    10 runs
+Benchmark 3: yarn workspace vitest test --threads=true
+  Time (mean ± σ):     99.077 s ±  2.015 s    [User: 185.493 s, System: 40.303 s]
+  Range (min … max):   97.352 s … 103.406 s    10 runs
  
+Benchmark 4: yarn workspace vitest test --threads=false
+  Time (mean ± σ):     14.181 s ±  0.085 s    [User: 16.841 s, System: 1.918 s]
+  Range (min … max):   14.070 s … 14.388 s    10 runs
+
 Summary
-  'yarn workspace vitest test' ran
-    1.20 ± 0.09 times faster than 'yarn workspace jasmine test'
-    3.30 ± 0.52 times faster than 'yarn workspace jest test'
+  'yarn workspace vitest test --threads=false' ran
+    1.23 ± 0.03 times faster than 'yarn workspace jasmine test'
+    2.45 ± 0.18 times faster than 'yarn workspace jest test'
+    6.99 ± 0.15 times faster than 'yarn workspace vitest test --threads=true'
 ```
 
 #### Conclusion
