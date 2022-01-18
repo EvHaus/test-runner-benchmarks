@@ -7316,7 +7316,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.7.12, vite@npm:>=2.7.12":
+"vite@npm:2.7.13":
+  version: 2.7.13
+  resolution: "vite@npm:2.7.13"
+  dependencies:
+    esbuild: ^0.13.12
+    fsevents: ~2.3.2
+    postcss: ^8.4.5
+    resolve: ^1.20.0
+    rollup: ^2.59.0
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 3d8780754974c5012b768b5394dce15a171e2f9e061f86517a9c934bfff02855439d411c6769efc0a1791f6c511e703e1ade8ac14a8030b0e62408af39eea456
+  languageName: node
+  linkType: hard
+
+"vite@npm:>=2.7.12":
   version: 2.7.12
   resolution: "vite@npm:2.7.12"
   dependencies:
@@ -7391,7 +7420,7 @@ __metadata:
     react: 17.0.2
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
-    vite: 2.7.12
+    vite: 2.7.13
     vitest: 0.1.20
   languageName: unknown
   linkType: soft
