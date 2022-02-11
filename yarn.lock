@@ -6236,7 +6236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.5":
+"postcss@npm:^8.4.5, postcss@npm:^8.4.6":
   version: 8.4.6
   resolution: "postcss@npm:8.4.6"
   dependencies:
@@ -7429,7 +7429,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.8.0, vite@npm:>=2.7.13":
+"vite@npm:2.8.1":
+  version: 2.8.1
+  resolution: "vite@npm:2.8.1"
+  dependencies:
+    esbuild: ^0.14.14
+    fsevents: ~2.3.2
+    postcss: ^8.4.6
+    resolve: ^1.22.0
+    rollup: ^2.59.0
+  peerDependencies:
+    less: "*"
+    sass: "*"
+    stylus: "*"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 4ce8acc2dd2a7ca8727511ff575f72de162114402e55e5d081001f05ef1656782cd5611d4f6091c29efb455e72d30967467bad5b6b329bfe5279fbe8d5169d67
+  languageName: node
+  linkType: hard
+
+"vite@npm:>=2.7.13":
   version: 2.8.0
   resolution: "vite@npm:2.8.0"
   dependencies:
@@ -7504,7 +7533,7 @@ __metadata:
     react: 17.0.2
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
-    vite: 2.8.0
+    vite: 2.8.1
     vitest: 0.3.2
   languageName: unknown
   linkType: soft
