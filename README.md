@@ -27,47 +27,11 @@ hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'y
 
 ## Results
 
-> `npx envinfo --preset jest` is used to grab the current environment settings
-
-#### 2019 MacBook Pro
-
-```
-System:
-  OS: macOS 12.1
-  CPU: (8) x64 Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz
-Binaries:
-  Node: 16.13.1 - ~/.nvm/versions/node/v16.13.1/bin/node
-  Yarn: 3.1.1 - /usr/local/bin/yarn
-  npm: 8.1.2 - ~/.nvm/versions/node/v16.13.1/bin/npm
-```
-
-```
-Benchmark 1: yarn workspace jasmine test
-  Time (mean ± σ):     17.506 s ±  0.411 s    [User: 19.750 s, System: 1.291 s]
-  Range (min … max):   17.179 s … 18.596 s    10 runs
- 
-Benchmark 2: yarn workspace jest test
-  Time (mean ± σ):     35.354 s ±  0.538 s    [User: 87.282 s, System: 16.234 s]
-  Range (min … max):   34.737 s … 36.233 s    10 runs
- 
-Benchmark 3: yarn workspace vitest test --threads=true
-  Time (mean ± σ):     94.023 s ±  5.834 s    [User: 227.461 s, System: 52.071 s]
-  Range (min … max):   85.849 s … 107.893 s    10 runs
- 
-Benchmark 4: yarn workspace vitest test --threads=false
-  Time (mean ± σ):     18.989 s ±  2.284 s    [User: 19.531 s, System: 2.414 s]
-  Range (min … max):   16.003 s … 22.638 s    10 runs
- 
-Summary
-  'yarn workspace jasmine test' ran
-    1.08 ± 0.13 times faster than 'yarn workspace vitest test --threads=false'
-    2.02 ± 0.06 times faster than 'yarn workspace jest test'
-    5.37 ± 0.36 times faster than 'yarn workspace vitest test --threads=true'
-```
+Benchmarks are run via GitHub Actions. You can check the latest run results [here](https://github.com/EvHaus/jest-vs-jasmine/actions/workflows/benchmark.yaml).
 
 #### Conclusion
 
-As you can see Jest is significantly slower running the exact same tests. In this case, with 710 or so specs, it's about 2 times slower even on the most modern 2019 MacBook Pro. When this is extrapolated to the size of a large project (such as the one I'm working on at my company) and/or run on older devices -- Jest ends up consuming 5 to 7 times more time and resources for our 7000+ spec test suite. So the problem gets worse with more specs, not better.
+As you can see Jest is significantly slower running the exact same tests. In this case, with 710 or so specs, it's about 2 times slower even a fairly modern 2019 MacBook Pro. When this is extrapolated to the size of a large project (such as the one I'm working on at my company) and/or run on older devices -- Jest ends up consuming 5 to 7 times more time and resources for our 7000+ spec test suite. So the problem gets worse with more specs, not better.
 
 As much as we love Jest's superior developer experience, such a serious performance difference makes it very difficult for us to continue using Jest as our primary test runner. My hope is that this isolated test bed project can be used to troubleshoot and diagnose the specific reasons for the performance difference so that Jest could be optimized to run faster.
 
