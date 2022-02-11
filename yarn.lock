@@ -2556,17 +2556,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai@npm:^4.3.4":
-  version: 4.3.4
-  resolution: "chai@npm:4.3.4"
+"chai@npm:^4.3.6":
+  version: 4.3.6
+  resolution: "chai@npm:4.3.6"
   dependencies:
     assertion-error: ^1.1.0
     check-error: ^1.0.2
     deep-eql: ^3.0.1
     get-func-name: ^2.0.0
+    loupe: ^2.3.1
     pathval: ^1.1.1
     type-detect: ^4.0.5
-  checksum: 772c522b3bfe3fcf0e0e74edfe584cd886b0e85a73126dec750095300e023d4e1ec6d40e3c35a80d2bd8f33dca46c42767a36f5f50f32dca6fa31c88b5f49ab8
+  checksum: acff93fd537f96d4a4d62dd83810285dffcfccb5089e1bf2a1205b28ec82d93dff551368722893cf85004282df10ee68802737c33c90c5493957ed449ed7ce71
   languageName: node
   linkType: hard
 
@@ -5648,6 +5649,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"loupe@npm:^2.3.1":
+  version: 2.3.4
+  resolution: "loupe@npm:2.3.4"
+  dependencies:
+    get-func-name: ^2.0.0
+  checksum: 5af91db61aa18530f1749a64735ee194ac263e65e9f4d1562bf3036c591f1baa948289c193e0e34c7b5e2c1b75d3c1dc4fce87f5edb3cee10b0c0df46bc9ffb3
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
   resolution: "lru-cache@npm:6.0.0"
@@ -7399,10 +7409,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyspy@npm:^0.2.8":
-  version: 0.2.8
-  resolution: "tinyspy@npm:0.2.8"
-  checksum: bbdca68172c3c580e9d4d570f37fb7470db5922531e9db0e5025556524a1a339b3adb0f7ac9d69d26029a24959db2b74487f778921c813d96f24185f2f1fefb6
+"tinyspy@npm:^0.2.10":
+  version: 0.2.10
+  resolution: "tinyspy@npm:0.2.10"
+  checksum: 7c4d89f603f5e12b335f5a97811b11712a6cc44565c2d1c1d76ccf6a0cb9c2b0ca8b7eb84f6cdabd0a49149fb9dababaefadab43bec6d8252dfc797a205f48bd
   languageName: node
   linkType: hard
 
@@ -7716,16 +7726,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.2.0":
-  version: 0.2.0
-  resolution: "vitest@npm:0.2.0"
+"vitest@npm:0.3.2":
+  version: 0.3.2
+  resolution: "vitest@npm:0.3.2"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
-    chai: ^4.3.4
+    chai: ^4.3.6
     local-pkg: ^0.4.1
     tinypool: ^0.1.1
-    tinyspy: ^0.2.8
+    tinyspy: ^0.2.10
     vite: ">=2.7.13"
   peerDependencies:
     "@vitest/ui": "*"
@@ -7743,7 +7753,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 553c9bc97b89f2bc15a368b9779225537926f9aa913aea7fe707c1a5414d409d14d4009ae0b84bc39bf01cd093e2da95dc9e7bd9f916db45f46870f9d9ec360c
+  checksum: 858dd3d16f7583b77bca0ab7810d4b1efdba92392cd6a2d97a62cf26ef1c041bda08e15e1694f69d1654bb7aaaab65d52c3684e03a8c364e5edab261f992e218
   languageName: node
   linkType: hard
 
@@ -7763,7 +7773,7 @@ __metadata:
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
     vite: 2.8.0
-    vitest: 0.2.0
+    vitest: 0.3.2
   languageName: unknown
   linkType: soft
 
