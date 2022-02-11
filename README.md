@@ -43,26 +43,26 @@ Binaries:
 
 ```
 Benchmark 1: yarn workspace jasmine test
-  Time (mean ± σ):     17.477 s ±  0.445 s    [User: 19.051 s, System: 1.321 s]
-  Range (min … max):   16.604 s … 18.197 s    10 runs
+  Time (mean ± σ):     17.506 s ±  0.411 s    [User: 19.750 s, System: 1.291 s]
+  Range (min … max):   17.179 s … 18.596 s    10 runs
  
 Benchmark 2: yarn workspace jest test
-  Time (mean ± σ):     34.704 s ±  2.548 s    [User: 91.246 s, System: 16.712 s]
-  Range (min … max):   32.017 s … 41.447 s    10 runs
+  Time (mean ± σ):     35.354 s ±  0.538 s    [User: 87.282 s, System: 16.234 s]
+  Range (min … max):   34.737 s … 36.233 s    10 runs
  
 Benchmark 3: yarn workspace vitest test --threads=true
-  Time (mean ± σ):     99.077 s ±  2.015 s    [User: 185.493 s, System: 40.303 s]
-  Range (min … max):   97.352 s … 103.406 s    10 runs
+  Time (mean ± σ):     94.023 s ±  5.834 s    [User: 227.461 s, System: 52.071 s]
+  Range (min … max):   85.849 s … 107.893 s    10 runs
  
 Benchmark 4: yarn workspace vitest test --threads=false
-  Time (mean ± σ):     14.181 s ±  0.085 s    [User: 16.841 s, System: 1.918 s]
-  Range (min … max):   14.070 s … 14.388 s    10 runs
-
+  Time (mean ± σ):     18.989 s ±  2.284 s    [User: 19.531 s, System: 2.414 s]
+  Range (min … max):   16.003 s … 22.638 s    10 runs
+ 
 Summary
-  'yarn workspace vitest test --threads=false' ran
-    1.23 ± 0.03 times faster than 'yarn workspace jasmine test'
-    2.45 ± 0.18 times faster than 'yarn workspace jest test'
-    6.99 ± 0.15 times faster than 'yarn workspace vitest test --threads=true'
+  'yarn workspace jasmine test' ran
+    1.08 ± 0.13 times faster than 'yarn workspace vitest test --threads=false'
+    2.02 ± 0.06 times faster than 'yarn workspace jest test'
+    5.37 ± 0.36 times faster than 'yarn workspace vitest test --threads=true'
 ```
 
 #### Conclusion
