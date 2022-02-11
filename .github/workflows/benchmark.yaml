@@ -1,0 +1,23 @@
+name: Run Benchmarks
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
+      
+      - name: Install
+        run: yarn install && wget https://github.com/sharkdp/hyperfine/releases/download/v1.12.0/hyperfine_1.12.0_amd64.deb && sudo dpkg -i hyperfine_1.12.0_amd64.deb
+      
+      - name: Run
+        run: hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --threads=true' 'yarn workspace vitest test --threads=false'
