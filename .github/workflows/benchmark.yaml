@@ -20,4 +20,4 @@ jobs:
         run: yarn install && wget https://github.com/sharkdp/hyperfine/releases/download/v1.12.0/hyperfine_1.12.0_amd64.deb && sudo dpkg -i hyperfine_1.12.0_amd64.deb
       
       - name: Run
-        run: hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --threads=true' 'yarn workspace vitest test --threads=false'
+        run: hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --threads=true' 'yarn workspace vitest test --threads=false' 'yarn workspace vitest test --threads=true --isolate=false'
