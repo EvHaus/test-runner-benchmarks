@@ -1,6 +1,6 @@
 import {JSDOM, VirtualConsole} from 'jsdom';
 import hook from 'css-modules-require-hook';
-import localStorage from 'localStorage';
+import localStorage from 'localstorage';
 import {parse} from 'postcss-less';
 
 const flattenLessRules = function (node, parentNode) {
