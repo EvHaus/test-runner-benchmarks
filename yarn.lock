@@ -6236,7 +6236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.5, postcss@npm:^8.4.6":
+"postcss@npm:^8.4.6":
   version: 8.4.6
   resolution: "postcss@npm:8.4.6"
   dependencies:
@@ -7429,7 +7429,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.8.1":
+"vite@npm:2.8.1, vite@npm:^2.7.13":
   version: 2.8.1
   resolution: "vite@npm:2.8.1"
   dependencies:
@@ -7458,38 +7458,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:>=2.7.13":
-  version: 2.8.0
-  resolution: "vite@npm:2.8.0"
-  dependencies:
-    esbuild: ^0.14.14
-    fsevents: ~2.3.2
-    postcss: ^8.4.5
-    resolve: ^1.22.0
-    rollup: ^2.59.0
-  peerDependencies:
-    less: "*"
-    sass: "*"
-    stylus: "*"
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: b6deeab38fc5a952dd448940a174608347ef4cf98608e540df9dc0ce4a9a2e4b0af116e73fed28402e5d30dfddc8a19086033ca422c5d7d960524167405c3672
-  languageName: node
-  linkType: hard
-
-"vitest@npm:0.3.2":
-  version: 0.3.2
-  resolution: "vitest@npm:0.3.2"
+"vitest@npm:0.3.4":
+  version: 0.3.4
+  resolution: "vitest@npm:0.3.4"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -7497,7 +7468,7 @@ __metadata:
     local-pkg: ^0.4.1
     tinypool: ^0.1.1
     tinyspy: ^0.2.10
-    vite: ">=2.7.13"
+    vite: ^2.7.13
   peerDependencies:
     "@vitest/ui": "*"
     c8: "*"
@@ -7514,7 +7485,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 858dd3d16f7583b77bca0ab7810d4b1efdba92392cd6a2d97a62cf26ef1c041bda08e15e1694f69d1654bb7aaaab65d52c3684e03a8c364e5edab261f992e218
+  checksum: af38249d385d3ee441f9fdb7189a1f2b795310a94eea584721e1c83f1e1b4bd7fdfdd0ff2168636579a1bd3bd77744388db551fc83b8a2635d0e2d97b8a2fc2d
   languageName: node
   linkType: hard
 
@@ -7534,7 +7505,7 @@ __metadata:
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
     vite: 2.8.1
-    vitest: 0.3.2
+    vitest: 0.3.4
   languageName: unknown
   linkType: soft
 
