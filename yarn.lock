@@ -1432,13 +1432,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bunchtogether/vite-plugin-flow@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@bunchtogether/vite-plugin-flow@npm:1.0.1"
+"@bunchtogether/vite-plugin-flow@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@bunchtogether/vite-plugin-flow@npm:1.0.2"
   dependencies:
     flow-remove-types: ^2.158.0
     rollup-pluginutils: ^2.8.2
-  checksum: 953d95cc10f06ac2269b32726896157d33c82e53d7595c30f75205fc93ce9494191984a65b4417b661743d569dc049407335289ea984b86dae938a31ddfe2a31
+  checksum: 5a43e66fa65ffcc9f1c0909d4084c3d934fb1367b9a53dcbe208c35a34d8c61868775f8eccd0ccf6af70f1f496313512a8a7962eb0d813c3bd8ca6f7d0d890db
   languageName: node
   linkType: hard
 
@@ -7493,7 +7493,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vitest@workspace:vitest"
   dependencies:
-    "@bunchtogether/vite-plugin-flow": 1.0.1
+    "@bunchtogether/vite-plugin-flow": 1.0.2
     "@vitejs/plugin-react": 1.2.0
     "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
     classnames: 2.3.1
