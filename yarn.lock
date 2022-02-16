@@ -7163,7 +7163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinypool@npm:^0.1.1":
+"tinypool@npm:^0.1.2":
   version: 0.1.2
   resolution: "tinypool@npm:0.1.2"
   checksum: 886ec64fcbd5a02336c2127973be3ee184d643f3ffc86d6e52752b0eb396b048801dc07e16fbb6012ab130f58104e0bbd59989ed21f5a49e707a661387e89f86
@@ -7429,7 +7429,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.8.3":
+"vite@npm:2.8.3, vite@npm:^2.8.2":
   version: 2.8.3
   resolution: "vite@npm:2.8.3"
   dependencies:
@@ -7458,46 +7458,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.7.13":
-  version: 2.8.1
-  resolution: "vite@npm:2.8.1"
-  dependencies:
-    esbuild: ^0.14.14
-    fsevents: ~2.3.2
-    postcss: ^8.4.6
-    resolve: ^1.22.0
-    rollup: ^2.59.0
-  peerDependencies:
-    less: "*"
-    sass: "*"
-    stylus: "*"
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    less:
-      optional: true
-    sass:
-      optional: true
-    stylus:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 4ce8acc2dd2a7ca8727511ff575f72de162114402e55e5d081001f05ef1656782cd5611d4f6091c29efb455e72d30967467bad5b6b329bfe5279fbe8d5169d67
-  languageName: node
-  linkType: hard
-
-"vitest@npm:0.3.5":
-  version: 0.3.5
-  resolution: "vitest@npm:0.3.5"
+"vitest@npm:0.3.6":
+  version: 0.3.6
+  resolution: "vitest@npm:0.3.6"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
     chai: ^4.3.6
     local-pkg: ^0.4.1
-    tinypool: ^0.1.1
+    tinypool: ^0.1.2
     tinyspy: ^0.2.10
-    vite: ^2.7.13
+    vite: ^2.8.2
   peerDependencies:
     "@vitest/ui": "*"
     c8: "*"
@@ -7514,7 +7485,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: c47bfbcbae9a666bb1fcd2a57b02395e35896a25882ec46e3f184ec8463e878879199d2349bd296b84c7c20f79ee4e3c48d6813961a692fc97e3063b95990337
+  checksum: 3079f19837384b96c74825fbd4e7dc48b018f48d9317665aad193c7339a438d7e5c47e4f7f1b121de162a9dbbb80a40df5ec3fc9f17321560de1c667b056e74e
   languageName: node
   linkType: hard
 
@@ -7534,7 +7505,7 @@ __metadata:
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
     vite: 2.8.3
-    vitest: 0.3.5
+    vitest: 0.3.6
   languageName: unknown
   linkType: soft
 
