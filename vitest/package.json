@@ -21,6 +21,6 @@
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.6",
     "enzyme": "3.11.0",
     "less": "4.1.2",
-    "vitest": "0.7.4"
+    "vitest": "0.7.6"
   }
 }
