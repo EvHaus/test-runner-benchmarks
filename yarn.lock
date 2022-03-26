@@ -1893,11 +1893,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wojtekmaj/enzyme-adapter-react-17@npm:0.6.6":
-  version: 0.6.6
-  resolution: "@wojtekmaj/enzyme-adapter-react-17@npm:0.6.6"
+"@wojtekmaj/enzyme-adapter-react-17@npm:0.6.7":
+  version: 0.6.7
+  resolution: "@wojtekmaj/enzyme-adapter-react-17@npm:0.6.7"
   dependencies:
-    "@wojtekmaj/enzyme-adapter-utils": ^0.1.2
+    "@wojtekmaj/enzyme-adapter-utils": ^0.1.4
     enzyme-shallow-equal: ^1.0.0
     has: ^1.0.0
     prop-types: ^15.7.0
@@ -1907,11 +1907,11 @@ __metadata:
     enzyme: ^3.0.0
     react: ^17.0.0-0
     react-dom: ^17.0.0-0
-  checksum: bf6dad41313456d7a80fdd44e0a0e95a49af8f841b1d0ac5a03c48973877ecaf9ac4d457e3f6edd0df7d40abfe625a8aaa77ffb822224a25e5e866be41d9ea0f
+  checksum: 5cd4c01adf0d778c5ef749964ae971422f0d445be11f9585de6a077edc32ea7ca74f14c240cf5f0848a8147596d84ed133820c91fc98d33f02b9dc6eee3fd158
   languageName: node
   linkType: hard
 
-"@wojtekmaj/enzyme-adapter-utils@npm:^0.1.2":
+"@wojtekmaj/enzyme-adapter-utils@npm:^0.1.4":
   version: 0.1.4
   resolution: "@wojtekmaj/enzyme-adapter-utils@npm:0.1.4"
   dependencies:
@@ -4521,7 +4521,7 @@ __metadata:
     "@babel/preset-env": 7.13.12
     "@babel/preset-flow": 7.13.13
     "@babel/preset-react": 7.13.13
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
+    "@wojtekmaj/enzyme-adapter-react-17": 0.6.7
     classnames: 2.3.1
     css-modules-require-hook: 4.2.3
     enzyme: 3.11.0
@@ -5042,7 +5042,7 @@ __metadata:
     "@babel/preset-env": 7.13.12
     "@babel/preset-flow": 7.13.13
     "@babel/preset-react": 7.13.13
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
+    "@wojtekmaj/enzyme-adapter-react-17": 0.6.7
     babel-jest: 27.5.1
     classnames: 2.3.1
     enzyme: 3.11.0
@@ -7495,7 +7495,7 @@ __metadata:
   dependencies:
     "@bunchtogether/vite-plugin-flow": 1.0.2
     "@vitejs/plugin-react": 1.2.0
-    "@wojtekmaj/enzyme-adapter-react-17": 0.6.6
+    "@wojtekmaj/enzyme-adapter-react-17": 0.6.7
     classnames: 2.3.1
     enzyme: 3.11.0
     immutable: 4.0.0-rc.12
