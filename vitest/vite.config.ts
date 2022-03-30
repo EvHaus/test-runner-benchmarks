@@ -11,7 +11,7 @@ export default defineConfig({
     plugins: [flowPlugin(), react()],
     test: {
         environment: 'jsdom',
-        global: true,
+        globals: true,
         setupFiles: ['setupTestFrameworkScriptFile.js'],
         watch: false
     },
