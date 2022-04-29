@@ -23,12 +23,12 @@
     "@babel/preset-flow": "7.13.13",
     "@babel/preset-react": "7.13.13",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
-    "babel-jest": "28.0.2",
+    "babel-jest": "28.0.3",
     "enzyme": "3.11.0",
     "identity-obj-proxy": "3.0.0",
-    "jest": "28.0.2",
+    "jest": "28.0.3",
     "jest-environment-jsdom": "28.0.2",
-    "jest-jasmine2": "28.0.2"
+    "jest-jasmine2": "28.0.3"
   },
   "jest": {
     "moduleNameMapper": {
