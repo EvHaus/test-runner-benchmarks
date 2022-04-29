@@ -26,7 +26,9 @@
     "babel-jest": "28.0.2",
     "enzyme": "3.11.0",
     "identity-obj-proxy": "3.0.0",
-    "jest": "28.0.2"
+    "jest": "28.0.2",
+    "jest-environment-jsdom": "28.0.2",
+    "jest-jasmine2": "28.0.2"
   },
   "jest": {
     "moduleNameMapper": {
