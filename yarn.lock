@@ -7401,7 +7401,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinypool@npm:^0.1.2":
+"tinypool@npm:^0.1.3":
   version: 0.1.3
   resolution: "tinypool@npm:0.1.3"
   checksum: 13ac687a23c03b02c2bf0b9711a3bb191d2c37941775a001b9617aac541c11ba144fb08de74f3f9723ec2649410f5d4fa7f0398fedd462b39fe3b30d19615ad8
@@ -7687,15 +7687,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.10.0":
-  version: 0.10.0
-  resolution: "vitest@npm:0.10.0"
+"vitest@npm:0.10.1":
+  version: 0.10.1
+  resolution: "vitest@npm:0.10.1"
   dependencies:
     "@types/chai": ^4.3.1
     "@types/chai-subset": ^1.3.3
     chai: ^4.3.6
     local-pkg: ^0.4.1
-    tinypool: ^0.1.2
+    tinypool: ^0.1.3
     tinyspy: ^0.3.2
     vite: ^2.9.5
   peerDependencies:
@@ -7714,7 +7714,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: bbcf6079f9b667be7d5def4aa397ad1318d282aa283f3aecda9822ce3bc9c1d1aac0423a8f05dfc4b772631571c2ea719bbe78072a2629ca207ed5b575836de1
+  checksum: 570093f6d5045566a7f6bacba1905ccc80a10867fadad0c5994095fcf18380839ded228c9f9c89cfe5b633e1c2200c3d960fa71009559fb2291fe9eb02f6b91c
   languageName: node
   linkType: hard
 
@@ -7733,7 +7733,7 @@ __metadata:
     react: 17.0.2
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
-    vitest: 0.10.0
+    vitest: 0.10.1
   languageName: unknown
   linkType: soft
 
