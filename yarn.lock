@@ -5886,12 +5886,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.1":
-  version: 3.3.3
-  resolution: "nanoid@npm:3.3.3"
+"nanoid@npm:^3.3.3":
+  version: 3.3.4
+  resolution: "nanoid@npm:3.3.4"
   bin:
     nanoid: bin/nanoid.cjs
-  checksum: ada019402a07464a694553c61d2dca8a4353645a7d92f2830f0d487fedff403678a0bee5323a46522752b2eab95a0bc3da98b6cccaa7c0c55cd9975130e6d6f0
+  checksum: 2fddd6dee994b7676f008d3ffa4ab16035a754f4bb586c61df5a22cf8c8c94017aadd360368f47d653829e0569a92b129979152ff97af23a558331e47e37cd9c
   languageName: node
   linkType: hard
 
@@ -6463,14 +6463,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.12":
-  version: 8.4.12
-  resolution: "postcss@npm:8.4.12"
+"postcss@npm:^8.4.13":
+  version: 8.4.13
+  resolution: "postcss@npm:8.4.13"
   dependencies:
-    nanoid: ^3.3.1
+    nanoid: ^3.3.3
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 248e3d0f9bbb8efaafcfda7f91627a29bdc9a19f456896886330beb28c5abea0e14c7901b35191928602e2eccbed496b1e94097d27a0b2a980854cd00c7a835f
+  checksum: 514fb3552805a5d039a2d6b4df3e73f657001716ca93c0d57e6067b0473abdea70276d80afc96005c9aaff82ed5d98062bd97724d3f47ca400fba0b5e9e436ed
   languageName: node
   linkType: hard
 
@@ -7658,13 +7658,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.9.5":
-  version: 2.9.6
-  resolution: "vite@npm:2.9.6"
+"vite@npm:^2.9.7":
+  version: 2.9.8
+  resolution: "vite@npm:2.9.8"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
-    postcss: ^8.4.12
+    postcss: ^8.4.13
     resolve: ^1.22.0
     rollup: ^2.59.0
   peerDependencies:
@@ -7683,13 +7683,13 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 79bbf516547f4adb1a297ac8648f8818b3e2a7bb113a7e12acc2355498d247556f58fc50d39eec4891c07250e7420e72773e358eeb8dc62af62fc1ff32c70877
+  checksum: 7de3450bec4caa06f4540d1d252563ef0b7e1bdd167d04abf03db72cfd8c9a93879e18861283bc7d075e1d094b78b71770ca36f9b965bdf28c66665eafdc29dc
   languageName: node
   linkType: hard
 
-"vitest@npm:0.10.2":
-  version: 0.10.2
-  resolution: "vitest@npm:0.10.2"
+"vitest@npm:0.10.4":
+  version: 0.10.4
+  resolution: "vitest@npm:0.10.4"
   dependencies:
     "@types/chai": ^4.3.1
     "@types/chai-subset": ^1.3.3
@@ -7697,7 +7697,7 @@ __metadata:
     local-pkg: ^0.4.1
     tinypool: ^0.1.3
     tinyspy: ^0.3.2
-    vite: ^2.9.5
+    vite: ^2.9.7
   peerDependencies:
     "@vitest/ui": "*"
     c8: "*"
@@ -7714,7 +7714,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 92d226a22e07f313838081286219c83d58d3dbe13bdbdfdb827410a4b19f3df883718ef570fd481ede9550b50f18cccc8c949e2bb7c9f15d654487b4fc4fad2d
+  checksum: d9d8c26bbc728c9b889fa96b469a694d1eebd439218d31c1a789e43f247c0ed993c52cbd001b503dc827a8a4c42c33d3085062bc90ec79651f372fe7f2baee39
   languageName: node
   linkType: hard
 
@@ -7733,7 +7733,7 @@ __metadata:
     react: 17.0.2
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
-    vitest: 0.10.2
+    vitest: 0.10.4
   languageName: unknown
   linkType: soft
 
