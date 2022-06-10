@@ -4714,22 +4714,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "jasmine-core@npm:4.1.0"
-  checksum: da9f995991273d3c2b7681329e3ac16f4605769de607a573e3c6501729ff95da426d2fe91a8ad78dc7e37107bdedf68983ea7a8d638cdba6b9c82a0ad4ede0a4
+"jasmine-core@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "jasmine-core@npm:4.2.0"
+  checksum: 86c731bb4d3d1f0149ced89f5b5729dccdeda963c6e844e6ec6ac21a76f46086e9aa47bcb1bd65024b48685af3c8c970368665682deaf81bc01203a3ff9ab03f
   languageName: node
   linkType: hard
 
-"jasmine@npm:4.1.0":
-  version: 4.1.0
-  resolution: "jasmine@npm:4.1.0"
+"jasmine@npm:4.2.0":
+  version: 4.2.0
+  resolution: "jasmine@npm:4.2.0"
   dependencies:
     glob: ^7.1.6
-    jasmine-core: ^4.1.0
+    jasmine-core: ^4.2.0
   bin:
     jasmine: bin/jasmine.js
-  checksum: 1654ad3de46c5575c1fcfbf0bd8f84c01dd468f03035431254e4efea8cb98cd74f9444307ac5f6ca2bd3821e6f0f6343ee739de1b891de39283bb0f17cae1621
+  checksum: 3c8b5df6ba3fca03b9831f0845e91a28d89ff320de5f537356be36a5fb10532e95d9bbe3c5db5f4d769a543e03e25028fe5ae6444585bf76c3d753df0baa93e8
   languageName: node
   linkType: hard
 
@@ -4749,7 +4749,7 @@ __metadata:
     css-modules-require-hook: 4.2.3
     enzyme: 3.11.0
     immutable: 4.0.0-rc.12
-    jasmine: 4.1.0
+    jasmine: 4.2.0
     jsdom: <16.0.0
     keycode: 2.2.0
     localstorage: 1.0.1
