@@ -7712,10 +7712,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyspy@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "tinyspy@npm:1.0.0"
-  checksum: f9a7cea406db9b0f99a4ef162eb0a45d88fc36facbc309702c8d568283baa363ab3c4138d8402fbfdef7a8d3157ff7cfae3e99ec6c75d8f684bd7b23485b5ec5
+"tinyspy@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "tinyspy@npm:1.0.2"
+  checksum: 32096121aa8d52bb625ad62c9314b3e4daba4ab9ac428217b12b1e1dfe9860e3c94d54a7affa279cc70dc6f10d88c6ba46b51de68896b318a06d02f05e87dcc3
   languageName: node
   linkType: hard
 
@@ -7994,9 +7994,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.22.0":
-  version: 0.22.0
-  resolution: "vitest@npm:0.22.0"
+"vitest@npm:0.22.1":
+  version: 0.22.1
+  resolution: "vitest@npm:0.22.1"
   dependencies:
     "@types/chai": ^4.3.3
     "@types/chai-subset": ^1.3.3
@@ -8005,7 +8005,7 @@ __metadata:
     debug: ^4.3.4
     local-pkg: ^0.4.2
     tinypool: ^0.2.4
-    tinyspy: ^1.0.0
+    tinyspy: ^1.0.2
     vite: ^2.9.12 || ^3.0.0-0
   peerDependencies:
     "@edge-runtime/vm": "*"
@@ -8026,7 +8026,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 717ae0ba4b70fae97cde7daeac256e1b973ce5673737a4f8c436d50a8eea4f5109c9015dbbd762a9d36b24a29d2ccd0f126fedc1246026d8a0ed9df214885497
+  checksum: 7abe50ceb51181e77cd62eb3a07c2da17f13078f09be34cc2e98f1f94a77eba33a56c644d48ae16bb474945ffc1cfc8664b1f4976c3de495c5e474057420c4ca
   languageName: node
   linkType: hard
 
@@ -8045,7 +8045,7 @@ __metadata:
     react: 17.0.2
     react-addons-css-transition-group: 15.6.2
     react-dom: 17.0.2
-    vitest: 0.22.0
+    vitest: 0.22.1
   languageName: unknown
   linkType: soft
 
