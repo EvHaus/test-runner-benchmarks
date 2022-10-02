@@ -16,13 +16,14 @@ yarn
 Then you can run benchmarks via:
 
 ```sh
-hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace jest test --shard' 'yarn workspace vitest test'
+hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace jest-swc test' 'yarn workspace vitest test'
 ```
 
 ## Suites
 
 - `jasmine`: This is our baseline, using Jasmine and happy-dom.
 - `jest`: Exact same test suite, but running using Jest.
+- `jest-swc`: Same as `jest` but using `@swc/jest` instead of `ts-jest`.
 - `vitest`: Exact same test suite, but running using Vitest. NOTE: That benchmarks include vitest with the `threads` setting enabled and disabled due to [issue](https://github.com/vitest-dev/vitest/issues/229#issuecomment-1003235680)
 
 ## Results
