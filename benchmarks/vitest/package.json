@@ -1,0 +1,24 @@
+{
+  "name": "vitest",
+  "version": "0.2.0",
+  "description": "",
+  "scripts": {
+    "test": "TZ=UTC vitest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@blueprintjs/icons": "4.6.0",
+    "clsx": "1.2.1",
+    "date-fns": "2.29.3",
+    "framer-motion": "7.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "14.4.3",
+    "happy-dom": "6.0.4",
+    "vitest": "0.23.4"
+  }
+}

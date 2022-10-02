@@ -13,11 +13,11 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'
           cache: 'yarn'
       
       - name: Install
-        run: yarn install && wget https://github.com/sharkdp/hyperfine/releases/download/v1.12.0/hyperfine_1.12.0_amd64.deb && sudo dpkg -i hyperfine_1.12.0_amd64.deb
+        run: yarn install && wget https://github.com/sharkdp/hyperfine/releases/download/v1.15.0/hyperfine_1.15.0_amd64.deb && sudo dpkg -i hyperfine_1.15.0_amd64.deb
       
       - name: Run
-        run: hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace jest test --shard' 'yarn workspace vitest test' 'yarn workspace vitest test --isolate=false'
+        run: hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace jest test --shard' 'yarn workspace vitest test'

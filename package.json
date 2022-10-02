@@ -1,14 +1,12 @@
 {
-    "name": "jest-vs-jasmine",
+    "name": "test-runner-benchmarks",
     "license": "MIT",
     "scripts": {
         "postinstall": "node ./setup.js"
     },
     "workspaces": {
         "packages": [
-            "jasmine",
-            "jest",
-            "vitest"
+            "benchmarks/*"
         ]
     },
     "packageManager": "yarn@3.2.3"

@@ -3,25 +3,5 @@
   "extends": [
     "config:base"
   ],
-  "ignoreDeps": [
-    "@babel/core",
-    "@babel/node",
-    "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-proposal-object-rest-spread",
-    "@babel/preset-env",
-    "@babel/preset-flow",
-    "@babel/preset-react",
-    "classnames",
-    "css-modules-require-hook",
-    "immutable",
-    "jsdom",
-    "keycode",
-    "localstorage",
-    "postcss-less",
-    "react",
-    "react-addons-css-transition-group",
-    "react-dom",
-    "react-motion"
-  ],
   "updateInternalDeps": true
 }
