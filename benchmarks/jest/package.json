@@ -8,7 +8,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@blueprintjs/icons": "4.6.0",
+    "@blueprintjs/icons": "4.6.1",
     "clsx": "1.2.1",
     "date-fns": "2.29.3",
     "framer-motion": "7.5.2",
