@@ -445,14 +445,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blueprintjs/icons@npm:4.6.0":
-  version: 4.6.0
-  resolution: "@blueprintjs/icons@npm:4.6.0"
+"@blueprintjs/icons@npm:4.6.3":
+  version: 4.6.3
+  resolution: "@blueprintjs/icons@npm:4.6.3"
   dependencies:
     change-case: ^4.1.2
-    classnames: ^2.2
+    classnames: ^2.3.2
     tslib: ~2.3.1
-  checksum: 057698d98739403b9a24ea114a6947842868979f5674d4a0a299a88a1f85893a7e09ce834541c1743e960c055f25af149a5b30362cc2ca17c02e01b0a448ddad
+  checksum: 85922e7659115d407e3f0e3f82549788b59a7f6ada6c8e23729d0526d3ae3e5fa57fecdcb77aa71afd0c6acbd77000a17e99bcb201391daeb3f8e539b4ea6835
   languageName: node
   linkType: hard
 
@@ -1971,7 +1971,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.2":
+"classnames@npm:^2.3.2":
   version: 2.3.2
   resolution: "classnames@npm:2.3.2"
   checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
@@ -3280,7 +3280,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jasmine@workspace:benchmarks/jasmine"
   dependencies:
-    "@blueprintjs/icons": 4.6.0
+    "@blueprintjs/icons": 4.6.3
     "@types/jasmine": 4.3.0
     clsx: 1.2.1
     css-modules-require-hook: 4.2.3
@@ -3692,7 +3692,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jest-swc@workspace:benchmarks/jest-swc"
   dependencies:
-    "@blueprintjs/icons": 4.6.0
+    "@blueprintjs/icons": 4.6.3
     "@happy-dom/jest-environment": 7.0.2
     "@swc/core": 1.3.5
     "@swc/jest": 0.2.23
@@ -3802,7 +3802,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jest@workspace:benchmarks/jest"
   dependencies:
-    "@blueprintjs/icons": 4.6.0
+    "@blueprintjs/icons": 4.6.3
     "@happy-dom/jest-environment": 7.0.2
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
@@ -5601,7 +5601,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vitest@workspace:benchmarks/vitest"
   dependencies:
-    "@blueprintjs/icons": 4.6.0
+    "@blueprintjs/icons": 4.6.3
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
