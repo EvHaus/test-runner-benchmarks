@@ -2892,22 +2892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:7.0.6":
-  version: 7.0.6
-  resolution: "happy-dom@npm:7.0.6"
-  dependencies:
-    css.escape: ^1.5.1
-    he: ^1.2.0
-    node-fetch: ^2.x.x
-    sync-request: ^6.1.0
-    webidl-conversions: ^7.0.0
-    whatwg-encoding: ^2.0.0
-    whatwg-mimetype: ^3.0.0
-  checksum: df3e1c78ae41120709497be2ab2a2dfbff711c1371a4495c9ac1f5ab72dc0da0b24c5371210875126aa484eba0cc435c2319277c5e868e72741bcb229c1084f3
-  languageName: node
-  linkType: hard
-
-"happy-dom@npm:^7.1.1":
+"happy-dom@npm:7.1.1, happy-dom@npm:^7.1.1":
   version: 7.1.1
   resolution: "happy-dom@npm:7.1.1"
   dependencies:
@@ -3301,7 +3286,7 @@ __metadata:
     css-modules-require-hook: 4.2.3
     date-fns: 2.29.3
     framer-motion: 7.5.2
-    happy-dom: 7.0.6
+    happy-dom: 7.1.1
     jasmine: 4.4.0
     react: 18.2.0
     react-dom: 18.2.0
@@ -5622,7 +5607,7 @@ __metadata:
     clsx: 1.2.1
     date-fns: 2.29.3
     framer-motion: 7.5.2
-    happy-dom: 7.0.6
+    happy-dom: 7.1.1
     react: 18.2.0
     react-dom: 18.2.0
     vitest: 0.23.4
