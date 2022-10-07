@@ -488,17 +488,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happy-dom/jest-environment@npm:7.1.1":
-  version: 7.1.1
-  resolution: "@happy-dom/jest-environment@npm:7.1.1"
+"@happy-dom/jest-environment@npm:7.3.0":
+  version: 7.3.0
+  resolution: "@happy-dom/jest-environment@npm:7.3.0"
   dependencies:
     "@jest/environment": ^27.5.1
     "@jest/fake-timers": ^27.5.1
     "@jest/types": ^27.5.1
-    happy-dom: ^7.1.1
+    happy-dom: ^7.3.0
     jest-mock: ^27.5.1
     jest-util: ^27.5.1
-  checksum: 613c2fcefa0cb67c271d81b2191a5fe64c00aa470a533496902e7d30118c764a11fccc75cc4d6b62d644fff30c9d11233602c6f1432cd019c7260d258b08ce5b
+  checksum: fbf1f534f1d38eed085b768d58bda60586550a0023d20b5f1b38a2e0c520bf0281808b2230da7ab991d857d65666708b4390f42424c6bd3778afe2a2d573054c
   languageName: node
   linkType: hard
 
@@ -2892,7 +2892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:7.1.1, happy-dom@npm:^7.1.1":
+"happy-dom@npm:7.1.1":
   version: 7.1.1
   resolution: "happy-dom@npm:7.1.1"
   dependencies:
@@ -2904,6 +2904,21 @@ __metadata:
     whatwg-encoding: ^2.0.0
     whatwg-mimetype: ^3.0.0
   checksum: 813e4ddbf6ad377e3dd8dbbfb3f50169bfd9e2323a5cc8ccb6d6960d3a3357a46adf2901905e4624af86775ab463c781a4da38f5f9ae537f1ca2ea88a0416f19
+  languageName: node
+  linkType: hard
+
+"happy-dom@npm:^7.3.0":
+  version: 7.3.0
+  resolution: "happy-dom@npm:7.3.0"
+  dependencies:
+    css.escape: ^1.5.1
+    he: ^1.2.0
+    node-fetch: ^2.x.x
+    sync-request: ^6.1.0
+    webidl-conversions: ^7.0.0
+    whatwg-encoding: ^2.0.0
+    whatwg-mimetype: ^3.0.0
+  checksum: 3581b344453526cae6b03b5c13c7486cc6681779252ec43ae7574cd27b6112d10e3841c204cff1f2c4305ff978836b0796aba85b2bb8a8596b1f184b17dbb53b
   languageName: node
   linkType: hard
 
@@ -3693,7 +3708,7 @@ __metadata:
   resolution: "jest-swc@workspace:benchmarks/jest-swc"
   dependencies:
     "@blueprintjs/icons": 4.6.3
-    "@happy-dom/jest-environment": 7.1.1
+    "@happy-dom/jest-environment": 7.3.0
     "@swc/core": 1.3.5
     "@swc/jest": 0.2.23
     "@testing-library/react": 13.4.0
@@ -3803,7 +3818,7 @@ __metadata:
   resolution: "jest@workspace:benchmarks/jest"
   dependencies:
     "@blueprintjs/icons": 4.6.3
-    "@happy-dom/jest-environment": 7.1.1
+    "@happy-dom/jest-environment": 7.3.0
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
