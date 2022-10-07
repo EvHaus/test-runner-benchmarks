@@ -2693,9 +2693,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:7.5.2":
-  version: 7.5.2
-  resolution: "framer-motion@npm:7.5.2"
+"framer-motion@npm:7.5.3":
+  version: 7.5.3
+  resolution: "framer-motion@npm:7.5.3"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     "@motionone/dom": 10.13.1
@@ -2710,7 +2710,7 @@ __metadata:
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: 8c7f664e758ee351270dcce373a7d5a55230d6cd45abf57df95ee6641f6130b1a38c106949443053ba7724d0216b654a708da6feb88f5486aca8ed0fbf826f7e
+  checksum: 5b038ecb44e355916cef2310a1f0df7937f7e38e36b91e35a1dc0425b7717f8e5dd76b5cbf0acd38b81027ba0d8fc33d9148d901ecee7017adc76e2ae466bfea
   languageName: node
   linkType: hard
 
@@ -3300,7 +3300,7 @@ __metadata:
     clsx: 1.2.1
     css-modules-require-hook: 4.2.3
     date-fns: 2.29.3
-    framer-motion: 7.5.2
+    framer-motion: 7.5.3
     happy-dom: 7.1.1
     jasmine: 4.4.0
     react: 18.2.0
@@ -3715,7 +3715,7 @@ __metadata:
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
     date-fns: 2.29.3
-    framer-motion: 7.5.2
+    framer-motion: 7.5.3
     identity-obj-proxy: 3.0.0
     jest: 29.1.2
     react: 18.2.0
@@ -3823,7 +3823,7 @@ __metadata:
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
     date-fns: 2.29.3
-    framer-motion: 7.5.2
+    framer-motion: 7.5.3
     identity-obj-proxy: 3.0.0
     jest: 29.1.2
     react: 18.2.0
@@ -5621,7 +5621,7 @@ __metadata:
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
     date-fns: 2.29.3
-    framer-motion: 7.5.2
+    framer-motion: 7.5.3
     happy-dom: 7.1.1
     react: 18.2.0
     react-dom: 18.2.0
