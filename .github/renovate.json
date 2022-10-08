@@ -3,5 +3,20 @@
   "extends": [
     "config:base"
   ],
+  "ignoreDeps": [
+    "@blueprintjs/icons",
+    "@happy-dom/jest-environment",
+    "@testing-library/react",
+    "@testing-library/user-event",
+    "@types/jasmine",
+    "clsx",
+    "date-fns",
+    "framer-motion",
+    "happy-dom",
+    "identity-obj-proxy",
+    "react",
+    "react-dom",
+    "typescript"
+  ],
   "updateInternalDeps": true
 }
