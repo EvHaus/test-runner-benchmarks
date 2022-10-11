@@ -1,0 +1,12 @@
+.main {
+	align-items: center;
+	display: flex;
+	gap: 4px;
+}
+
+.ellipsis {
+	align-items: center;
+	display: flex;
+	height: 32px;
+	justify-content: center;
+}
