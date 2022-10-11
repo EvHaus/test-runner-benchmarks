@@ -5,6 +5,7 @@
   ],
   "ignoreDeps": [
     "@blueprintjs/icons",
+    "@floating-ui/react-dom-interactions",
     "@happy-dom/jest-environment",
     "@testing-library/react",
     "@testing-library/user-event",

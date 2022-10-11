@@ -9,6 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "@blueprintjs/icons": "4.6.3",
+    "@floating-ui/react-dom-interactions": "0.10.1",
     "clsx": "1.2.1",
     "date-fns": "2.29.3",
     "framer-motion": "7.5.3",
@@ -40,6 +41,9 @@
           "isolatedModules": true
         }
       ]
-    }
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-merge-refs)"
+    ]
   }
 }

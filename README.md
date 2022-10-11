@@ -36,6 +36,7 @@ Benchmarks are run via GitHub Actions. You can check the latest run results [her
 - Discard the first run (via `--warmup 1`) to let various caches build up
 - Use minimal configurations (ie. stock configurations)
 - Tests should represent real-world scenarios (in this case, they are copies of real files used in real projects)
+- Tests should be updated for each test runner's best practices and APIs to give them the best chance possible to be optimized (eg. Jasmine uses APIs like `createSpy()` whereas Jest has `jest.fn()` and Vitest has `vi.fn()`)
 
 ## Other Suites
 
