@@ -11,7 +11,7 @@ describe('<StatusBadge />', () => {
 		expect(asFragment()).toMatchInlineSnapshot(`
 			<DocumentFragment>
 			  <strong
-			    class="_main_499a96 _green_499a96"
+			    class="main green"
 			    title="DRAFTED"
 			  >
 			    DRAFTED
