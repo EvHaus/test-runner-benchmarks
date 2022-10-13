@@ -8,7 +8,6 @@ export default defineConfig({
             }
         },
         environment: 'happy-dom',
-        isolate: false,
         setupFiles: ['setupFile.ts'],
         watch: false
     },

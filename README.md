@@ -16,7 +16,7 @@ yarn
 Then you can run benchmarks via:
 
 ```sh
-hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace jest-swc test' 'yarn workspace vitest test' 'yarn workspace fastest-test-runner test'
+hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace jest-swc test' 'yarn workspace vitest test' 'yarn workspace vitest test --isolate=false' 'yarn workspace fastest-test-runner test'
 ```
 
 ## Suites
