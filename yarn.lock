@@ -2863,9 +2863,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastest-jest-runner@npm:29.0.5":
-  version: 29.0.5
-  resolution: "fastest-jest-runner@npm:29.0.5"
+"fastest-jest-runner@npm:29.0.6":
+  version: 29.0.6
+  resolution: "fastest-jest-runner@npm:29.0.6"
   dependencies:
     "@jest/console": ^29.0.0
     "@jest/environment": ^29.0.0
@@ -2875,6 +2875,7 @@ __metadata:
     "@types/node": 14.14.45
     chalk: ^4.0.0
     co: ^4.6.0
+    debug: ^4.3.4
     emittery: ^0.10.2
     graceful-fs: ^4.2.9
     is-generator-fn: ^2.0.0
@@ -2894,7 +2895,7 @@ __metadata:
     node-gyp: ^9.1.0
     p-limit: ^3.1.0
     source-map-support: 0.5.13
-  checksum: 929173dc85ddce6f9c08e2b39148ee9030140b5ba7bc1d2162af4ac98e414525978371d45e7b691c087f23d047d14ac4109f293f93728a95ad12b5bbf8b83115
+  checksum: 8f7771f7d97df30d00fc2a3f2827fe05579724a7401396d7975137faeec504b202496c9c45fa6a4373a9035792031334b9e817c01e29e8ab594ebd4faf9740d1
   languageName: node
   linkType: hard
 
@@ -2909,7 +2910,7 @@ __metadata:
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
     date-fns: 2.29.3
-    fastest-jest-runner: 29.0.5
+    fastest-jest-runner: 29.0.6
     framer-motion: 7.5.3
     identity-obj-proxy: 3.0.0
     jest: 29.3.1
