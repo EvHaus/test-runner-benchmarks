@@ -20,7 +20,7 @@
     "@happy-dom/jest-environment": "7.4.0",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.4.3",
-    "fastest-jest-runner": "29.0.5",
+    "fastest-jest-runner": "29.0.6",
     "identity-obj-proxy": "3.0.0",
     "jest": "29.3.1",
     "ts-jest": "29.0.3",
