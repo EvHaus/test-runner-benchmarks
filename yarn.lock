@@ -6195,9 +6195,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.25.5":
-  version: 0.25.5
-  resolution: "vitest@npm:0.25.5"
+"vitest@npm:0.25.6":
+  version: 0.25.6
+  resolution: "vitest@npm:0.25.6"
   dependencies:
     "@types/chai": ^4.3.3
     "@types/chai-subset": ^1.3.3
@@ -6232,7 +6232,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: f3e6cbe53f41ccdcf9d4a6dc71f22678007197388b4f1094c04ce28f778b99fce6cd7b2f35049aeffa8cd80cb25c0683f14dd008fdf0a54c6bc39fa3f2cb38a0
+  checksum: 0e42d162fab3298c39a7c40aac9bee3dc79d0b90f5fddfc698d68dfbfba7c4da2142f78168dc7998a213d8ec2aa4fbbfab3f0cc71a04b591ff5a62bd4dbb258c
   languageName: node
   linkType: hard
 
@@ -6250,7 +6250,7 @@ __metadata:
     happy-dom: 7.4.0
     react: 18.2.0
     react-dom: 18.2.0
-    vitest: 0.25.5
+    vitest: 0.25.6
   languageName: unknown
   linkType: soft
 
