@@ -22,9 +22,9 @@ hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'y
 ## Suites
 
 - `jasmine`: This is our baseline, using Jasmine and happy-dom.
-- `jest`: Exact same test suite, but running using Jest.
+- `jest`: Same test suite, but running using Jest.
 - `jest-swc`: Same as `jest` but using `@swc/jest` instead of `ts-jest`.
-- `vitest`: Exact same test suite, but running using Vitest. NOTE: That benchmarks include vitest with the `threads` setting enabled and disabled due to [issue](https://github.com/vitest-dev/vitest/issues/229#issuecomment-1003235680)
+- `vitest`: Same test suite, but running using Vitest. NOTE: That benchmarks include vitest with the `isolate` setting both enabled and disabled due to [this issue](https://github.com/vitest-dev/vitest/issues/229#issuecomment-1003235680)
 - `fastest-jest-runner`: Same as `jest` but using [`fastest-jest-runner`](https://github.com/goloveychuk/fastest-jest-runner)
 
 ## Results
