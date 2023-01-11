@@ -4867,6 +4867,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mlly@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "mlly@npm:1.1.0"
+  dependencies:
+    acorn: ^8.8.1
+    pathe: ^1.0.0
+    pkg-types: ^1.0.1
+    ufo: ^1.0.1
+  checksum: d53147a2f5f83499589c47a00e00df30cbae2e630dfcfdfdeee2b70b49aff6612f2fa13195a1c6268b8f8ecd6064cb9a35febbdf895b2cbfeacdf9a9b3e31493
+  languageName: node
+  linkType: hard
+
 "ms@npm:2.0.0":
   version: 2.0.0
   resolution: "ms@npm:2.0.0"
@@ -5220,7 +5232,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkg-types@npm:^1.0.0":
+"pkg-types@npm:^1.0.0, pkg-types@npm:^1.0.1":
   version: 1.0.1
   resolution: "pkg-types@npm:1.0.1"
   dependencies:
@@ -5660,6 +5672,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"siginfo@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "siginfo@npm:2.0.0"
+  checksum: 8aa5a98640ca09fe00d74416eca97551b3e42991614a3d1b824b115fc1401543650914f651ab1311518177e4d297e80b953f4cd4cd7ea1eabe824e8f2091de01
+  languageName: node
+  linkType: hard
+
 "signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
@@ -5775,6 +5794,13 @@ __metadata:
   dependencies:
     escape-string-regexp: ^2.0.0
   checksum: 76b69da0f5b48a34a0f93c98ee2a96544d2c4ca2557f7eef5ddb961d3bdc33870b46f498a84a7c4f4ffb781df639840e7ebf6639164ed4da5e1aeb659615b9c7
+  languageName: node
+  linkType: hard
+
+"stackback@npm:0.0.2":
+  version: 0.0.2
+  resolution: "stackback@npm:0.0.2"
+  checksum: 2d4dc4e64e2db796de4a3c856d5943daccdfa3dd092e452a1ce059c81e9a9c29e0b9badba91b43ef0d5ff5c04ee62feb3bcc559a804e16faf447bac2d883aa99
   languageName: node
   linkType: hard
 
@@ -6147,7 +6173,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ufo@npm:^1.0.0":
+"ufo@npm:^1.0.0, ufo@npm:^1.0.1":
   version: 1.0.1
   resolution: "ufo@npm:1.0.1"
   checksum: 63024876f21b7cc44267255a8043062046d3215e09212bd682787a13ccf1e0c5d23f7686a7f1bc7ac9f34c7e8a88100af234f42b509db50f17ce638af6ac87cc
@@ -6229,13 +6255,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-node@npm:0.27.0":
-  version: 0.27.0
-  resolution: "vite-node@npm:0.27.0"
+"vite-node@npm:0.27.1":
+  version: 0.27.1
+  resolution: "vite-node@npm:0.27.1"
   dependencies:
     cac: ^6.7.14
     debug: ^4.3.4
-    mlly: ^1.0.0
+    mlly: ^1.1.0
     pathe: ^0.2.0
     picocolors: ^1.0.0
     source-map: ^0.6.1
@@ -6243,7 +6269,7 @@ __metadata:
     vite: ^3.0.0 || ^4.0.0
   bin:
     vite-node: vite-node.mjs
-  checksum: 946d410750640ad0ab2d41f1a8faed42b3c004dd323532bd3d630d5ce41e0a3f56b03fb955afbfb1165b861488cace7093ad82aeedbadf2f631bf388d9140e9b
+  checksum: 1cd6b40395365e30edaf926b7cfec03230c92a99ee6565c79b3b2ac9b35863843ad2f24536e80c1f816b49fae55e7ab9dabf3a40fe61ea65d4d5e4774b0f60af
   languageName: node
   linkType: hard
 
@@ -6285,9 +6311,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.27.0":
-  version: 0.27.0
-  resolution: "vitest@npm:0.27.0"
+"vitest@npm:0.27.1":
+  version: 0.27.1
+  resolution: "vitest@npm:0.27.1"
   dependencies:
     "@types/chai": ^4.3.4
     "@types/chai-subset": ^1.3.3
@@ -6305,7 +6331,8 @@ __metadata:
     tinypool: ^0.3.0
     tinyspy: ^1.0.2
     vite: ^3.0.0 || ^4.0.0
-    vite-node: 0.27.0
+    vite-node: 0.27.1
+    why-is-node-running: ^2.2.2
   peerDependencies:
     "@edge-runtime/vm": "*"
     "@vitest/browser": "*"
@@ -6325,7 +6352,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 46e68b74ce691dd95210991338c6ef7498b1f816c26388066f789f803e1b64ab5ea9ab89e9efcf244c1bcd7a76c281a9467d79380ac3506abfd2cd79c72d37e2
+  checksum: 635b83429c74db4b9e10954ffd7eb21c9927fc83ea4c53e935cf2d8d15636b07b7482fa0c9469a32248da6570bdabfee08b9bc3b57d7b2a52861533115f9c8bc
   languageName: node
   linkType: hard
 
@@ -6343,7 +6370,7 @@ __metadata:
     happy-dom: 7.4.0
     react: 18.2.0
     react-dom: 18.2.0
-    vitest: 0.27.0
+    vitest: 0.27.1
   languageName: unknown
   linkType: soft
 
@@ -6404,6 +6431,18 @@ __metadata:
   bin:
     node-which: ./bin/node-which
   checksum: 1a5c563d3c1b52d5f893c8b61afe11abc3bab4afac492e8da5bde69d550de701cf9806235f20a47b5c8fa8a1d6a9135841de2596535e998027a54589000e66d1
+  languageName: node
+  linkType: hard
+
+"why-is-node-running@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "why-is-node-running@npm:2.2.2"
+  dependencies:
+    siginfo: ^2.0.0
+    stackback: 0.0.2
+  bin:
+    why-is-node-running: cli.js
+  checksum: 50820428f6a82dfc3cbce661570bcae9b658723217359b6037b67e495255409b4c8bc7931745f5c175df71210450464517cab32b2f7458ac9c40b4925065200a
   languageName: node
   linkType: hard
 
