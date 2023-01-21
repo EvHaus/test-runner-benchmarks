@@ -5804,6 +5804,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"std-env@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "std-env@npm:3.3.1"
+  checksum: c4f59ecd2cb52041ce1785776d28a1aa56d346b6c4efcb8473e7e801eed1ac7612332dcee242d0b35948f35f745cceb6e226b5e825b59e588b262dca6be2b8aa
+  languageName: node
+  linkType: hard
+
 "string-length@npm:^4.0.1":
   version: 4.0.2
   resolution: "string-length@npm:4.0.2"
@@ -6255,9 +6262,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-node@npm:0.27.2":
-  version: 0.27.2
-  resolution: "vite-node@npm:0.27.2"
+"vite-node@npm:0.27.3":
+  version: 0.27.3
+  resolution: "vite-node@npm:0.27.3"
   dependencies:
     cac: ^6.7.14
     debug: ^4.3.4
@@ -6269,7 +6276,7 @@ __metadata:
     vite: ^3.0.0 || ^4.0.0
   bin:
     vite-node: vite-node.mjs
-  checksum: 4cdb4fd952481548dbece6bc86c339cf806f07d58b9e95e7f9e57e4a4f7d5faaf1629dcea4d2a7366080884c1d82b2794ab595e9e5e003c0cf63f17e32a17d13
+  checksum: f7acf7fcd378edad5ccfc36ced495f8981a69bf7ab60826edb36d4c08afcddf815221f46640e29ea81d1f25bf5719edd8b3c958a3a9e66a89c1fd0fba3be35ac
   languageName: node
   linkType: hard
 
@@ -6311,9 +6318,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:0.27.2":
-  version: 0.27.2
-  resolution: "vitest@npm:0.27.2"
+"vitest@npm:0.27.3":
+  version: 0.27.3
+  resolution: "vitest@npm:0.27.3"
   dependencies:
     "@types/chai": ^4.3.4
     "@types/chai-subset": ^1.3.3
@@ -6326,12 +6333,13 @@ __metadata:
     local-pkg: ^0.4.2
     picocolors: ^1.0.0
     source-map: ^0.6.1
+    std-env: ^3.3.1
     strip-literal: ^1.0.0
     tinybench: ^2.3.1
     tinypool: ^0.3.0
     tinyspy: ^1.0.2
     vite: ^3.0.0 || ^4.0.0
-    vite-node: 0.27.2
+    vite-node: 0.27.3
     why-is-node-running: ^2.2.2
   peerDependencies:
     "@edge-runtime/vm": "*"
@@ -6352,7 +6360,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 0c441656f476ed49fb3d0238a070e836272156d80161ff2153397aa06e711abd6779fad6769126840eda2b1d12568b77aea953e14fbad8569cde2d6fb900f165
+  checksum: 79b787526311385c96a9ae5641094224e1258d663f3e858e874ab51663a9cdfc3dbc347eddcec8843921bb812bcf4fa5508145d9b2f9c7e6bf9a5c60c1cad8d3
   languageName: node
   linkType: hard
 
@@ -6370,7 +6378,7 @@ __metadata:
     happy-dom: 7.4.0
     react: 18.2.0
     react-dom: 18.2.0
-    vitest: 0.27.2
+    vitest: 0.27.3
   languageName: unknown
   linkType: soft
 
