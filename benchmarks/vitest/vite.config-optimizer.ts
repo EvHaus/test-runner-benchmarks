@@ -7,6 +7,9 @@ export default defineConfig({
                 classNameStrategy: 'non-scoped'
             }
         },
+        deps: {
+            experimentalOptimizer: true
+        },
         environment: 'happy-dom',
         setupFiles: ['setupFile.ts'],
         watch: false
