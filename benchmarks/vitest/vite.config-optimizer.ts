@@ -8,7 +8,9 @@ export default defineConfig({
             }
         },
         deps: {
-            experimentalOptimizer: true
+            experimentalOptimizer: {
+                enabled: true
+            }
         },
         environment: 'happy-dom',
         setupFiles: ['setupFile.ts'],
