@@ -43,5 +43,5 @@ Benchmarks are run via GitHub Actions. You can check the latest run results [her
 - `jest-dot`: [It was suggested](https://github.com/facebook/jest/issues/6694#issuecomment-409574937) that using Jest's dot reporter might result in faster performance. In the past this benchmark repo had a `jest-dot` suite to validate this but after many runs, it had nearly no impact on performance. The suite has since been removed.
 - `jest-goloveychuk`: [GitHub user @goloveychuk suggested a solution](https://github.com/facebook/jest/issues/6694#issuecomment-814234244) which reduces Jest's memory usage. This solution was added and tested, but the performance impact was not any different.
 - `fastest-jest-runner`: Same as `jest` but using [`fastest-jest-runner`](https://github.com/goloveychuk/fastest-jest-runner). This solution was tested for several months but its performance in this benchmark was far worse than any of the others (including the baseline `jest`). It was removed in 2023-02-25.
-- - `jest-swc`: Same as `jest` but using `@swc/jest` instead of `ts-jest`. It showed virtually no impact on performance. It was removed in 2023-05-22.
+- `jest-swc`: Same as `jest` but using `@swc/jest` instead of `ts-jest`. It showed virtually no impact on performance. It was removed in 2023-05-22.
 
