@@ -17,8 +17,8 @@ jobs:
           cache: 'yarn'
       
       - name: Install
-        run: >
-          # Install dependencesi
+        run: |
+          # Install dependencies
           yarn install
 
           # Install hyperfine
