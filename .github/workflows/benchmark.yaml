@@ -24,10 +24,12 @@ jobs:
           # Install hyperfine
           wget https://github.com/sharkdp/hyperfine/releases/download/v1.16.1/hyperfine_1.16.1_amd64.deb
           sudo dpkg -i hyperfine_1.16.1_amd64.deb
-
-          # Install bun
-          curl -fsSL https://bun.sh/install | bash
       
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
       - name: Run
         run: |
           hyperfine --warmup 1 \
