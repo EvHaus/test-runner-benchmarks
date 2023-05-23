@@ -17,7 +17,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@happy-dom/global-registrator": "9.20.1",
+    "@happy-dom/global-registrator": "9.20.3",
     "happy-dom": "7.4.0",
     "jsdom": "22.0.0",
     "sinon": "15.1.0"
