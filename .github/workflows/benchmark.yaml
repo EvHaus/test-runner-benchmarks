@@ -28,13 +28,13 @@ jobs:
       - name: Install bun
         uses: oven-sh/setup-bun@v1
         with:
-          bun-version: canary
+          # Cannot upgrade due to https://github.com/oven-sh/bun/issues/8314
+          bun-version: 1.0.23
 
       - name: Run
         run: |
           hyperfine --warmup 1 \
           'yarn workspace jasmine test' \
           'yarn workspace jest test' \
-          'yarn workspace vitest test' \
-          'yarn workspace vitest test --pool=vmThreads' \
-          'yarn workspace vitest test --poolOptions.threads.isolate=false'
+          'yarn workspace vitest test --poolOptions.threads.isolate=false' \
+          'yarn workspace tape test'

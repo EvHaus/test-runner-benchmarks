@@ -1,9 +1,9 @@
 {
-  "name": "jasmine",
+  "name": "tape",
   "version": "0.2.0",
   "description": "",
   "scripts": {
-    "test": "TZ=UTC ts-node --esm -P tsconfig.json ../../node_modules/.bin/jasmine"
+    "test": "TZ=UTC ts-node --esm -P tsconfig.json ../../node_modules/.bin/tape -r ./helpers/css.ts -r ./helpers/happydom.ts tests/**/*.test.tsx"
   },
   "author": "",
   "license": "MIT",
@@ -17,10 +17,14 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/jasmine": "5.1.4",
+    "@testing-library/react": "14.2.1",
+    "@testing-library/user-event": "14.5.2",
     "css-modules-require-hook": "4.2.3",
     "happy-dom": "13.6.2",
-    "jasmine": "5.1.0",
-    "ts-node": "10.9.2"
+    "sinon": "17.0.1",
+    "tape": "5.7.5",
+    "tape-describe": "1.0.3",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
   }
 }

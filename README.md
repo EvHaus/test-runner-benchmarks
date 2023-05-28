@@ -5,7 +5,15 @@ This repo is setup to test the performance of various test runners. Specially to
 - Help the **Jest** team with https://github.com/facebook/jest/issues/6694.
 - Help the **Vitest** team with https://github.com/vitest-dev/vitest/issues/229 & https://github.com/vitest-dev/vitest/issues/579
 
-![](results.png?raw=true)
+## Results
+
+### Single-thread (on GitHub Actions CI)
+
+![](result-single-thread.png?raw=true)
+
+### Multi-thread (12 core PC)
+
+![](result-multi-thread.png?raw=true)
 
 ## Setup
 
@@ -19,12 +27,11 @@ Then you can run benchmarks via:
 
 ```sh
 hyperfine --warmup 1 \
+    'yarn workspace bun test' \
     'yarn workspace jasmine test' \
     'yarn workspace jest test' \
-    'yarn workspace vitest test' \
-    'yarn workspace vitest test --pool=vmThreads' \
-    'yarn workspace vitest test --poolOptions.threads.isolate=false' \
-    'yarn workspace bun test'
+    'yarn workspace tape test' \
+    'yarn workspace vitest test --poolOptions.threads.isolate=false'
 ```
 
 > [!NOTE]
@@ -33,9 +40,12 @@ hyperfine --warmup 1 \
 ## Suites
 
 - `jasmine`: This is our baseline, using Jasmine and happy-dom.
-- `jest`: Same test suite, but running using Jest.
-- `vitest`: Same test suite, but running using Vitest. NOTE: That benchmarks include vitest with the `--poolOptions.threads.isolate` setting both enabled and disabled due to [this issue](https://github.com/vitest-dev/vitest/issues/229#issuecomment-1003235680)
+    - *NOTE*: Jasmine doesn't support shapshot testing so those tests do a basic comparison
 - `bun`: Same test suite, but running using Bun.
+- `jest`: Same test suite, but running using Jest.
+- `tape`: Same test suite, but running using Tape and ts-node.
+    - *NOTE*: Tape doesn't support shapshot testing so those tests do a basic comparison
+- `vitest`: Same test suite, but running using Vitest. *NOTE*: That benchmarks use `--poolOptions.threads.isolate=false` as it has the best performance (see [this comment](https://github.com/vitest-dev/vitest/issues/579#issuecomment-1946462435))
 
 ## Results
 
@@ -46,7 +56,7 @@ Benchmarks are run via GitHub Actions. You can check the latest run results [her
 - Use `hyperfine` for consistent and reproducible benchmark collection
 - Discard the first run (via `--warmup 1`) to let various caches build up
 - Use minimal configurations (ie. stock configurations)
-- Tests should represent real-world scenarios (in this case, they are copies of real files used in real projects)
+- Tests should represent a modern real-world scenario (in this case, they are copies of real files used in a real TypeScript React project)
 - Tests should be updated for each test runner's best practices and APIs to give them the best chance possible to be optimized (eg. Jasmine uses APIs like `createSpy()` whereas Jest has `jest.fn()` and Vitest has `vi.fn()`)
 
 ## Other Suites
