@@ -20,6 +20,6 @@
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.4.3",
     "happy-dom": "7.4.0",
-    "vitest": "0.31.3"
+    "vitest": "0.31.4"
   }
 }
