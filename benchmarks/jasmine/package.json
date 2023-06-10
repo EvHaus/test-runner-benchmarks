@@ -20,7 +20,7 @@
     "@types/jasmine": "4.3.0",
     "css-modules-require-hook": "4.2.3",
     "happy-dom": "7.4.0",
-    "jasmine": "5.0.0",
+    "jasmine": "5.0.1",
     "ts-node": "10.9.1"
   }
 }
