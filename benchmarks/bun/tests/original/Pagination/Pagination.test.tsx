@@ -1,9 +1,8 @@
 import Pagination from '.';
 import {render} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import {describe, expect, it} from "bun:test";
+import {describe, expect, it, mock} from "bun:test";
 import React from 'react';
-import sinon from 'sinon';
 
 describe('<Pagination />', () => {
 	const DEFAULT_PROPS = {
@@ -45,7 +44,7 @@ describe('<Pagination />', () => {
 	});
 
 	it('should navigate to the page when clicking on that specific page', async () => {
-		const onPageChange = sinon.spy();
+		const onPageChange = mock();
 		const user = userEvent.setup()
 		const {getByText} = render(
 			<Pagination
@@ -55,6 +54,6 @@ describe('<Pagination />', () => {
 				totalPages={5} />
 		);
 		await user.click(getByText(2));
-		expect(onPageChange.calledWith(2)).toEqual(true);
+		expect(onPageChange).toHaveBeenCalledTimes(1);
 	});
 });

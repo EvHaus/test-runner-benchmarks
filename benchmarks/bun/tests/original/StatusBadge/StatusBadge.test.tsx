@@ -2,7 +2,6 @@ import StatusBadge from '.';
 import {cleanup, render} from '@testing-library/react';
 import {afterEach, describe, expect, it} from "bun:test";
 import React from 'react';
-import sinon from 'sinon';
 
 describe('<StatusBadge />', () => {
 	// Ideally Bun can give us a way to set this globally
