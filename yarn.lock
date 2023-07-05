@@ -655,12 +655,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happy-dom/global-registrator@npm:9.20.3":
-  version: 9.20.3
-  resolution: "@happy-dom/global-registrator@npm:9.20.3"
+"@happy-dom/global-registrator@npm:10.0.3":
+  version: 10.0.3
+  resolution: "@happy-dom/global-registrator@npm:10.0.3"
   dependencies:
-    happy-dom: ^9.20.3
-  checksum: 8d77044850ebb6b39f1108f764f1742fe30787941533bd207b565b32dc1860fb39787d17ab9df5a66320cede809fdb35a77d52f2e8b99f77e3fc8d65ba2ce4ea
+    happy-dom: ^10.0.3
+  checksum: d03608743285510087b0138acf19aa7fb8325cc21af4e3e4cf66c675d81bd0506dd0dbf222ae433e82059795d75842f73f2b3bab5c4de60292c4ee66cad12478
   languageName: node
   linkType: hard
 
@@ -1981,7 +1981,7 @@ __metadata:
   dependencies:
     "@blueprintjs/icons": 4.6.3
     "@floating-ui/react-dom-interactions": 0.10.1
-    "@happy-dom/global-registrator": 9.20.3
+    "@happy-dom/global-registrator": 10.0.3
     clsx: 1.2.1
     date-fns: 2.29.3
     framer-motion: 7.5.3
@@ -3082,6 +3082,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"happy-dom@npm:^10.0.3":
+  version: 10.0.3
+  resolution: "happy-dom@npm:10.0.3"
+  dependencies:
+    css.escape: ^1.5.1
+    entities: ^4.5.0
+    iconv-lite: ^0.6.3
+    webidl-conversions: ^7.0.0
+    whatwg-encoding: ^2.0.0
+    whatwg-mimetype: ^3.0.0
+  checksum: 75e3e939263736f7224a81479fdf02745613583cd57ddad6658f3f80fd20275ea5bf54438fe425d0d036cdf6cb71e65cda11a090923a34d05e0497cd1962a2da
+  languageName: node
+  linkType: hard
+
 "happy-dom@npm:^7.4.0":
   version: 7.5.5
   resolution: "happy-dom@npm:7.5.5"
@@ -3094,20 +3108,6 @@ __metadata:
     whatwg-encoding: ^2.0.0
     whatwg-mimetype: ^3.0.0
   checksum: 189e3b2320255a06b7d2d0ae35e806fca9825c8141a9475fa61082a976b3de05395baf90a95f9f80091760b57c7f2bca7382096c10251ebcfdbc9529758b4422
-  languageName: node
-  linkType: hard
-
-"happy-dom@npm:^9.20.3":
-  version: 9.20.3
-  resolution: "happy-dom@npm:9.20.3"
-  dependencies:
-    css.escape: ^1.5.1
-    entities: ^4.5.0
-    iconv-lite: ^0.6.3
-    webidl-conversions: ^7.0.0
-    whatwg-encoding: ^2.0.0
-    whatwg-mimetype: ^3.0.0
-  checksum: 7c737a0005aaf72e1f7138e5fe651759618d45c67597ab9865434da4a980a2854b4179ee678a84a5613c1bf4da88e64437670048cc2466c946265110c8a49f55
   languageName: node
   linkType: hard
 
