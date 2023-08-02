@@ -3,7 +3,7 @@
 This repo is setup to test the performance of various test runners. Specially to:
 
 - Help the **Jest** team with https://github.com/facebook/jest/issues/6694.
-- Help the **Vitest** team with https://github.com/vitest-dev/vitest/issues/229
+- Help the **Vitest** team with https://github.com/vitest-dev/vitest/issues/229 & https://github.com/vitest-dev/vitest/issues/579
 
 ## Setup
 
@@ -16,7 +16,7 @@ yarn
 Then you can run benchmarks via:
 
 ```sh
-hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test' 'yarn workspace vitest test --isolate=false' 'yarn workspace bun test'
+hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --experimentalVmThreads' 'yarn workspace vitest test --isolate=false' 'yarn workspace bun test'
 ```
 
 ## Suites

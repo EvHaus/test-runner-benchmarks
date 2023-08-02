@@ -8,7 +8,6 @@ export default defineConfig({
             }
         },
         environment: 'happy-dom',
-        experimentalVmThreads: true,
         setupFiles: ['setupFile.ts'],
         watch: false
     },
