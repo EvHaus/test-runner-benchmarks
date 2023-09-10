@@ -1,4 +1,4 @@
-import {render, waitFor} from '@testing-library/react';
+import {render, waitForElementToBeRemoved} from '@testing-library/react';
 import Collapsible from '.';
 import React from 'react';
 import userEvent from '@testing-library/user-event';
@@ -24,8 +24,6 @@ describe('<Collapsible />', () => {
 
 		await user.click(getByText('My Title'))
 
-		await waitFor(() => {
-			expect(queryByText('Hello World')).toEqual(null);
-		});
+		await waitForElementToBeRemoved(queryByText('Hello World'));
 	});
 });
