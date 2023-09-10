@@ -22,8 +22,8 @@ jobs:
           yarn install
 
           # Install hyperfine
-          wget https://github.com/sharkdp/hyperfine/releases/download/v1.16.1/hyperfine_1.16.1_amd64.deb
-          sudo dpkg -i hyperfine_1.16.1_amd64.deb
+          wget https://github.com/sharkdp/hyperfine/releases/download/v1.17.0/hyperfine_1.17.0_amd64.deb
+          sudo dpkg -i hyperfine_1.17.0_amd64.deb
       
       - name: Install bun
         uses: oven-sh/setup-bun@v1
@@ -32,7 +32,7 @@ jobs:
 
       - name: Run
         run: |
-          hyperfine --warmup 1 \
+          hyperfine --show-output --warmup 1 \
           'yarn workspace jasmine test' \
           'yarn workspace jest test' \
           'yarn workspace vitest test --experimentalVmThreads' \
