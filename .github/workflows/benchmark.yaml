@@ -32,7 +32,7 @@ jobs:
 
       - name: Run
         run: |
-          hyperfine --show-output --warmup 1 \
+          hyperfine --warmup 1 \
           'yarn workspace jasmine test' \
           'yarn workspace jest test' \
           'yarn workspace vitest test --experimentalVmThreads' \
