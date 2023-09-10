@@ -1,13 +1,13 @@
 module.exports = {
-  "env": {
-    "stopSpecOnExpectationFailure": false,
-    "random": true
+  env: {
+    stopSpecOnExpectationFailure: false,
+    random: true
   },
-  "helpers": [
+  helpers: [
     "spec/helpers/**/*.ts"
   ],
-  "spec_dir": ".",
-  "spec_files": [
+  spec_dir: ".",
+  spec_files: [
     "tests/**/*.test.*"
   ]
 }
