@@ -19,7 +19,7 @@ jobs:
       - name: Install
         run: |
           # Install dependencies
-          yarn install
+          yarn install --immutable
 
           # Install hyperfine
           wget https://github.com/sharkdp/hyperfine/releases/download/v1.17.0/hyperfine_1.17.0_amd64.deb
