@@ -667,17 +667,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happy-dom/jest-environment@npm:11.0.2":
-  version: 11.0.2
-  resolution: "@happy-dom/jest-environment@npm:11.0.2"
+"@happy-dom/jest-environment@npm:11.0.3":
+  version: 11.0.3
+  resolution: "@happy-dom/jest-environment@npm:11.0.3"
   dependencies:
     "@jest/environment": ^29.4.0
     "@jest/fake-timers": ^29.4.0
     "@jest/types": ^29.4.0
-    happy-dom: 11.0.2
+    happy-dom: 11.0.3
     jest-mock: ^29.4.0
     jest-util: ^29.4.0
-  checksum: 0ce55d222d9b0a4dbb956e117dae4c46c149fe9478bb2286a05d3607ef4eb4249fe6b80a098952373755993bcc17099036530689669b5a5e83fc85d7161848fb
+  checksum: 9d98cbdae206db22b6bad0f003a554de63863e9797a4376ecc6f9ac9d9698225abc2e9502be783f8dda941ae90e5397eb934ceae47a3692e4897e790742e7d94
   languageName: node
   linkType: hard
 
@@ -2939,6 +2939,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"happy-dom@npm:11.0.3":
+  version: 11.0.3
+  resolution: "happy-dom@npm:11.0.3"
+  dependencies:
+    css.escape: ^1.5.1
+    entities: ^4.5.0
+    iconv-lite: ^0.6.3
+    webidl-conversions: ^7.0.0
+    whatwg-encoding: ^2.0.0
+    whatwg-mimetype: ^3.0.0
+  checksum: ee1de9fe4780fa515b27dac1af0313297e4fddc4a1b0db7844235ba9b0370b0e2f4c8abe23229b3da4b69b13ceec46122fbbe3cfca785ebca3a002a4cf207417
+  languageName: node
+  linkType: hard
+
 "harmony-reflect@npm:^1.4.6":
   version: 1.6.2
   resolution: "harmony-reflect@npm:1.6.2"
@@ -4004,7 +4018,7 @@ __metadata:
   dependencies:
     "@blueprintjs/icons": 4.6.3
     "@floating-ui/react-dom-interactions": 0.10.1
-    "@happy-dom/jest-environment": 11.0.2
+    "@happy-dom/jest-environment": 11.0.3
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
