@@ -667,17 +667,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happy-dom/jest-environment@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@happy-dom/jest-environment@npm:11.0.3"
+"@happy-dom/jest-environment@npm:11.0.5":
+  version: 11.0.5
+  resolution: "@happy-dom/jest-environment@npm:11.0.5"
   dependencies:
     "@jest/environment": ^29.4.0
     "@jest/fake-timers": ^29.4.0
     "@jest/types": ^29.4.0
-    happy-dom: 11.0.3
+    happy-dom: 11.0.5
     jest-mock: ^29.4.0
     jest-util: ^29.4.0
-  checksum: 9d98cbdae206db22b6bad0f003a554de63863e9797a4376ecc6f9ac9d9698225abc2e9502be783f8dda941ae90e5397eb934ceae47a3692e4897e790742e7d94
+  checksum: aeb156cf31a83780c91b264e23489b07ad5c3ebc8f9d51858cb199f0c1cb71728bec0a072af2add0420490b4daa89172d218e6d30f436b574e63696ba3015c86
   languageName: node
   linkType: hard
 
@@ -2925,20 +2925,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:11.0.3":
-  version: 11.0.3
-  resolution: "happy-dom@npm:11.0.3"
-  dependencies:
-    css.escape: ^1.5.1
-    entities: ^4.5.0
-    iconv-lite: ^0.6.3
-    webidl-conversions: ^7.0.0
-    whatwg-encoding: ^2.0.0
-    whatwg-mimetype: ^3.0.0
-  checksum: ee1de9fe4780fa515b27dac1af0313297e4fddc4a1b0db7844235ba9b0370b0e2f4c8abe23229b3da4b69b13ceec46122fbbe3cfca785ebca3a002a4cf207417
-  languageName: node
-  linkType: hard
-
 "happy-dom@npm:11.0.4":
   version: 11.0.4
   resolution: "happy-dom@npm:11.0.4"
@@ -2950,6 +2936,20 @@ __metadata:
     whatwg-encoding: ^2.0.0
     whatwg-mimetype: ^3.0.0
   checksum: 3c3fdb1cfd77672b624793df508937d380c473a3df49198c58702be78082630043e1c47b79c00a0ab8fdfee439ff0fa95bd7af024d78147f12801c627cde6b73
+  languageName: node
+  linkType: hard
+
+"happy-dom@npm:11.0.5":
+  version: 11.0.5
+  resolution: "happy-dom@npm:11.0.5"
+  dependencies:
+    css.escape: ^1.5.1
+    entities: ^4.5.0
+    iconv-lite: ^0.6.3
+    webidl-conversions: ^7.0.0
+    whatwg-encoding: ^2.0.0
+    whatwg-mimetype: ^3.0.0
+  checksum: 6f9e5d41244db90fcf123635d7955d18e4958b7fa5908ed76f737723d590214cdfc3aa2adbdbec5282e11acb7b0ffcda81a1b7068ec65cd034c79a9192c8222f
   languageName: node
   linkType: hard
 
@@ -4018,7 +4018,7 @@ __metadata:
   dependencies:
     "@blueprintjs/icons": 4.6.3
     "@floating-ui/react-dom-interactions": 0.10.1
-    "@happy-dom/jest-environment": 11.0.3
+    "@happy-dom/jest-environment": 11.0.5
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
