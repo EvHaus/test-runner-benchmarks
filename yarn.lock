@@ -667,17 +667,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happy-dom/jest-environment@npm:11.0.5":
-  version: 11.0.5
-  resolution: "@happy-dom/jest-environment@npm:11.0.5"
+"@happy-dom/jest-environment@npm:11.0.6":
+  version: 11.0.6
+  resolution: "@happy-dom/jest-environment@npm:11.0.6"
   dependencies:
     "@jest/environment": ^29.4.0
     "@jest/fake-timers": ^29.4.0
     "@jest/types": ^29.4.0
-    happy-dom: 11.0.5
+    happy-dom: 11.0.6
     jest-mock: ^29.4.0
     jest-util: ^29.4.0
-  checksum: aeb156cf31a83780c91b264e23489b07ad5c3ebc8f9d51858cb199f0c1cb71728bec0a072af2add0420490b4daa89172d218e6d30f436b574e63696ba3015c86
+  checksum: 7ea63d9299675811cf8324561abeb628e53a46ea3920bad8064df208cbfa77f83e520bc8d86585cf6ab097d43148c5d33897386b4c908081a79fd3d5c34164d2
   languageName: node
   linkType: hard
 
@@ -4018,7 +4018,7 @@ __metadata:
   dependencies:
     "@blueprintjs/icons": 4.6.3
     "@floating-ui/react-dom-interactions": 0.10.1
-    "@happy-dom/jest-environment": 11.0.5
+    "@happy-dom/jest-environment": 11.0.6
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 14.4.3
     clsx: 1.2.1
