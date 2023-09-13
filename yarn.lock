@@ -1797,7 +1797,7 @@ __metadata:
     clsx: 1.2.1
     date-fns: 2.29.3
     framer-motion: 7.5.3
-    happy-dom: 11.0.5
+    happy-dom: 11.0.6
     jsdom: 22.1.0
     react: 18.2.0
     react-dom: 18.2.0
@@ -2925,20 +2925,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:11.0.5":
-  version: 11.0.5
-  resolution: "happy-dom@npm:11.0.5"
-  dependencies:
-    css.escape: ^1.5.1
-    entities: ^4.5.0
-    iconv-lite: ^0.6.3
-    webidl-conversions: ^7.0.0
-    whatwg-encoding: ^2.0.0
-    whatwg-mimetype: ^3.0.0
-  checksum: 6f9e5d41244db90fcf123635d7955d18e4958b7fa5908ed76f737723d590214cdfc3aa2adbdbec5282e11acb7b0ffcda81a1b7068ec65cd034c79a9192c8222f
-  languageName: node
-  linkType: hard
-
 "happy-dom@npm:11.0.6":
   version: 11.0.6
   resolution: "happy-dom@npm:11.0.6"
@@ -3523,7 +3509,7 @@ __metadata:
     css-modules-require-hook: 4.2.3
     date-fns: 2.29.3
     framer-motion: 7.5.3
-    happy-dom: 11.0.5
+    happy-dom: 11.0.6
     jasmine: 5.1.0
     react: 18.2.0
     react-dom: 18.2.0
@@ -6091,7 +6077,7 @@ __metadata:
     clsx: 1.2.1
     date-fns: 2.29.3
     framer-motion: 7.5.3
-    happy-dom: 11.0.5
+    happy-dom: 11.0.6
     react: 18.2.0
     react-dom: 18.2.0
     vitest: 0.34.4
