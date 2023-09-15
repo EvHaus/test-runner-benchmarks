@@ -658,12 +658,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happy-dom/global-registrator@npm:11.2.0":
-  version: 11.2.0
-  resolution: "@happy-dom/global-registrator@npm:11.2.0"
+"@happy-dom/global-registrator@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@happy-dom/global-registrator@npm:12.0.0"
   dependencies:
-    happy-dom: 11.2.0
-  checksum: 1ab8b5cecae51ae4cb11b5ae5a12dafc4d270b7da2f96cd4692168ebc2710a16adbdf868b5d5c4a7ea4ab79acec0377bab18bba115eb428609775bf7b782f3b1
+    happy-dom: 12.0.0
+  checksum: 2f1255ef92fda6225de02689aa0989a7eb3cc48a05da54b554c8efa2598b3c46babcf55bf4a9b2b3d93fabecaf0b7f5804da564ea871dd094755eb5dd6dc36d0
   languageName: node
   linkType: hard
 
@@ -1793,7 +1793,7 @@ __metadata:
   dependencies:
     "@blueprintjs/icons": 4.6.3
     "@floating-ui/react-dom-interactions": 0.10.1
-    "@happy-dom/global-registrator": 11.2.0
+    "@happy-dom/global-registrator": 12.0.0
     clsx: 1.2.1
     date-fns: 2.29.3
     framer-motion: 7.5.3
