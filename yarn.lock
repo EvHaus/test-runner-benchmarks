@@ -658,12 +658,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@happy-dom/global-registrator@npm:12.8.0":
-  version: 12.8.0
-  resolution: "@happy-dom/global-registrator@npm:12.8.0"
+"@happy-dom/global-registrator@npm:12.9.0":
+  version: 12.9.0
+  resolution: "@happy-dom/global-registrator@npm:12.9.0"
   dependencies:
-    happy-dom: 12.8.0
-  checksum: b89ac2e035aa297da78c3867a038d354532ced4e46e256c84b0aa3d5c3cc38c65d53a29ebc6da3ae0091558f1dc5f2bd9e0296102f2a8cf7ce7b553f1a76a874
+    happy-dom: 12.9.0
+  checksum: 5fecb445b954e02a0d90c67245a2d5a69454e788d8c1136fd5b5a9b3ff9405ada4531041a64eb35aa06b277837a6ec379b50f767fa68fc4361d99511652ac0ce
   languageName: node
   linkType: hard
 
@@ -1793,7 +1793,7 @@ __metadata:
   dependencies:
     "@blueprintjs/icons": 4.6.3
     "@floating-ui/react-dom-interactions": 0.10.1
-    "@happy-dom/global-registrator": 12.8.0
+    "@happy-dom/global-registrator": 12.9.0
     clsx: 1.2.1
     date-fns: 2.29.3
     framer-motion: 7.5.3
@@ -2941,9 +2941,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:12.8.0":
-  version: 12.8.0
-  resolution: "happy-dom@npm:12.8.0"
+"happy-dom@npm:12.9.0":
+  version: 12.9.0
+  resolution: "happy-dom@npm:12.9.0"
   dependencies:
     css.escape: ^1.5.1
     entities: ^4.5.0
@@ -2951,7 +2951,7 @@ __metadata:
     webidl-conversions: ^7.0.0
     whatwg-encoding: ^2.0.0
     whatwg-mimetype: ^3.0.0
-  checksum: 727769d7c16c2fd1189319d82dd6c00e7d403f81ce761e3cb4a94429a3f7a7a4fc44a6d44f21fa62a299b9606c59404517a0582933682a7e01e858d2239dfb27
+  checksum: be0065b44d0e1c55edf876e307bb179d5ad1ba0e8b966ecf94b369423b18f90387dd09d28a8e36c536fd44100b7d81dce997891d7e82c2cf7cec7d5827845a92
   languageName: node
   linkType: hard
 
