@@ -21,7 +21,8 @@ Then you can run benchmarks via:
 hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --experimentalVmThreads' 'yarn workspace vitest test --isolate=false' 'yarn workspace bun test'
 ```
 
-> *Note*
+> **Note**
+> 
 > These benchmarks are supported on MacOS and Linux. Windows is not supported at this time.
 
 ## Suites
