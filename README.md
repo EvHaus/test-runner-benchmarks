@@ -5,6 +5,8 @@ This repo is setup to test the performance of various test runners. Specially to
 - Help the **Jest** team with https://github.com/facebook/jest/issues/6694.
 - Help the **Vitest** team with https://github.com/vitest-dev/vitest/issues/229 & https://github.com/vitest-dev/vitest/issues/579
 
+![](results.png?raw=true)
+
 ## Setup
 
 1. Install `hyperfine` via [these instructions](https://github.com/sharkdp/hyperfine#installation):
@@ -18,6 +20,9 @@ Then you can run benchmarks via:
 ```sh
 hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --experimentalVmThreads' 'yarn workspace vitest test --isolate=false' 'yarn workspace bun test'
 ```
+
+> *Note*
+> These benchmarks are supported on MacOS and Linux. Windows is not supported at this time.
 
 ## Suites
 
