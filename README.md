@@ -22,7 +22,6 @@ hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'y
 ```
 
 > **Note**
-> 
 > These benchmarks are supported on MacOS and Linux. Windows is not supported at this time.
 
 ## Suites
