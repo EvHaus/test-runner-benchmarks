@@ -18,7 +18,7 @@ yarn
 Then you can run benchmarks via:
 
 ```sh
-hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test --experimentalVmThreads' 'yarn workspace vitest test --isolate=false' 'yarn workspace bun test'
+hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test' 'yarn workspace vitest test --pool=vmThreads' 'yarn workspace vitest test --poolOptions.threads.isolate=false' 'yarn workspace bun test'
 ```
 
 > [!NOTE]
@@ -28,7 +28,7 @@ hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'y
 
 - `jasmine`: This is our baseline, using Jasmine and happy-dom.
 - `jest`: Same test suite, but running using Jest.
-- `vitest`: Same test suite, but running using Vitest. NOTE: That benchmarks include vitest with the `isolate` setting both enabled and disabled due to [this issue](https://github.com/vitest-dev/vitest/issues/229#issuecomment-1003235680)
+- `vitest`: Same test suite, but running using Vitest. NOTE: That benchmarks include vitest with the `--poolOptions.threads.isolate` setting both enabled and disabled due to [this issue](https://github.com/vitest-dev/vitest/issues/229#issuecomment-1003235680)
 - `bun`: Same test suite, but running using Bun.
 
 ## Results
