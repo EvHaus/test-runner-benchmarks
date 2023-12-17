@@ -1,9 +1,9 @@
 {
-  "name": "jasmine",
+  "name": "web-test-runner",
   "version": "0.2.0",
   "description": "",
   "scripts": {
-    "test": "TZ=UTC ts-node --esm -P tsconfig.json ../../node_modules/.bin/jasmine"
+    "test": "wtr"
   },
   "author": "",
   "license": "MIT",
@@ -17,12 +17,11 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@esm-bundle/chai": "4.3.4-fix.0",
     "@testing-library/react": "13.4.0",
     "@testing-library/user-event": "14.4.3",
-    "@types/jasmine": "4.3.0",
-    "css-modules-require-hook": "4.2.3",
-    "happy-dom": "12.0.1",
-    "jasmine": "5.1.0",
-    "ts-node": "10.9.2"
+    "@web/dev-server-esbuild": "1.0.1",
+    "@web/test-runner": "0.18.0",
+    "@web/test-runner-puppeteer": "0.15.0"
   }
 }
