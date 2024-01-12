@@ -18,7 +18,13 @@ yarn
 Then you can run benchmarks via:
 
 ```sh
-hyperfine --warmup 1 'yarn workspace jasmine test' 'yarn workspace jest test' 'yarn workspace vitest test' 'yarn workspace vitest test --pool=vmThreads' 'yarn workspace vitest test --poolOptions.threads.isolate=false' 'yarn workspace bun test'
+hyperfine --warmup 1 \
+    'yarn workspace jasmine test' \
+    'yarn workspace jest test' \
+    'yarn workspace vitest test' \
+    'yarn workspace vitest test --pool=vmThreads' \
+    'yarn workspace vitest test --poolOptions.threads.isolate=false' \
+    'yarn workspace bun test'
 ```
 
 > [!NOTE]
