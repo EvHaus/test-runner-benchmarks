@@ -37,5 +37,4 @@ jobs:
           'yarn workspace jest test' \
           'yarn workspace vitest test' \
           'yarn workspace vitest test --pool=vmThreads' \
-          'yarn workspace vitest test --poolOptions.threads.isolate=false' \
-          'yarn workspace bun test'
+          'yarn workspace vitest test --poolOptions.threads.isolate=false'
