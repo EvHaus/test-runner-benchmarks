@@ -40,11 +40,11 @@ hyperfine --warmup 1 \
 ## Suites
 
 - `jasmine`: This is our baseline, using Jasmine and happy-dom.
-    - *NOTE*: Jasmine doesn't support shapshot testing so those tests do a basic comparison
+    - *NOTE*: Jasmine doesn't support shapshot testing so those tests do a basic object comparison
 - `bun`: Same test suite, but running using Bun.
 - `jest`: Same test suite, but running using Jest.
 - `tape`: Same test suite, but running using Tape and ts-node.
-    - *NOTE*: Tape doesn't support shapshot testing so those tests do a basic comparison
+    - *NOTE*: Tape doesn't support shapshot testing so those tests do a basic object  comparison
 - `vitest`: Same test suite, but running using Vitest. *NOTE*: That benchmarks use `--poolOptions.threads.isolate=false` as it has the best performance (see [this comment](https://github.com/vitest-dev/vitest/issues/579#issuecomment-1946462435))
 
 ## Results

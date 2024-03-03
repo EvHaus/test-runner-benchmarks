@@ -7,9 +7,6 @@ global.window = window;
 // Register global window extensions
 [
 	'document',
-	// NOTE: This is need for running tests on GitHub Actions CI, but causes
-	// failure on local builds due to this error:
-	// > Cannot set property navigator of #<Object> which has only a getter
 	'navigator',
 	'Element',
 	'getComputedStyle',
@@ -19,5 +16,11 @@ global.window = window;
 	try {
 		global[key] = global.window[key];
 	} catch (e) {
+		// NOTE: This is need for running tests on GitHub Actions CI, but causes
+		// failure on local builds due to this error:
+		// > Cannot set property navigator of #<Object> which has only a getter
+		if (!e.message.includes('Cannot set property navigator')) {
+			throw e;
+		}
 	}
 });
