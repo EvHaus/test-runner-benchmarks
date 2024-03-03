@@ -33,7 +33,8 @@ jobs:
 
       - name: Run
         run: |
-          hyperfine --warmup 1 --show-output \
+          hyperfine --warmup 1 \
+          'yarn workspace bun test' \
           'yarn workspace jasmine test' \
           'yarn workspace jest test' \
           'yarn workspace vitest test --poolOptions.threads.isolate=false' \
