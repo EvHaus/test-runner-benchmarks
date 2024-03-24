@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/jasmine": "5.1.4",
     "css-modules-require-hook": "4.2.3",
-    "happy-dom": "13.6.2",
+    "happy-dom": "<13.0.0",
     "jasmine": "5.1.0",
     "ts-node": "10.9.2"
   }
