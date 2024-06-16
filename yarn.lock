@@ -6059,9 +6059,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.8.0":
-  version: 5.8.0
-  resolution: "tape@npm:5.8.0"
+"tape@npm:5.8.1":
+  version: 5.8.1
+  resolution: "tape@npm:5.8.1"
   dependencies:
     "@ljharb/resumer": "npm:^0.1.3"
     "@ljharb/through": "npm:^2.3.13"
@@ -6087,7 +6087,7 @@ __metadata:
     string.prototype.trim: "npm:^1.2.9"
   bin:
     tape: bin/tape
-  checksum: 10c0/367c0150ae084903476f639826e2ee1686e7fe343820461e54e705cf6b26a61c79289daaf2d0966238d591dee4b9245c7472023b69aa5c686aa1f6728a1528cb
+  checksum: 10c0/5ce8769d6ed22f7d5842dfa4615207d9a2595000d82ba96604fb3017f3cc8e6a97f5ce5f8e5176582c7e176b65ebb181f2cfa863fae47be5a6d261679ae2f951
   languageName: node
   linkType: hard
 
@@ -6107,7 +6107,7 @@ __metadata:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     sinon: "npm:18.0.0"
-    tape: "npm:5.8.0"
+    tape: "npm:5.8.1"
     tape-describe: "npm:1.0.3"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.3.3"
