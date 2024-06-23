@@ -26,7 +26,7 @@ jobs:
           sudo dpkg -i hyperfine_1.18.0_amd64.deb
       
       - name: Install bun
-        uses: oven-sh/setup-bun@v1
+        uses: oven-sh/setup-bun@v2
         with:
           # Cannot upgrade due to https://github.com/oven-sh/bun/issues/8314
           bun-version: 1.0.23
