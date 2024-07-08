@@ -8,6 +8,7 @@ export default defineConfig({
             }
         },
         environment: 'happy-dom',
+        pool: 'threads',
         setupFiles: ['setupFile.ts'],
         watch: false
     },
