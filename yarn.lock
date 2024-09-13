@@ -1245,7 +1245,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sinonjs/fake-timers@npm:13.0.1, @sinonjs/fake-timers@npm:^13.0.1":
+"@sinonjs/fake-timers@npm:^10.0.2":
+  version: 10.3.0
+  resolution: "@sinonjs/fake-timers@npm:10.3.0"
+  dependencies:
+    "@sinonjs/commons": "npm:^3.0.0"
+  checksum: 10c0/2e2fb6cc57f227912814085b7b01fede050cd4746ea8d49a1e44d5a0e56a804663b0340ae2f11af7559ea9bf4d087a11f2f646197a660ea3cb04e19efc04aa63
+  languageName: node
+  linkType: hard
+
+"@sinonjs/fake-timers@npm:^13.0.1":
   version: 13.0.1
   resolution: "@sinonjs/fake-timers@npm:13.0.1"
   dependencies:
@@ -1254,12 +1263,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sinonjs/fake-timers@npm:^10.0.2":
-  version: 10.3.0
-  resolution: "@sinonjs/fake-timers@npm:10.3.0"
+"@sinonjs/fake-timers@npm:^13.0.2":
+  version: 13.0.2
+  resolution: "@sinonjs/fake-timers@npm:13.0.2"
   dependencies:
-    "@sinonjs/commons": "npm:^3.0.0"
-  checksum: 10c0/2e2fb6cc57f227912814085b7b01fede050cd4746ea8d49a1e44d5a0e56a804663b0340ae2f11af7559ea9bf4d087a11f2f646197a660ea3cb04e19efc04aa63
+    "@sinonjs/commons": "npm:^3.0.1"
+  checksum: 10c0/fc68fd872dff8a3457f7b0cf4e3c06db5ab35332a19da58165bb2e02b2016911dd77c6d5bd8995f8d9e012f3379b065ea37c3f240d0aa6716a591ba89912a486
   languageName: node
   linkType: hard
 
@@ -4828,16 +4837,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nise@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "nise@npm:6.1.0"
+"nise@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "nise@npm:6.1.1"
   dependencies:
     "@sinonjs/commons": "npm:^3.0.1"
     "@sinonjs/fake-timers": "npm:^13.0.1"
     "@sinonjs/text-encoding": "npm:^0.7.3"
     just-extend: "npm:^6.2.0"
     path-to-regexp: "npm:^8.1.0"
-  checksum: 10c0/8ed955ee80688cadaf411c2dc68312baf1e3c4cd64793aff082016b319ad45fc00e87cd849faa2f697a7f4ce2314d3d8b9cc19ca6db951a477f2f8aa172fbb31
+  checksum: 10c0/09471adb738dc3be2981cc7815c90879ed6a5a3e162202ca66e12f9a5a0956bea718d0ec2f0c07acc26e3f958481b8fb30c30da76c13620e922f3b9dcd249c50
   languageName: node
   linkType: hard
 
@@ -5672,17 +5681,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sinon@npm:19.0.0":
-  version: 19.0.0
-  resolution: "sinon@npm:19.0.0"
+"sinon@npm:19.0.2":
+  version: 19.0.2
+  resolution: "sinon@npm:19.0.2"
   dependencies:
     "@sinonjs/commons": "npm:^3.0.1"
-    "@sinonjs/fake-timers": "npm:13.0.1"
+    "@sinonjs/fake-timers": "npm:^13.0.2"
     "@sinonjs/samsam": "npm:^8.0.1"
     diff: "npm:^7.0.0"
-    nise: "npm:^6.1.0"
+    nise: "npm:^6.1.1"
     supports-color: "npm:^7.2.0"
-  checksum: 10c0/2126feebdf75af9e3e59d7a6e1b267b4da57b4a1e24f2120406fce8c167fc3e981bfd9d8f644a835d082ff074c6e4524dad9869a3ae7826a32ba13e4574ced7c
+  checksum: 10c0/a5d988d55643677e55bbc70c3aa6c9977f8a7cf55d157278ea8e4474d9acbec16d9c44056bd763e4f5988daf0fb75370099cf90105243dbb8742978478d53c40
   languageName: node
   linkType: hard
 
@@ -6062,7 +6071,7 @@ __metadata:
     happy-dom: "npm:<13.0.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    sinon: "npm:19.0.0"
+    sinon: "npm:19.0.2"
     tape: "npm:5.8.1"
     tape-describe: "npm:1.0.3"
     ts-node: "npm:10.9.2"
