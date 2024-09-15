@@ -2480,7 +2480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"define-data-property@npm:^1.0.1, define-data-property@npm:^1.1.1, define-data-property@npm:^1.1.2, define-data-property@npm:^1.1.4":
+"define-data-property@npm:^1.0.1, define-data-property@npm:^1.1.2, define-data-property@npm:^1.1.4":
   version: 1.1.4
   resolution: "define-data-property@npm:1.1.4"
   dependencies:
@@ -4788,17 +4788,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mock-property@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "mock-property@npm:1.0.3"
+"mock-property@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "mock-property@npm:1.1.0"
   dependencies:
-    define-data-property: "npm:^1.1.1"
+    define-data-property: "npm:^1.1.4"
     functions-have-names: "npm:^1.2.3"
     gopd: "npm:^1.0.1"
-    has-property-descriptors: "npm:^1.0.0"
-    hasown: "npm:^2.0.0"
+    has-property-descriptors: "npm:^1.0.2"
+    hasown: "npm:^2.0.2"
     isarray: "npm:^2.0.5"
-  checksum: 10c0/faab39ef1f90fe52367f5173bf8aa2d795fb13998eea2f028f94d4d822809fdfe880627f79c39b759a265697fa88b659bef0fd9593926db6c265f3d9566bd89b
+    object-inspect: "npm:^1.13.2"
+  checksum: 10c0/b2ae21d37a64d07caf7777ec1cccebfd4043b6e27c2095aa733e03be68c1a7ac32d33fe8be433d0ae39c41a06531cd569d22029be0f401f4ffe91beb495be8ee
   languageName: node
   linkType: hard
 
@@ -4941,6 +4942,13 @@ __metadata:
   version: 1.13.1
   resolution: "object-inspect@npm:1.13.1"
   checksum: 10c0/fad603f408e345c82e946abdf4bfd774260a5ed3e5997a0b057c44153ac32c7271ff19e3a5ae39c858da683ba045ccac2f65245c12763ce4e8594f818f4a648d
+  languageName: node
+  linkType: hard
+
+"object-inspect@npm:^1.13.2":
+  version: 1.13.2
+  resolution: "object-inspect@npm:1.13.2"
+  checksum: 10c0/b97835b4c91ec37b5fd71add84f21c3f1047d1d155d00c0fcd6699516c256d4fcc6ff17a1aced873197fe447f91a3964178fd2a67a1ee2120cdaf60e81a050b4
   languageName: node
   linkType: hard
 
@@ -6033,9 +6041,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.8.1":
-  version: 5.8.1
-  resolution: "tape@npm:5.8.1"
+"tape@npm:5.9.0":
+  version: 5.9.0
+  resolution: "tape@npm:5.9.0"
   dependencies:
     "@ljharb/resumer": "npm:^0.1.3"
     "@ljharb/through": "npm:^2.3.13"
@@ -6052,8 +6060,8 @@ __metadata:
     inherits: "npm:^2.0.4"
     is-regex: "npm:^1.1.4"
     minimist: "npm:^1.2.8"
-    mock-property: "npm:^1.0.3"
-    object-inspect: "npm:^1.13.1"
+    mock-property: "npm:^1.1.0"
+    object-inspect: "npm:^1.13.2"
     object-is: "npm:^1.1.6"
     object-keys: "npm:^1.1.1"
     object.assign: "npm:^4.1.5"
@@ -6061,7 +6069,7 @@ __metadata:
     string.prototype.trim: "npm:^1.2.9"
   bin:
     tape: bin/tape
-  checksum: 10c0/5ce8769d6ed22f7d5842dfa4615207d9a2595000d82ba96604fb3017f3cc8e6a97f5ce5f8e5176582c7e176b65ebb181f2cfa863fae47be5a6d261679ae2f951
+  checksum: 10c0/06c20103eb1971be901fc230a635d079db2d5ef16a2743d3340991f7754ff8380d24a0cb23774e9e5b15f254faeed536e1e0624a0cf80d2142d09f35a61df189
   languageName: node
   linkType: hard
 
@@ -6081,7 +6089,7 @@ __metadata:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     sinon: "npm:19.0.2"
-    tape: "npm:5.8.1"
+    tape: "npm:5.9.0"
     tape-describe: "npm:1.0.3"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.3.3"
