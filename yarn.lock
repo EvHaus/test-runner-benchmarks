@@ -3914,15 +3914,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine@npm:5.3.0":
-  version: 5.3.0
-  resolution: "jasmine@npm:5.3.0"
+"jasmine@npm:5.3.1":
+  version: 5.3.1
+  resolution: "jasmine@npm:5.3.1"
   dependencies:
     glob: "npm:^10.2.2"
     jasmine-core: "npm:~5.3.0"
   bin:
     jasmine: bin/jasmine.js
-  checksum: 10c0/ba9281992a5bd2ee2de001664777a3563ea43609b8c50bfd0f67aab6c0c4abbfd94726f7a2857bc2802a5c6057c5ea94b9528bb2d7dd582551105443d3da46ba
+  checksum: 10c0/df880bb57a1daa3c94f402411c16d186ba6d2633fd08716e134276cdf4d4511cebd206b8f809b06157397239f6af614aeb829812148fb5822ad4a00fa94a2c09
   languageName: node
   linkType: hard
 
@@ -3938,7 +3938,7 @@ __metadata:
     date-fns: "npm:2.29.3"
     framer-motion: "npm:7.5.3"
     happy-dom: "npm:<13.0.0"
-    jasmine: "npm:5.3.0"
+    jasmine: "npm:5.3.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     ts-node: "npm:10.9.2"
