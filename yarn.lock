@@ -1984,7 +1984,7 @@ __metadata:
     clsx: "npm:2.1.0"
     date-fns: "npm:2.29.3"
     framer-motion: "npm:7.5.3"
-    happy-dom: "npm:<13.0.0"
+    happy-dom: "npm:<16.0.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
   languageName: unknown
@@ -3312,7 +3312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:12.10.3, happy-dom@npm:<13.0.0":
+"happy-dom@npm:12.10.3":
   version: 12.10.3
   resolution: "happy-dom@npm:12.10.3"
   dependencies:
@@ -3323,6 +3323,17 @@ __metadata:
     whatwg-encoding: "npm:^2.0.0"
     whatwg-mimetype: "npm:^3.0.0"
   checksum: 10c0/fbf8647e17c4af5c166d7c4b6963f4bbc9d1c279e94a4c77234b1fecca98c59989b894c7b186f5107e1062d40ffd84f12350b757f51330a5fc1c5228eb199517
+  languageName: node
+  linkType: hard
+
+"happy-dom@npm:<16.0.0":
+  version: 15.11.4
+  resolution: "happy-dom@npm:15.11.4"
+  dependencies:
+    entities: "npm:^4.5.0"
+    webidl-conversions: "npm:^7.0.0"
+    whatwg-mimetype: "npm:^3.0.0"
+  checksum: 10c0/8c19f2d672131f5225db8ba3a5fc32cca7f1e800f3596a4e8a6de755fc5809f026cf1738e2df716969cc5cf1797d1101e4bed74e9b8b061e1b81db6098040aad
   languageName: node
   linkType: hard
 
@@ -3941,7 +3952,7 @@ __metadata:
     css-modules-require-hook: "npm:4.2.3"
     date-fns: "npm:2.29.3"
     framer-motion: "npm:7.5.3"
-    happy-dom: "npm:<13.0.0"
+    happy-dom: "npm:<16.0.0"
     jasmine: "npm:5.4.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -6120,7 +6131,7 @@ __metadata:
     css-modules-require-hook: "npm:4.2.3"
     date-fns: "npm:2.29.3"
     framer-motion: "npm:7.5.3"
-    happy-dom: "npm:<13.0.0"
+    happy-dom: "npm:<16.0.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     sinon: "npm:19.0.2"
@@ -6629,7 +6640,7 @@ __metadata:
     clsx: "npm:2.1.0"
     date-fns: "npm:2.29.3"
     framer-motion: "npm:7.5.3"
-    happy-dom: "npm:<13.0.0"
+    happy-dom: "npm:<16.0.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     vitest: "npm:2.1.5"
