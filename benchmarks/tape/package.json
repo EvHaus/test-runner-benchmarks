@@ -21,7 +21,7 @@
     "@testing-library/user-event": "14.5.2",
     "css-modules-require-hook": "4.2.3",
     "happy-dom": "<16.0.0",
-    "sinon": "19.0.2",
+    "sinon": "19.0.4",
     "tape": "5.9.0",
     "tape-describe": "1.0.3",
     "ts-node": "10.9.2",
