@@ -22,13 +22,12 @@ jobs:
           yarn install --immutable
 
           # Install hyperfine
-          wget https://github.com/sharkdp/hyperfine/releases/download/v1.18.0/hyperfine_1.18.0_amd64.deb
-          sudo dpkg -i hyperfine_1.18.0_amd64.deb
+          wget https://github.com/sharkdp/hyperfine/releases/download/v1.19.0/hyperfine_1.19.0_amd64.deb
+          sudo dpkg -i hyperfine_1.19.0_amd64.deb
       
       - name: Install bun
         uses: oven-sh/setup-bun@v2
         with:
-          # Cannot upgrade due to https://github.com/oven-sh/bun/issues/8314
           bun-version: 1.3.1
 
       - name: Run
@@ -37,5 +36,5 @@ jobs:
           'yarn workspace bun test' \
           'yarn workspace jasmine test' \
           'yarn workspace jest test' \
-          'yarn workspace vitest test --poolOptions.threads.isolate=false' \
+          'yarn workspace vitest test --isolate=false' \
           'yarn workspace tape test'
