@@ -31,7 +31,7 @@ hyperfine --warmup 1 \
     'yarn workspace jasmine test' \
     'yarn workspace jest test' \
     'yarn workspace tape test' \
-    'yarn workspace vitest test --poolOptions.threads.isolate=false'
+    'yarn workspace vitest test --isolate=false'
 ```
 
 > [!NOTE]
@@ -45,7 +45,7 @@ hyperfine --warmup 1 \
 - `jest`: Same test suite, but running using Jest.
 - `tape`: Same test suite, but running using Tape and ts-node.
     - *NOTE*: Tape doesn't support shapshot testing so those tests do a basic object  comparison
-- `vitest`: Same test suite, but running using Vitest. *NOTE*: That benchmarks use `--poolOptions.threads.isolate=false` as it has the best performance (see [this comment](https://github.com/vitest-dev/vitest/issues/579#issuecomment-1946462435))
+- `vitest`: Same test suite, but running using Vitest. *NOTE*: That benchmarks use `--isolate=false` as it has the best performance (see [this comment](https://github.com/vitest-dev/vitest/issues/579#issuecomment-1946462435))
 
 ## Results
 
