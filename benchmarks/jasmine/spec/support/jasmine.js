@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    forbidDuplicateNames: false,
     stopSpecOnExpectationFailure: false,
     random: true
   },
