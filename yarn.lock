@@ -4542,23 +4542,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-core@npm:~6.0.0":
-  version: 6.0.0
-  resolution: "jasmine-core@npm:6.0.0"
-  checksum: 10c0/21489252db977976e28cff744a75e7b8553491268fea81dcac182b5fb1ff1dc43dc3174d87fe98e41c4886fabe90d472a3695de42be70480f28a6cc698ee9a67
+"jasmine-core@npm:~6.1.0":
+  version: 6.1.0
+  resolution: "jasmine-core@npm:6.1.0"
+  checksum: 10c0/c2a6e7687e057f04c9b63b2a0dd2730745dbd9e6dc837ae4caf4afa04481060242a5805cc99fbd39235d07f08690b5d9df05f6d479caf0f43f86026d021d04e8
   languageName: node
   linkType: hard
 
-"jasmine@npm:6.0.0":
-  version: 6.0.0
-  resolution: "jasmine@npm:6.0.0"
+"jasmine@npm:6.1.0":
+  version: 6.1.0
+  resolution: "jasmine@npm:6.1.0"
   dependencies:
     "@jasminejs/reporters": "npm:^1.0.0"
     glob: "npm:^10.2.2 || ^11.0.3 || ^12.0.0 || ^13.0.0"
-    jasmine-core: "npm:~6.0.0"
+    jasmine-core: "npm:~6.1.0"
   bin:
     jasmine: bin/jasmine.js
-  checksum: 10c0/dadc162ba8112956cc17853fc26214f577e7d8e7ecd50a5d8e87b9bc4317f5d9c0362a29544e98200ecf8c2e36be42ba1814d62ba95bb3699761e77fe8cbffa8
+  checksum: 10c0/d0f0536b348f2510289c47e55fa2206f33294259cd5d6920ac429f4347e1f54b7df0206969d8ab538182a10eaea875d0e8814f5e80eacf9ec5e1ed88c2d66d3b
   languageName: node
   linkType: hard
 
@@ -4574,7 +4574,7 @@ __metadata:
     date-fns: "npm:2.29.3"
     framer-motion: "npm:7.5.3"
     happy-dom: "npm:<21.0.0"
-    jasmine: "npm:6.0.0"
+    jasmine: "npm:6.1.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     ts-node: "npm:10.9.2"
