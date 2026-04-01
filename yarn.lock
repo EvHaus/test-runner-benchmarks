@@ -4869,7 +4869,7 @@ __metadata:
     jest: "npm:30.3.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    ts-jest: "npm:29.4.8"
+    ts-jest: "npm:29.4.9"
     typescript: "npm:5.3.3"
   languageName: unknown
   linkType: soft
@@ -6813,9 +6813,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:29.4.8":
-  version: 29.4.8
-  resolution: "ts-jest@npm:29.4.8"
+"ts-jest@npm:29.4.9":
+  version: 29.4.9
+  resolution: "ts-jest@npm:29.4.9"
   dependencies:
     bs-logger: "npm:^0.2.6"
     fast-json-stable-stringify: "npm:^2.1.0"
@@ -6849,7 +6849,7 @@ __metadata:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: 10c0/2b1aa808c3029d44ef9f28fe3981d482d9e5d2b1addc6133af33a880698de18905c705a6aa30b6be76bcf1250703d07b6e7550e085e8fe8daebe6945ebe0fa84
+  checksum: 10c0/901eb382817d1f48fc56b6c9b82de989f176660295695ae1fcd55f06f71d2c107766e1413ab24a59fa964c2ef79a60dd23ac1f382b05ae04f2b454fb4eb5ad4f
   languageName: node
   linkType: hard
 
