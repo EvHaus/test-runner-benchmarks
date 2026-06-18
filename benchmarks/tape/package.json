@@ -22,7 +22,7 @@
     "css-modules-require-hook": "4.2.3",
     "happy-dom": "<21.0.0",
     "sinon": "22.0.0",
-    "tape": "5.10.1",
+    "tape": "5.10.2",
     "tape-describe": "1.0.3",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
