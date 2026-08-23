@@ -2,12 +2,6 @@
     "name": "test-runner-benchmarks",
     "license": "MIT",
     "scripts": {
-        "postinstall": "node ./setup.js"
-    },
-    "workspaces": {
-        "packages": [
-            "benchmarks/*"
-        ]
-    },
-    "packageManager": "yarn@4.18.0"
+        "postinstall": "bun ./setup.js"
+    }
 }

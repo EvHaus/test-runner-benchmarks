@@ -20,18 +20,18 @@ This repo is setup to test the performance of various test runners. Specially to
 1. Install `hyperfine` via [these instructions](https://github.com/sharkdp/hyperfine#installation):
 2. Install dependencies:
 ```sh
-yarn
+bun i
 ```
 
 Then you can run benchmarks via:
 
 ```sh
 hyperfine --warmup 1 \
-    'yarn workspace bun test' \
-    'yarn workspace jasmine test' \
-    'yarn workspace jest test' \
-    'yarn workspace tape test' \
-    'yarn workspace vitest test --isolate=false'
+    'bun run --cwd benchmarks/bun test' \
+    'bun run --cwd benchmarks/jasmine test' \
+    'bun run --cwd benchmarks/jest test' \
+    'bun run --cwd benchmarks/tape test' \
+    'bun run --cwd benchmarks/vitest test --isolate=false'
 ```
 
 > [!NOTE]
@@ -40,11 +40,11 @@ hyperfine --warmup 1 \
 ## Suites
 
 - `jasmine`: This is our baseline, using Jasmine and happy-dom.
-    - *NOTE*: Jasmine doesn't support shapshot testing so those tests do a basic object comparison
+    - *NOTE*: Jasmine doesn't support snapshot testing so those tests do a basic object comparison
 - `bun`: Same test suite, but running using Bun.
 - `jest`: Same test suite, but running using Jest.
 - `tape`: Same test suite, but running using Tape and ts-node.
-    - *NOTE*: Tape doesn't support shapshot testing so those tests do a basic object  comparison
+    - *NOTE*: Tape doesn't support snapshot testing so those tests do a basic object  comparison
 - `vitest`: Same test suite, but running using Vitest. *NOTE*: That benchmarks use `--isolate=false` as it has the best performance (see [this comment](https://github.com/vitest-dev/vitest/issues/579#issuecomment-1946462435))
 
 ## Results

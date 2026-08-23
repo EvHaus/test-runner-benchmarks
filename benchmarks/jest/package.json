@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "",
   "scripts": {
-    "test": "TZ=UTC jest"
+    "test": "TZ=UTC node ./node_modules/jest/bin/jest.js"
   },
   "author": "",
   "license": "MIT",
@@ -34,14 +34,6 @@
       "<rootDir>/tests"
     ],
     "testEnvironment": "@happy-dom/jest-environment",
-    "transform": {
-      "^.+\\.tsx?$": [
-        "ts-jest",
-        {
-          "isolatedModules": true
-        }
-      ]
-    },
     "transformIgnorePatterns": [
       "node_modules/(?!react-merge-refs)"
     ]

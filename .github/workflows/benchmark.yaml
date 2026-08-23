@@ -14,27 +14,24 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: '24'
-          cache: 'yarn'
-      
-      - name: Install
-        run: |
-          # Install dependencies
-          yarn install --immutable
 
-          # Install hyperfine
-          wget https://github.com/sharkdp/hyperfine/releases/download/v1.19.0/hyperfine_1.19.0_amd64.deb
-          sudo dpkg -i hyperfine_1.19.0_amd64.deb
-      
       - name: Install bun
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.4.0
 
+      - name: Install
+        run: |
+          bun ./setup.js
+
+          wget https://github.com/sharkdp/hyperfine/releases/download/v1.19.0/hyperfine_1.19.0_amd64.deb
+          sudo dpkg -i hyperfine_1.19.0_amd64.deb
+
       - name: Run
         run: |
           hyperfine --warmup 1 \
-          'yarn workspace bun test' \
-          'yarn workspace jasmine test' \
-          'yarn workspace jest test' \
-          'yarn workspace vitest test --isolate=false' \
-          'yarn workspace tape test'
+          'bun run --cwd benchmarks/bun test' \
+          'bun run --cwd benchmarks/jasmine test' \
+          'bun run --cwd benchmarks/jest test' \
+          'bun run --cwd benchmarks/vitest test --isolate=false' \
+          'bun run --cwd benchmarks/tape test'

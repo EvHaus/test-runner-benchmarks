@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "",
   "scripts": {
-    "test": "TZ=UTC ts-node --esm -P tsconfig.json ../../node_modules/.bin/tape -r ./helpers/css.ts -r ./helpers/happydom.ts tests/**/*.test.tsx"
+    "test": "TZ=UTC ts-node --esm -P tsconfig.json ./node_modules/.bin/tape -r ./helpers/css.ts -r ./helpers/happydom.ts tests/**/*.test.tsx"
   },
   "author": "",
   "license": "MIT",

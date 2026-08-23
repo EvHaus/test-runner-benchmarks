@@ -2,8 +2,5 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "jsx": "react"
-  },
-  "ts-node": {
-    "transpileOnly": true
   }
 }
