@@ -19,7 +19,7 @@
         "@testing-library/user-event": "14.5.2",
         "identity-obj-proxy": "3.0.0",
         "jest": "30.5.2",
-        "ts-jest": "29.4.13",
+        "ts-jest": "29.4.14",
         "typescript": "5.3.3",
       },
     },
@@ -827,7 +827,7 @@
 
     "test-exclude": ["test-exclude@7.0.2", "", { "dependencies": { "@istanbuljs/schema": "^0.1.2", "glob": "^10.4.1", "minimatch": "^10.2.2" } }, "sha512-u9E6A+ZDYdp7a4WnarkXPZOx8Ilz46+kby6p1yZ8zsGTz9gYa6FIS7lj2oezzNKmtdyyJNNmmXDppga5GB7kSw=="],
 
-    "ts-jest": ["ts-jest@29.4.13", "", { "dependencies": { "bs-logger": "^0.2.6", "fast-json-stable-stringify": "^2.1.0", "handlebars": "^4.7.9", "json5": "^2.2.3", "lodash.memoize": "^4.1.2", "make-error": "^1.3.6", "semver": "^7.8.5", "type-fest": "^4.41.0", "yargs-parser": "^21.1.1" }, "peerDependencies": { "@babel/core": ">=7.0.0-beta.0 <9", "@jest/transform": "^29.0.0 || ^30.0.0", "@jest/types": "^29.0.0 || ^30.0.0", "babel-jest": "^29.0.0 || ^30.0.0", "esbuild": "*", "jest": "^29.0.0 || ^30.0.0", "jest-util": "^29.0.0 || ^30.0.0", "typescript": ">=4.3 <7" }, "optionalPeers": ["@babel/core", "@jest/transform", "@jest/types", "babel-jest", "esbuild", "jest-util"], "bin": { "ts-jest": "cli.js" } }, "sha512-rUQG+Ar95cNQf//KvsSjvabLpCTbwk+vKGWkAgiKFugqVwmOpGR7n7xa3S68/AB21Wn0KNhIAVxmxrUsz0L1AQ=="],
+    "ts-jest": ["ts-jest@29.4.14", "", { "dependencies": { "bs-logger": "^0.2.6", "fast-json-stable-stringify": "^2.1.0", "handlebars": "^4.7.9", "json5": "^2.2.3", "lodash.memoize": "^4.1.2", "make-error": "^1.3.6", "semver": "^7.8.5", "type-fest": "^4.41.0", "yargs-parser": "^21.1.1" }, "peerDependencies": { "@babel/core": ">=7.0.0-beta.0 <9", "@jest/transform": "^29.0.0 || ^30.0.0", "@jest/types": "^29.0.0 || ^30.0.0", "babel-jest": "^29.0.0 || ^30.0.0", "esbuild": "*", "jest": "^29.0.0 || ^30.0.0", "jest-util": "^29.0.0 || ^30.0.0", "typescript": ">=4.3 <7" }, "optionalPeers": ["@babel/core", "@jest/transform", "@jest/types", "babel-jest", "esbuild", "jest-util"], "bin": { "ts-jest": "cli.js" } }, "sha512-+943G6wCX5E3VpzTQhBGBFntCmdT+QAkTvUlp03edTONFBvqskuXPhpyX16xdUotO4P5HQKyppldSWjocoltLQ=="],
 
     "tslib": ["tslib@2.5.3", "", {}, "sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w=="],
 
